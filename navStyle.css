@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+#nav {
+	line-height: 2;
+	width: 100%;
+	font-size: 1.3rem;
+	font-family: 'Open Sans';
+	padding-left: 0px;
+	
+}
+
+.navB:hover, .navAlgebraB:hover, .navGeometryB:hover, .navPrecalculusB:hover, .navCalculusIB:hover {
+	color: #0645AD;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#navAlgebra, #navGeometry, #navPrecalculus, #navCalculusI {
+	display: block;
+	margin: 0px;
+	width: 100%;
+	line-height: 2;
+	font-size: 1.3rem;
+	font-family: 'Open Sans';
+
+	padding-left: 0px;
+	align-items: start;
+}

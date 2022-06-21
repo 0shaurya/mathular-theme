@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* START HEADER */
+#header {
+	/* border: 2px solid; */
+	border-color: red;
+}
+
+/* END HEADER */
+
+
+
+/* START BODY */
+
+#body {
+	margin: 0;
+	padding: 0;
+	top: 0;
+	/* border: 2px solid; */
+	border-color: blue;
+	display: flex;
+	height: auto auto;
+}
+
+/* START NAV CONTAINER */
+
+#navContainer {
+	width: 25%;
+	display: inline-block;
+}
+
+#nav {
+	position: sticky;
+	top: 250px;
+	margin: 0px;
+	float: left;
+	display: block;
+	line-height: 2;
+	width: 25%;
+	font-size: 1.1rem;
+	font-family: 'Open Sans';
+	padding-left: 30px;
+	
+}
+
+.navB:hover, .navAlgebraB:hover, .navGeometryB:hover, .navPrecalculusB:hover, .navCalculusIB:hover {
+	color: #0645AD;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#navAlgebra, #navGeometry, #navPrecalculus, #navCalculusI {
+	position: sticky;
+	top: 250px;
+	float: right;
+	display: block;
+	margin: 0px;
+	width: 65%;
+	line-height: 2;
+	font-size: 1.1rem;
+	font-family: 'Open Sans';
+	padding-left: 10px;
+	padding-right: 0px;
+}
+
+/* END NAV CONTAINER */
+
+
+/* START MAIN TEXT */
+
+#mainTextContainer {
+	/* border: 2px solid; */
+	border-color: blue;
+	left: 25%;
+	text-align: center;
+	width: 50%;
+}
+
+/* END MAIN TEXT */
+
+
+
+/* START RIGHT CONTAINER */
+
+#rightContainer {
+	/* border: 2px solid; */
+	border-color: yellow;
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+}
+
+#termsContainer, #questionsContainer {
+	height: 50%;
+}
+
+/* END RIGHT CONTAINER */
+
+/* END BODY */
