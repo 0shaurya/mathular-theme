@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+p {
+line-height: 2;
+}
+
+h1 {
+	font-size: 5rem;
+	text-align: center;
+}
+
+h2 {
+	font-size: 3rem;
+	text-align: center;
+}
+
+p, h1, h2 {
+	font-family: "Open Sans";
+	margin: 20px;
+}
+
+
+/* START TERMS  */
+#termsHeading {
+	border: 1px solid;
+	font-family: "Open Sans";
+	text-align: center;
+	font-size: 2rem;
+}
+
+.termsText {
+	text-align: center;
+	background-color: #bbe2ec ;
+	padding: 1px;
+	border-radius: 5px;
+	margin: 15px;
+	font-family: "Open Sans";
+	top: 10rem;
+}
+
+/* END TERMS */
+
+/* START QUESTIONS */
+#questionsHeading {
+	border: 1px solid;
+	font-family: "Open Sans";
+	text-align: center;
+	font-size: 2rem;
+}
+
+.question {
+	text-align: center;
+	background-color: #bbe2ec ;
+	padding: 1px;
+	border-radius: 5px;
+	margin: 15px;
+	font-family: "Open Sans";
+	top: 10rem;
+}
+
+/* END QUESTIONS */
