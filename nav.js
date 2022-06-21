@@ -4,7 +4,7 @@ const sidebarHomeB = document.getElementById("sidebarHomeB")
 
 sidebarHomeB.addEventListener("click", function() {
 	console.log(window.location)
-	window.location.href = "../../";
+	window.location.href = "/enginuity";
 })
 
 document.getElementById("navAlgebra").style.display = "none";
@@ -59,7 +59,7 @@ for (let i = 0; i < algebraSelection.length; i++) {
 		switch(i){
 			case 1:
 				document.querySelector("#navAlgebra :nth-child(2)").style.color = "blue";
-				window.location.href = "/algebra/variablesAndEquations"; break;
+				window.location.href = "/enginuity/algebra/variablesAndEquations"; break;
 			case 2:
 				document.querySelector("#navAlgebra :nth-child(3)").style.color = "blue"; break;
 			case 3:
