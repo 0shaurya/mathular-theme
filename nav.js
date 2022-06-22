@@ -59,28 +59,28 @@ for (let i = 0; i < algebraSelection.length; i++) {
 		switch(i){
 			case 1:
 				document.querySelector("#navAlgebra :nth-child(2)").style.color = "blue";
-				window.location.href = "/algebra/" + algebraSelection[i].textContent; break;
+				window.location.href = "/enginuity/algebra/" + algebraSelection[i].textContent; break;
 			case 2:
 				document.querySelector("#navAlgebra :nth-child(3)").style.color = "blue";
-				window.location.href = "/algebra/" + algebraSelection[i].textContent; break;
+				window.location.href = "/enginuity/algebra/" + algebraSelection[i].textContent; break;
 			case 3:
 				document.querySelector("#navAlgebra :nth-child(4)").style.color = "blue";
-				window.location.href = "/algebra/" + algebraSelection[i].textContent; break;
+				window.location.href = "/enginuity/algebra/" + algebraSelection[i].textContent; break;
 			case 4:
 				document.querySelector("#navAlgebra :nth-child(5)").style.color = "blue";
-				window.location.href = "/algebra/" + algebraSelection[i].textContent; break;
+				window.location.href = "/enginuity/algebra/" + algebraSelection[i].textContent; break;
 			case 5:
 				document.querySelector("#navAlgebra :nth-child(6)").style.color = "blue";
-				window.location.href = "/algebra/" + algebraSelection[i].textContent; break;
+				window.location.href = "/enginuity/algebra/" + algebraSelection[i].textContent; break;
 			case 6:
 				document.querySelector("#navAlgebra :nth-child(7)").style.color = "blue";
-				window.location.href = "/algebra/" + algebraSelection[i].textContent; break;
+				window.location.href = "/enginuity/algebra/" + algebraSelection[i].textContent; break;
 			case 7:
 				document.querySelector("#navAlgebra :nth-child(8)").style.color = "blue";
-				window.location.href = "/algebra/" + algebraSelection[i].textContent; break;
+				window.location.href = "/enginuity/algebra/" + algebraSelection[i].textContent; break;
 			case 8:
 				document.querySelector("#navAlgebra :nth-child(9)").style.color = "blue";
-				window.location.href = "/algebra/" + algebraSelection[i].textContent; break;
+				window.location.href = "/enginuity/algebra/" + algebraSelection[i].textContent; break;
 			default:
 				;
 		}
