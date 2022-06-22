@@ -4,7 +4,7 @@ const sidebarHomeB = document.getElementById("sidebarHomeB")
 
 sidebarHomeB.addEventListener("click", function() {
 	console.log(window.location)
-	window.location.href = "/";
+	window.location.href = "/enginuity";
 })
 
 document.getElementById("navAlgebra").style.display = "none";
