@@ -3,7 +3,7 @@ window.onload=function() {
 const sidebarHomeB = document.getElementById("sidebarHomeB")
 
 sidebarHomeB.addEventListener("click", function() {
-	window.location.href = "/";
+	window.location.href = "/enginuity";
 })
 
 document.getElementById("navAlgebra").style.display = "none";
