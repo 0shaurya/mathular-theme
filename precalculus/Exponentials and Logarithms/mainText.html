@@ -1,0 +1,160 @@
+<link rel="stylesheet" href="../../contentStyle.css">
+<script type="text/javascript" async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+<script src="https://tikzjax.com/v1/tikzjax.js"></script>
+
+\[\require{\cancel}\]
+
+<h1>Precalculus</h1>
+<h2>Exponentials and Logarithms</h2><br>
+<p>
+Let’s discuss another umbrella of functions, <b>exponential functions</b>. An exponential function is a function written in the form of
+
+\[f(x)=ab^x\]
+
+The important part here is how \(x\) is in the exponent - this key part is what makes it an exponential function. This is in contrast to polynomial functions, where \(x\) is in the base. Here is a graph of the function \(2^x\):
+<br><br>
+<img src="../../../visuals/2^x.png" style = "display:block;margin:auto auto;">
+<br>
+The first thing to notice is that \(2^x\) grows very fast. This is because the y-value doubles after each unit step in the x direction. This is because every time we add 1 to the x-value, the y value will be multiplied by 2 another time:
+
+\[2^3 = 2\cdot2\cdot2 = 8\\2^4 = 2\cdot2\cdot2\cdot2 = 16\\2^5 = 2\cdot2\cdot2\cdot2\cdot2 = 32\]:
+
+Another thing to notice is what happens when \(x=0\). Any number raised to the 0th power is 1, meaning
+
+\[f(0)=ab^0\]
+\[f(0)=a\cdot1\]
+\[f(0)=a\]
+
+Thus, the y-intercept of an exponential function in the form \(f(x)=ab^x\) is always \(a\). We can verify this by graphing some more exponential functions:
+<br><br>
+<img src="../../../visuals/exponentials.png" style = "display:block;margin:auto auto;">
+<br><br>
+Exponential equations come up a lot in the real world. For example, imagine 5 bacteria on a petri dish. Every hour, the number of bacteria doubles. This means that the number of bacteria follow the function \(B(t)=5\cdot2^t\), with \(t\) being the number of hours.
+<br><br>
+Now, let’s talk about solving equations with exponentials. Suppose we wanted to solve the equation \(3^x=10\), how would we go about doing it? \(3^2=9\) and \(3^3=27\), so we know the answer is very close to 2, but we do not have an exact form. Fortunately, we can use a <b>logarithm</b>.
+<br><br>
+A logarithm is the inverse function of the exponential, in the same way that multiplication is the inverse of division and subtraction is the inverse of addition.
+<br><br>
+A logarithm looks like:
+
+\[g(x)=\log_b(x)\]
+
+Here, \(b\) is the base of the logarithm. Logarithms are just a family of functions, and \(b\) is a parameter. We can relate exponential functions and logarithms by solving an equation:
+
+\[3^x=10\]
+
+Let’s apply a logarithm here. The base of the exponential is \(3\), so let’s apply a logarithm with base 3 to both sides.
+
+\[\log_{3}{(3^x)}=\log_{3}{(10)}\]
+
+Here is the key part of a logarithm - a logarithm of a base next to an exponential with the same base will cancel out, leaving only the power. In general:
+
+\[\log_{b}{(b^a)} = \cancel{\log_{b}}(\cancel{b}^a) = a\]
+
+This means that
+
+\[\cancel{\log_{3}}(\cancel{3}^x)=\log_{3}{(10)}\]
+\[x=\log_{3}{(10)}\]
+
+Which, if you plug into a calculator, you will find is approximately \(2.096\). Here is a handy diagram that might help you relate exponentials and logarithms:
+<br><br>
+<img src="../../../visuals/logtoexp.png" style = "display:block;margin:auto auto;">
+<br>
+When we graph logarithms, we should remember that logarithms are just an inverse of exponentials. So, to graph a logarithmic function, we flip the corresponding exponential function over the line \(y=x\). Here is a graph of \(2^x\) and it's inverse, \(\log_2(x)\).
+<br><br>
+<img src="../../../visuals/2^xandlogbase2x.png" style = "display:block;margin:auto auto;">
+<br><br>
+In general, the graph of a logarithm will look like a sideways exponential, with a vertical asymptote at \(x=0\), just like how the graph of an exponential has a horizontal asymptote at \(y=0\).
+<br><br>
+Now, let’s discuss some properties of logarithms. There are four main properties to know. Let’s start with the first one, the <b>product rule law</b>, which says
+
+\[\log_{b}{(M\cdot N)}\ = \log_{b}{(M)}+\log_{b}{(N)}\]
+
+For example, \(\log_{2}{(14)} = \log_{2}{(2\cdot6)} = \log_{2}{(2)}+\log_2(7) = 1+\log_2(7)\). This works because it is a parallel to the product rule for exponents law.
+<br><br>
+The second law is the <b>quotient rule law</b>. This says
+
+\[\log_{b}{\biggl(\frac{M}{N}\biggl)} = \log_{b}{(M)} - \log_{b}{(N)}\]
+
+For example, \(\log_{5}{\Bigl(\frac{2}{5}\Bigl)}=\log_{5}{(2)}-\log_5(5)=\log_5(2)-1\). This law works because it is parallel to the quotient rule for exponents law.
+<br><br>
+The third law is the <b>power rule law</b>. This says
+
+\[\log_{b}{(a^c)}=c\cdot\log_{b}{(a)}\]
+
+For example, \(\log_{3}{(32)} = \log_{3}{(2^5)} = 5\log_{3}{(2)}\). This law works because it is just the product rule repeated \(c\) times.
+<br><br>
+The fourth law is the <b>change of base law</b>. This law says that
+
+\[\log_{b}{(a)} =\frac{\log_d(a)}{\log_d(b)}\]
+
+where \(d\) can be any number. For example, \(\log_{2}{(7)} = \frac{\log_3(7)}{\log_3(2)} = \frac{\log_4(7)}{\log_4(2)} = \frac{\log_5(7)}{\log_5(2)}\)
+</p>
+<hr>
+<p>
+To begin with probability, let’s first define what an <b>event</b> is. An event is simply an outcome of an experiment. For example, when drawing a card from a deck, some examples of events are drawing a 4 of hearts, drawing a 6 of clubs, drawing a king of any suit, or drawing a card with hearts. The complete set of all events is known as the <b>sample space</b>.
+
+The most basic formula for probability is
+
+\[P(A) = \frac{\text{# of outcomes in A}{# of outcomes in sample space}\]
+
+This formula assumes all outcomes are equally likely. Here, \(A\) is an event, and \(P(A)\) is the probability of event \(A\) occurring.
+
+This only covers the probability of one event occurring. Let’s now go over the probability when events interact with one another. Before continuing, let’s define two new terms: <b>independent events</b> and <b>dependent</b> events. An independent event is an event whose probability does not change when another event occurs. For example, owning a dog and getting heads when flipping a coin are independent of each other because one outcome does not affect the other. A dependent event is an event whose probability does depend on another event happening. For example, drawing a card from a deck and then drawing another card from the same deck without putting the first card back in.
+
+First, let’s start with the probability of two events both happening. This is known as an “and” event. The formula for event \(A\) and event \(B\) both happening is
+
+\[P(A\capB) = P(A) \cdot P(B)\]
+
+The \(\cap\) symbol represents “and”. We multiply the probabilities of events \(A\) and \(B\) to find the probability of both of them happening. For example, the probability of rolling a 2 on a 6-sided die and getting a tails when flipping a coin is
+
+\[P(A\capB) = P(A) \cdot P(B)\]
+\[P(\text{rolling a 2}\cap\text{flipping a tails}) = \frac{1}{6}\cdot\frac{1}{2}}\]
+\[\frac{1}{12\]
+
+This formula only works for independent events.
+
+The probability of one event or another event happening is given by the formula
+
+\[P(A\cupB) = P(A) + P(B) - P(A\capB)\]
+
+The \(\cup\) symbol represents “or”. \(A\) and \(B\) are events. This formula is best explained by a venn diagram:
+
+(image)
+
+We can see that we subtract the probability of events \(A\) and \(B\) happening to avoid double counting the middle section. For example, the probability of rolling a 2 on a six sided die or getting a tails when flipping a coin is
+
+\[P(\text{rolling a 2}\cup\text{flipping a tails}) = P(\text{rolling a 2}) + P(\text{flipping a tails}) - P(\text{rolling a 2}\cap\text{flipping a tails})\]
+\[P(\text{rolling a 2}\cup\text{flipping a tails}) = \frac{1}{6} + \frac{1}{2} -  P(\text{rolling a 2}) \cdot P(\text{flipping a tails})\]
+\[P(\text{rolling a 2}\cup\text{flipping a tails}) = \frac{1}{6} + \frac{1}{2} -  \frac{1}{6}\cdot\frac{1}{2}\]
+\[P(\text{rolling a 2}\cup\text{flipping a tails}) = \frac{1}{6} + \frac{3}{6} -  \frac{1}{12}\]
+\[P(\text{rolling a 2}\cup\text{flipping a tails}) = \frac{8}{12} -  \frac{1}{12}\]
+\[P(\text{rolling a 2}\cup\text{flipping a tails}) = \frac{7}{12}\]
+
+The probability of rolling a 2 or flipping tails is \(\frac{7}{12}\)
+
+The third operation is <b>given</b>. The probability of event \(A\) given \(B\) is the probability of event \(A\) occurring given that event \(B\) has already occurred. Here is the probability for \(A\) given \(B\):
+
+\[P(A\middle|B) = P(\text{event} A \text{occurring given that event} B \text{has already occured}) = P(\frac{P(A\capB)}{P(B)})\]
+
+For example, a city has a 10% chance of raining on any day, assuming that there was no rain the previous day. However, if there was rain the previous day, there is a 15% chance of rain. To find the probability of two days of rain in a row, we can let event \(F\) be rain falling on the first day and event \(S\) be rain falling on the second day. Let’s assume there was no rain on the day before the first day. From the problem, we know
+
+\[P(S\middleF) = 15%\]
+
+And using our formula, we know
+
+\[P(S\middleF) = \frac{P(F\capS)}{P(F)} = 15%\]
+
+From the problem we know the chance of rain on the first day, so
+
+\[\frac{P(F\capS)}{10%} = 15%\]
+
+Multiplying by 10% on both sides, we get our answer:
+
+\[\frac{P(F\capS)} = 1.5%\]
+
+The chance of two days in a row of rain is 1.5%, assuming there was no rain on the day before the first day.
+
+
+</p>
