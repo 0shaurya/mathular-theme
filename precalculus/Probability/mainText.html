@@ -20,11 +20,11 @@ This only covers the probability of one event occurring. Let’s now go over the
 
 First, let’s start with the probability of two events both happening. This is known as an “and” event. The formula for event \(A\) and event \(B\) both happening is
 
-\[P(A\capB) = P(A) \cdot P(B)\]
+\[P(A\cap B) = P(A) \cdot P(B)\]
 
 The \(\cap\) symbol represents “and”. We multiply the probabilities of events \(A\) and \(B\) to find the probability of both of them happening. For example, the probability of rolling a 2 on a 6-sided die and getting a tails when flipping a coin is
 
-\[P(A\capB) = P(A) \cdot P(B)\]
+\[P(A\cap B) = P(A) \cdot P(B)\]
 \[P(\text{rolling a 2}\cap\text{flipping a tails}) = \frac{1}{6}\cdot\frac{1}{2}}\]
 \[\frac{1}{12\]
 
@@ -32,7 +32,7 @@ This formula only works for independent events.
 
 The probability of one event or another event happening is given by the formula
 
-\[P(A\cupB) = P(A) + P(B) - P(A\capB)\]
+\[P(A\cupB) = P(A) + P(B) - P(A\cap B)\]
 
 The \(\cup\) symbol represents “or”. \(A\) and \(B\) are events. This formula is best explained by a venn diagram:
 
@@ -40,12 +40,14 @@ The \(\cup\) symbol represents “or”. \(A\) and \(B\) are events. This formul
 
 We can see that we subtract the probability of events \(A\) and \(B\) happening to avoid double counting the middle section. For example, the probability of rolling a 2 on a six sided die or getting a tails when flipping a coin is
 
-\[P(\text{rolling a 2}\cup\text{flipping a tails}) = P(\text{rolling a 2}) + P(\text{flipping a tails}) - P(\text{rolling a 2}\cap\text{flipping a tails})\]
-\[P(\text{rolling a 2}\cup\text{flipping a tails}) = \frac{1}{6} + \frac{1}{2} -  P(\text{rolling a 2}) \cdot P(\text{flipping a tails})\]
-\[P(\text{rolling a 2}\cup\text{flipping a tails}) = \frac{1}{6} + \frac{1}{2} -  \frac{1}{6}\cdot\frac{1}{2}\]
-\[P(\text{rolling a 2}\cup\text{flipping a tails}) = \frac{1}{6} + \frac{3}{6} -  \frac{1}{12}\]
-\[P(\text{rolling a 2}\cup\text{flipping a tails}) = \frac{8}{12} -  \frac{1}{12}\]
-\[P(\text{rolling a 2}\cup\text{flipping a tails}) = \frac{7}{12}\]
+\[\begin{align}
+P(\text{rolling a 2}\cup\text{flipping a tails}) &= P(\text{rolling a 2}) + P(\text{flipping a tails}) - P(\text{rolling a 2}\cap\text{flipping a tails})
+P(\text{rolling a 2}\cup\text{flipping a tails}) &= \frac{1}{6} + \frac{1}{2} -  P(\text{rolling a 2}) \cdot P(\text{flipping a tails})
+P(\text{rolling a 2}\cup\text{flipping a tails}) &= \frac{1}{6} + \frac{1}{2} -  \frac{1}{6}\cdot\frac{1}{2}
+P(\text{rolling a 2}\cup\text{flipping a tails}) &= \frac{1}{6} + \frac{3}{6} -  \frac{1}{12}
+P(\text{rolling a 2}\cup\text{flipping a tails}) &= \frac{8}{12} -  \frac{1}{12}
+P(\text{rolling a 2}\cup\text{flipping a tails}) &= \frac{7}{12}
+  \end{align}\]
 
 The probability of rolling a 2 or flipping tails is \(\frac{7}{12}\)
 
@@ -55,19 +57,19 @@ The third operation is <b>given</b>. The probability of event \(A\) given \(B\) 
 
 For example, a city has a 10% chance of raining on any day, assuming that there was no rain the previous day. However, if there was rain the previous day, there is a 15% chance of rain. To find the probability of two days of rain in a row, we can let event \(F\) be rain falling on the first day and event \(S\) be rain falling on the second day. Let’s assume there was no rain on the day before the first day. From the problem, we know
 
-\[P(S\middleF) = 15%\]
+\[P(S\middle F) = 15%\]
 
 And using our formula, we know
 
-\[P(S\middleF) = \frac{P(F\capS)}{P(F)} = 15%\]
+\[P(S\middle F) = \frac{P(F\capS)}{P(F)} = 15%\]
 
 From the problem we know the chance of rain on the first day, so
 
-\[\frac{P(F\capS)}{10%} = 15%\]
+\[\frac{P(F\cap S)}{10%} = 15%\]
 
 Multiplying by 10% on both sides, we get our answer:
 
-\[\frac{P(F\capS)} = 1.5%\]
+\[\frac{P(F\cap S)} = 1.5%\]
 
 The chance of two days in a row of rain is 1.5%, assuming there was no rain on the day before the first day.
 </p>
