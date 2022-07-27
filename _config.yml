@@ -1,3 +1,10 @@
+title: Mathular
+description: Mathular is a website which aims to provide both theoretical and visual content for mathematics.
+baseurl: "/algebra/Variables and Equations"
+url: "https://mathular.com" # base hostname of the website
+github_username: ShivamVashishtha
+
+# Build settings
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
