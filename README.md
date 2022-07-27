@@ -18,7 +18,7 @@
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/0shaurya/mathular"><strong>Explore the code Â»</strong></a>
+    <a href="https://github.com/0shaurya/mathular"><strong>Explore the code</strong></a>
     <br />
     <br />
     <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
