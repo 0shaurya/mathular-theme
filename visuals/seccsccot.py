@@ -54,11 +54,18 @@ plt.ylim(-5, 5)
 ax.set_xticks(np.arange(-2*np.pi, 2*np.pi+np.pi/2, np.pi /2))
 labels = [r'$-2\pi$', r'$-3\pi/2$', r'$-\pi$', r'$-\pi/2$', '$0$', r'$\pi/2$', r'$\pi$', r'$3\pi/2$', r'$2\pi$']
 ax.set_xticklabels(labels)
+
+plt.plot(eval("x" + str(1)), eval(str("csc") + str(1)), color="blue", label="csc(x)")
 for i in range(1, 9):
 	plt.plot(eval("x" + str(i)), eval(str("csc") + str(i)), color="blue")
+plt.plot(eval("x" + str(1)), eval(str("sec") + str(1)), color="green", label="sec(x)")
 for i in range(1, 9):
 	plt.plot(eval("x" + str(i)), eval(str("sec") + str(i)), color="green")
+plt.plot(eval("x" + str(1)), eval(str("cot") + str(1)), color="orange", label="cot(x)")
 for i in range(1, 9):
  	plt.plot(eval("x" + str(i)), eval(str("cot") + str(i)), color="orange")
+
+plt.legend(loc="lower right")
+
 plt.grid(True)
 plt.show()
