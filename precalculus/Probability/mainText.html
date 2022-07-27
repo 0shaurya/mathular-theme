@@ -24,15 +24,17 @@ First, let’s start with the probability of two events both happening. This is 
 
 The \(\cap\) symbol represents “and”. We multiply the probabilities of events \(A\) and \(B\) to find the probability of both of them happening. For example, the probability of rolling a 2 on a 6-sided die and getting a tails when flipping a coin is
 
-\[P(A\cap B) = P(A) \cdot P(B)\]
-\[P(\text{rolling a 2}\cap\text{flipping a tails}) = \frac{1}{6}\cdot\frac{1}{2}}\]
-\[\frac{1}{12\]
+\[\begin{align}
+  P(A\cap B) &= P(A) \cdot P(B)
+P(\text{rolling a 2}\cap\text{flipping a tails}) &= \frac{1}{6}\cdot\frac{1}{2}
+P(\text{rolling a 2}\cap\text{flipping a tails}) &= \frac{1}{12}
+  \end{align}\]
 
 This formula only works for independent events.
 
 The probability of one event or another event happening is given by the formula
 
-\[P(A\cupB) = P(A) + P(B) - P(A\cap B)\]
+\[P(A\cup B) = P(A) + P(B) - P(A\cap B)\]
 
 The \(\cup\) symbol represents “or”. \(A\) and \(B\) are events. This formula is best explained by a venn diagram:
 
@@ -53,15 +55,15 @@ The probability of rolling a 2 or flipping tails is \(\frac{7}{12}\)
 
 The third operation is <b>given</b>. The probability of event \(A\) given \(B\) is the probability of event \(A\) occurring given that event \(B\) has already occurred. Here is the probability for \(A\) given \(B\):
 
-\[P(A\middle|B) = P(\text{event} A \text{occurring given that event} B \text{has already occured}) = P(\frac{P(A\capB)}{P(B)})\]
+\[P(A\mid B) = P(\text{event} A \text{occurring given that event} B \text{has already occured}) = P(\frac{P(A\capB)}{P(B)})\]
 
 For example, a city has a 10% chance of raining on any day, assuming that there was no rain the previous day. However, if there was rain the previous day, there is a 15% chance of rain. To find the probability of two days of rain in a row, we can let event \(F\) be rain falling on the first day and event \(S\) be rain falling on the second day. Let’s assume there was no rain on the day before the first day. From the problem, we know
 
-\[P(S\middle F) = 15%\]
+\[P(S\mid F) = 15%\]
 
 And using our formula, we know
 
-\[P(S\middle F) = \frac{P(F\capS)}{P(F)} = 15%\]
+\[P(S\mid F) = \frac{P(F\capS)}{P(F)} = 15%\]
 
 From the problem we know the chance of rain on the first day, so
 
