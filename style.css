@@ -22,6 +22,11 @@
 	height: auto auto;
 }
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
 /* START NAV CONTAINER */
 
 #navContainer {
