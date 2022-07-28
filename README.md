@@ -41,10 +41,10 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 ## Built With
 
 * ![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)
-* ![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)
-* ![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)
-* ![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)
-* ![forthebadge](https://forthebadge.com/images/badges/made-with-markdown.svg)
+* ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+* ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+* ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+* ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 * ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)
 * ![shields](https://img.shields.io/badge/Adobe%20Dreamweaver-072401?style=for-the-badge&logo=Adobe%20Dreamweaver&logoColor=34F400)
 * ![shields](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
