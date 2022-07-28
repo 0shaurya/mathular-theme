@@ -45,7 +45,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 * ![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)
 * ![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)
 * ![forthebadge](https://forthebadge.com/images/badges/made-with-markdown.svg)
-* ![shields](https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg)
+* ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)
 * ![shields](https://img.shields.io/badge/Adobe%20Dreamweaver-072401?style=for-the-badge&logo=Adobe%20Dreamweaver&logoColor=34F400)
 * ![shields](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 
