@@ -11,7 +11,7 @@
 <div align="center">
   <a href="https://github.com/0shaurya/mathular">
     <img src="https://cdn.discordapp.com/attachments/849344589709574215/1002065976461905950/Screen_Shot_2022-07-27_at_11.11.41_PM.png" alt="Logo" width="110" height="120"> <br>
-    <img src="https://cdn.discordapp.com/attachments/849344589709574215/1002065976138932325/Screen_Shot_2022-07-27_at_11.12.04_PM.png" alt="Logo" width="310" height="90">
+    <img src="https://cdn.discordapp.com/attachments/849344589709574215/1002065976138932325/Screen_Shot_2022-07-27_at_11.12.04_PM.png" alt="Logo" width="310" height="70">
   </a>
 
 <h3 align="center">Mathular</h3>
