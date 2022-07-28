@@ -10,7 +10,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/0shaurya/mathular">
-    <img src="" alt="Logo" width="80" height="80">
+    <img src="https://cdn.discordapp.com/attachments/679799909158879276/1001656450134839358/Screen_Shot_2022-07-26_at_8.03.53_PM.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Mathular</h3>
