@@ -1,10 +1,5 @@
 window.onload=function() {
 
-	function myFunction() {
-  var element = document.body;
-  element.classList.toggle("dark-mode");
-} 
-
 const sidebarHomeB = document.getElementById("sidebarHomeB")
 
 sidebarHomeB.addEventListener("click", function() {
