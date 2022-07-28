@@ -156,6 +156,36 @@ for (let i = 0; i < precalculusSelection.length; i++) {
 			case 9:
 				document.querySelector("#navPrecalculus :nth-child(10)").style.color = "#0645AD";
 				window.location.href = document.location.origin + "/precalculus/" + precalculusSelection[i].textContent; break;
+			case 10:
+				document.querySelector("#navPrecalculus :nth-child(11)").style.color = "#0645AD";
+				window.location.href = document.location.origin + "/precalculus/" + precalculusSelection[i].textContent; break;
+			case 11:
+				document.querySelector("#navPrecalculus :nth-child(12)").style.color = "#0645AD";
+				window.location.href = document.location.origin + "/precalculus/" + precalculusSelection[i].textContent; break;
+			case 12:
+				document.querySelector("#navPrecalculus :nth-child(13)").style.color = "#0645AD";
+				window.location.href = document.location.origin + "/precalculus/" + precalculusSelection[i].textContent; break;
+			case 13:
+				document.querySelector("#navPrecalculus :nth-child(14)").style.color = "#0645AD";
+				window.location.href = document.location.origin + "/precalculus/" + precalculusSelection[i].textContent; break;
+			case 14:
+				document.querySelector("#navPrecalculus :nth-child(15)").style.color = "#0645AD";
+				window.location.href = document.location.origin + "/precalculus/" + precalculusSelection[i].textContent; break;
+			case 15:
+				document.querySelector("#navPrecalculus :nth-child(16)").style.color = "#0645AD";
+				window.location.href = document.location.origin + "/precalculus/" + precalculusSelection[i].textContent; break;
+			case 16:
+				document.querySelector("#navPrecalculus :nth-child(17)").style.color = "#0645AD";
+				window.location.href = document.location.origin + "/precalculus/" + precalculusSelection[i].textContent; break;
+			case 17:
+				document.querySelector("#navPrecalculus :nth-child(18)").style.color = "#0645AD";
+				window.location.href = document.location.origin + "/precalculus/" + precalculusSelection[i].textContent; break;
+			case 18:
+				document.querySelector("#navPrecalculus :nth-child(19)").style.color = "#0645AD";
+				window.location.href = document.location.origin + "/precalculus/" + precalculusSelection[i].textContent; break;
+			case 19:
+				document.querySelector("#navPrecalculus :nth-child(20)").style.color = "#0645AD";
+				window.location.href = document.location.origin + "/precalculus/" + precalculusSelection[i].textContent; break;
 			default:
 				;
 		}
@@ -191,6 +221,36 @@ for (let i = 0; i < calculusISelection.length; i++) {
 				window.location.href = document.location.origin + "/calculusI/" + calculusISelection[i].textContent; break;
 			case 9:
 				document.querySelector("#navCalculusI :nth-child(10)").style.color = "#0645AD";
+				window.location.href = document.location.origin + "/calculusI/" + calculusISelection[i].textContent; break;
+			case 10:
+				document.querySelector("#navCalculusI :nth-child(11)").style.color = "#0645AD";
+				window.location.href = document.location.origin + "/calculusI/" + calculusISelection[i].textContent; break;
+			case 11:
+				document.querySelector("#navCalculusI :nth-child(12)").style.color = "#0645AD";
+				window.location.href = document.location.origin + "/calculusI/" + calculusISelection[i].textContent; break;
+			case 12:
+				document.querySelector("#navCalculusI :nth-child(13)").style.color = "#0645AD";
+				window.location.href = document.location.origin + "/calculusI/" + calculusISelection[i].textContent; break;
+			case 13:
+				document.querySelector("#navCalculusI :nth-child(14)").style.color = "#0645AD";
+				window.location.href = document.location.origin + "/calculusI/" + calculusISelection[i].textContent; break;
+			case 14:
+				document.querySelector("#navCalculusI :nth-child(15)").style.color = "#0645AD";
+				window.location.href = document.location.origin + "/calculusI/" + calculusISelection[i].textContent; break;
+			case 15:
+				document.querySelector("#navCalculusI :nth-child(16)").style.color = "#0645AD";
+				window.location.href = document.location.origin + "/calculusI/" + calculusISelection[i].textContent; break;
+			case 16:
+				document.querySelector("#navCalculusI :nth-child(17)").style.color = "#0645AD";
+				window.location.href = document.location.origin + "/calculusI/" + calculusISelection[i].textContent; break;
+			case 17:
+				document.querySelector("#navCalculusI :nth-child(18)").style.color = "#0645AD";
+				window.location.href = document.location.origin + "/calculusI/" + calculusISelection[i].textContent; break;
+			case 18:
+				document.querySelector("#navCalculusI :nth-child(19)").style.color = "#0645AD";
+				window.location.href = document.location.origin + "/calculusI/" + calculusISelection[i].textContent; break;
+			case 19:
+				document.querySelector("#navCalculusI :nth-child(20)").style.color = "#0645AD";
 				window.location.href = document.location.origin + "/calculusI/" + calculusISelection[i].textContent; break;
 			default:
 				;
