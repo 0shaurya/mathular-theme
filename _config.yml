@@ -1,7 +1,7 @@
 title: Mathular
 description: Mathular is a website which aims to provide both theoretical and visual content for mathematics.
-baseurl: "/algebra"
 url: "https://mathular.com" # base hostname of the website
+markdown: kramdown
 github_username: ShivamVashishtha
 
 # Build settings
