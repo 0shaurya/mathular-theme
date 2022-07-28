@@ -10,7 +10,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/0shaurya/mathular">
-    <img src="file:///Users/vishalvashishtha/Desktop/AP%20Statistics/Unit%209/9.3/Screen%20Shot%202022-07-26%20at%208.03.53%20PM.png" alt="Logo" width="80" height="80">
+    <img src="" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Mathular</h3>
