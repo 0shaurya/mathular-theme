@@ -1,0 +1,51 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\usepackage{ifthen}
+\begin{document}
+
+\foreach \angle in {0, 1, ..., 359} {
+\begin{tikzpicture}[scale=5]
+%grid
+% \draw [help lines] (-1.5,-1.5) grid (1.5, 1.5);
+
+% axes
+\draw (-1.5, 0) -- (1.5, 0);
+\draw (0, -1.5) -- (0, 1.5);
+\node [below right, scale=2] at (1, 0) {1};
+\node [above right, scale=2] at (0, 1) {1};
+\node [below left, scale=2] at (-1, 0) {-1};
+\node [below right, scale=2] at (0, -1) {-1};
+
+% unit circle
+\draw [thick] (0, 0) circle (1);
+
+% lines
+\draw [blue,   ultra thick] (0, 0) -- ({cos(\angle)}, {sin(\angle)});
+\draw [red,    ultra thick] ({cos(\angle)}, 0) -- ({cos(\angle)}, {sin(\angle)});
+\draw [orange, ultra thick] (0, 0) -- ({cos(\angle}, 0);
+
+% arc
+%\node [above right] at (1, 1) {\angle};
+
+\draw [ultra thick] (0.1, 0) arc (0:\angle:0.1);
+\node [scale = 1.8] at ({0.17*cos(\angle/2)}, {0.17*sin(\angle/2)}) {$\theta$};
+
+%\ifthenelse{\angle<90} {
+%\draw [ultra thick] (0.1, 0) arc (0:\angle:0.1);
+%}{}
+%\ifthenelse{\angle<180 \AND \angle>90} {
+%\draw [ultra thick] ({0.1*cos(\angle)}, {0.1*sin(\angle)}) arc (\angle:180:0.1);
+%}{}
+%\ifthenelse{\angle<270 \AND \angle>180} {
+%\draw [ultra thick] (-0.1, 0) arc (180:\angle:0.1);
+%}{}
+%\ifthenelse{\angle<360 \AND \angle>270} {
+%\draw [ultra thick] ({0.1*cos(\angle)}, {0.1*sin(\angle)}) arc (\angle:360:0.1);
+%}{}
+
+% legend
+\node [above right, align = left, scale = 1.8] at (-1.5, -1.5) {\color{blue}line $H$\\\color{red}line $O$\\\color{orange}line $A$};
+\end{tikzpicture}
+}
+
+\end{document}
