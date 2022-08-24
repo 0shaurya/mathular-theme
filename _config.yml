@@ -23,9 +23,12 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
+remote_theme: Balancingrock/classic-jekyll-theme@2.5.0
 markdown: kramdown
 keep_files: [assets, icons]
 exclude: [README.md]
-theme: classic-jekyll-theme
+sass:
+  sourcemap: never
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
