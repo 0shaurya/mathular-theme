@@ -72,7 +72,7 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
-  x64-mingw-ucrt
+  ruby
 
 DEPENDENCIES
   bundler (~> 2.0)
