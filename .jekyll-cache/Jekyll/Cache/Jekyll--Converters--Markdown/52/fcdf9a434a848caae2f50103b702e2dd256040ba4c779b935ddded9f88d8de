@@ -1,0 +1,17 @@
+I"L<h3 id="external-link">External Link</h3>
+
+<p>Menu’s can also link to external pages. Just prepend the URL with the proper domain like below. To test this, select the sub-sub menu <code class="language-plaintext highlighter-rouge">Balancingrock</code> from this entry.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: page
+menuInclude: yes
+menuTopTitle: Menus
+menuSubs:
+- title: External link
+  index: 5
+  sub:
+  - title: Balancingrock
+    url: http://www.balancingrock.nl/picture.html
+---
+</code></pre></div></div>
+:ET

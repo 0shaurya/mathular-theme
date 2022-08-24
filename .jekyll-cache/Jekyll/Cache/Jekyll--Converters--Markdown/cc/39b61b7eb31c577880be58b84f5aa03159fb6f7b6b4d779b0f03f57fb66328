@@ -1,0 +1,14 @@
+I"@<h3 id="sub-menu-1">Sub menu 1</h3>
+
+<p>The relevant YAML frontmatter for this page is:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: page
+menuInclude: yes
+menuTopTitle: Menus
+menuSubs:
+- title: Sub Item 1
+  index: 1
+---
+</code></pre></div></div>
+:ET

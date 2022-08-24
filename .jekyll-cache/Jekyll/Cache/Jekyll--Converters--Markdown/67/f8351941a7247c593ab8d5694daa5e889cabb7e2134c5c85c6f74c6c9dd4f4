@@ -1,0 +1,16 @@
+I"~<h3 id="centralized">Centralized</h3>
+
+<h4 id="item-2">Item 2</h4>
+
+<p>This file does not contain a menuSubs in the YAML frontmatter.</p>
+
+<p>The relevant YAML frontmatter for this page is:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: page
+menuInclude: yes
+menuTopTitle: Menus
+---
+</code></pre></div></div>
+
+:ET

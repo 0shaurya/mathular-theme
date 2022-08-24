@@ -1,0 +1,16 @@
+I"�<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.css" integrity="sha384-1IGr2Yb8xuHjwTG+WoGjj2+I/a/N6z0gDD5YIGCQxywPROOKc3+orbn/R7arWQxD" crossorigin="anonymous" />
+
+<script defer="" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.js" integrity="sha384-I2b1Pcl48X93GxEkGkaMo1hrd6n+IX8H2wgSsMimGbkZoGTve/87h1FjaDNvlpQi" crossorigin="anonymous"></script>
+
+<p>This is a placeholder in the theme.</p>
+
+<p>You can edit this page in the file <code class="language-plaintext highlighter-rouge">pages/about/about.md</code></p>
+
+<p>This is the ‘Classic-Jekyll-Theme’. See “Jekyll -&gt; Static Generator” for a general description of what Jekyll is.</p>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg" alt="This is an image" /></p>
+
+<p>$this is a test$</p>
+
+\[this is another test\]
+:ET

@@ -1,0 +1,21 @@
+I"ÿ<h3 id="decentralized">Decentralized</h3>
+
+<h4 id="item-1">Item 1</h4>
+
+<p>This example creates subsub menu structure by putting all menu creation information for each file in that same file.</p>
+
+<p>The relevant YAML frontmatter for this page is:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: page
+menuInclude: yes
+menuTopTitle: Menus
+menuSubs:
+- title: Decentralized
+  sub:
+  - title: Item 1
+    index: 1
+---
+</code></pre></div></div>
+
+:ET

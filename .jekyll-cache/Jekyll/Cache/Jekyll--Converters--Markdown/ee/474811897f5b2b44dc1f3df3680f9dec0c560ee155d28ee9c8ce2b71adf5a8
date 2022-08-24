@@ -1,0 +1,32 @@
+I"�<h3 id="centralized">Centralized</h3>
+
+<p>One way to create a subsub-menu structure is ‘all in one place’. This file specifies the menu for all items below the section <code class="language-plaintext highlighter-rouge">Centralized</code></p>
+
+<h4 id="advantage">Advantage</h4>
+
+<p>The subsub items of this sub-item do not need a menuSubs entry in their YAML frontmatter.</p>
+
+<h4 id="disadvantage">Disadvantage</h4>
+
+<p>The URL of the target must be specified</p>
+
+<h3 id="yaml">YAML</h3>
+
+<p>The relevant YAML frontmatter for this page is:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: page
+menuInclude: yes
+menuTopTitle: Menus
+menuSubs:
+- title: Centralized
+  index: 3
+  sub:
+  - title: Centralized - item 1
+    url: /pages/menus/subsubmenu3-1.html
+  - title: Centralized - item 2
+    url: /pages/menus/subsubmenu3-2.html
+---
+</code></pre></div></div>
+
+:ET
