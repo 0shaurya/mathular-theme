@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Classic Jekyll Theme
+title: Mathular
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  All you ever needed in a theme...
+  2022 Mathular
 baseurl: "/mathular-theme" # the subpath of your site, e.g. /blog note that it must _also_ be defined in classic-jekyll-theme.scss!
 url: "0shaurya.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
