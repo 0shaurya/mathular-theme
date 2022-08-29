@@ -8,7 +8,7 @@ menuSubs:
   index: 1
 excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
 terms:
-  - ['term', 'def']
+  - ['Coordinate Plane', 'Two-dimensional plane formed by the intersection of the \(y-axis\) and the \(x-axis\)']
 ---
 
 
