@@ -6,6 +6,9 @@ menuSubs:
 - title: Congruency Proofs
   index: 4
 excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+terms:
+  - ['Congruent Triangles', 'When two triangles are congruent they will have exactly the same three sides and exactly the same three angles.']
+
 ---
 
 <h1>Geometry</h1>
