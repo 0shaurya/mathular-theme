@@ -30,19 +30,6 @@
 	{%- for ape in sortedPages -%}{%- assign topTitles = topTitles | push: ape.menuTopTitle -%}{%- endfor -%}	
 	{%- assign topTitles = topTitles | uniq -%}
 
-	{%- comment -%}<!-- Home page -->{%- endcomment -%}
-	{%- assign home = 'Home' -%}
-	{%- if site.data.text-for.tHome -%}{%- assign home = site.data.text-for.tHome -%}{%- endif -%}
-	{%- if page.url == '/' %}
-	<div class="item isActiveSelection">
-	{%- else %}
-	<div class="item">
-	{%- endif %}
-		<div class="title">
-			<label class="symbol"><p></p></label>
-			<div class="text"><a href="{{ site.url }}{{ site.baseurl }}/pages/home/home.html"><p>{{ home }}</p></a></div>
-		</div>
-	</div>
 	
 	{%- comment -%}<!-- Page menus -->{%- endcomment -%}
 	{%- for topTitle in topTitles -%}
