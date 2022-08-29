@@ -6,6 +6,11 @@ menuSubs:
 - title: Circles, Volume, and Surface Area
   index: 3
 excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+terms:
+  - ['Arc Length', 'The length of an arc is the distance between the start and end points of the arc.']
+  - ['Area of Sector of a Circle', 'Space enclosed by the sector of a circle.']
+  - ['Volume', 'Space occupied within the boundaries of an object in 3-D space.']
+  - ['Surface Area', 'Amount of space covering the outside of a 3-D shape.']
 ---
 
 <h1>Geometry</h1>
