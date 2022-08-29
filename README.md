@@ -1,101 +1,133 @@
-# Classic-Jekyll-Theme v2.5.0
+# Mathular
 
-Welcome to Classic-Jekyll-Theme. This theme centers around one of the most used website structures on the web. A banner, navigation menu (dropdown), (up to) three columns and a footer. The design is fully responsive for three different screen widths: widest, medium and narrow. It is probably best shown in an example:
 
-Widest:
+[![Contributors][contributors-shield]][contributors-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
-![wide-layout](http://balancingrock.nl/assets/img/classic-jekyll-theme-wide.png)
 
-Medium:
+<!-- MATHULAR LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/0shaurya/mathular">
+    <img src="https://cdn.discordapp.com/attachments/849344589709574215/1002065976461905950/Screen_Shot_2022-07-27_at_11.11.41_PM.png" alt="Logo" width="110" height="120"> <br>
+    <img src="https://cdn.discordapp.com/attachments/849344589709574215/1002065976138932325/Screen_Shot_2022-07-27_at_11.12.04_PM.png" alt="Logo" width="280" height="70">
+  </a>
 
-![medium-left-layout](http://balancingrock.nl/assets/img/classic-jekyll-theme-medium-left.png)
+<h3 align="center">Mathular</h3>
 
-Narrow:
+  <p align="center">
+    project_description
+    <br />
+    <a href="https://github.com/0shaurya/mathular"><strong>Explore the code</strong></a>
+    <br />
+  </p>
+</div>
 
-![narrow-layout](http://balancingrock.nl/assets/img/classic-jekyll-theme-narrow.png)
 
-The columns are called Primary (blue), Secondary (grey) and Tertiary (pink). In the above layouts the secondary column is on the left side. If it had been on the right side, the medium layout would have looked like this:
 
-![medium-right-layout](http://balancingrock.nl/assets/img/classic-jekyll-theme-medium-right.png)
 
-The menu bar (in yellow) is always deployed in the wide layout. In the medium and narrow layout the menu bar is shown in the deployed state. When not deployed, a menu-item symbol is shown in the banner that switches the menu between deployed and not.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-An example screenshot:
+[![Product Name Screen Shot][product-screenshot]](https://mathular.com)
 
-![example](http://balancingrock.nl/assets/img/classic-jekyll-theme-screenshot-half.png)
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
-Or visit a site using this theme like [Balancing Rock](http://www.balancingrock.nl)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Other features:
 
-- __Secondary and Tertiary Columns__ can be specified by default and on a page by page basis for presence, location and content.
+<!-- BUILT WITH -->
+## Built With
 
-- __Navigation bar with drop-down menu__ is created automatically from the available pages when these have the proper YAML frontmatter. The navigation bar contains the top level menu items, while the submenu items show up as a drop-down menu when the cursor hovers over the corresponding menu item. Hovering over submenu item brings up the sub-submenu items.
+* ![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)
+* ![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)
+* ![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)
+* ![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)
+* ![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)
+* ![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)
+* ![forthebadge](https://forthebadge.com/images/badges/made-with-markdown.svg)
+* ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)
+* ![shields](https://img.shields.io/badge/Adobe%20Dreamweaver-072401?style=for-the-badge&logo=Adobe%20Dreamweaver&logoColor=34F400)
+* ![shields](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 
-- __Create the menu__ from either Posts and/or Pages.
 
-- __Category pages__ are created semi-automatically; the web designer has to identify the categories for inclusion, but the menu entry and category pages are created automatically.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-- __Cookies policy__ for european users is included by default. It can be easily disabled for non-european websites.
 
-- __Language customization__ (not multi-language support!).
+<!-- ABOUT US -->
+## About Us
 
-- __Icon__ support for an icon in the upper left corner of the site and/or in the menubar.
+At Mathular, we aim to provide middle-school, high-school, and college students with a database of resources where they can find out specific topics relating to their respective courses/classes.
+We believe that both theoretical and visual content should be available for students, as per their needs. Hence, we've tried our best to incorporate these ideologies in our work & content.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-- __Background images__ and __Background color__ settings for nearly all site elements.
 
-- __Widgets__ the following widgets are included:
-	- recent-posts: Shows a list of the N most recent posts (N is configurable).
-	- social-media: Shows a list of social media sites with their links (Edit to add).
-	- subscribe: Shows how a visitor can subscribe to your site (Edit to add).
-	- youtube-player: Shows a youtube player that scales with the column it is used in (video id parameter).
 
-- __Normalize.css__ [`normalize.css`](https://necolas.github.io/normalize.css/) is used directly instead of through the Jekyll adaptation. This allows for faster upgrade cycles.
-
-- __Excerpt on pages__ Pages defining an explicit "excerpt" in their YAML will use this as the description for the header description meta tag (necessary for SEO purposes). Note that Jekyll does not generate excerpt information for pages, only posts. Hence it is necessary to define the excerpt as a YAML tag.
-
-- __Blocked layout support__ Styles and includes support the creation of blocked layout (like product pages). To see an example of blocked pages, see the [http://balancingrock.nl](http://balancingrock.nl/classic) home page.
-
-- __Enable/disable banner__ The banner at the top of the page can be disabled.
-
-- __Move banner/menu to main column__ The banner & navigation can be moved to within the main column only. The secondary and tertiary columns will then run right up to the top of the screen.
-
-- __Pin banner__ The banner area can be pinned (fixed) to the top of the browser window.
-
-- __Split files for the menus__ It is possible to generate the menu file separate from the content file. While this may slow down the loading of the site a little, it is a huge speed up for site generation under Jekyll.
-
-You can download it from [github](https://github.com/Balancingrock/classic-jekyll-theme) or install it with [rubygems](https://rubygems.org/gems/classic-jekyll-theme).
-
-Like to help out?
-
-You can support further development of this theme, or just say 'thank you' via paypal by donating to sales@balancingrock.nl or wire bitcoins to address: 1GacSREBxPy1yskLMc9de2nofNv2SNdwqH
-
-Suggested donation for personal websites is the price of a good cup of coffee: $4
-
-Suggested donation for commercial sites is the price of a good meal: $20
-
-Contract support for this (or other Jekyll related work) is available: sales@balancingrock.nl
-
+<!-- USAGE EXAMPLES -->
 ## Usage
 
-Please see [http://balancingrock.github.io/classic-jekyll-theme](http://balancingrock.github.io/classic-jekyll-theme) on how to use the theme and which frontmatter is available.
+Use this website to access math resources that can help you enhance your knowledge about various topics, and even just to complete your daily assignments.
+Share this website with your friends as well, so that they can also use this website as an alternative to their textbooks!
 
-## History
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-- Release 2.0.0 (2017-12-19)
-- [Release 2.1.1 (2018-01-22)](http://balancingrock.github.io/classic-jekyll-theme/classic/2017/12/22/bugfix-2-1.html)
-- [Release 2.2.0 (2018-02-02)](http://balancingrock.github.io/classic-jekyll-theme/classic/2018/02/02/release-2-2-0.html)
-- [Release 2.3.0 (2018-02-05)](http://balancingrock.github.io/classic-jekyll-theme/classic/2018/02/05/release-2-3-0.html)
-- [Release 2.4.0 (2019-01-15)](http://balancingrock.github.io/classic-jekyll-theme//2019/01/15/release-2-4-0.html)
-- [Release 2.4.2 (2019-08-16)](http://balancingrock.github.io/classic-jekyll-theme//2019/08/16/release-2-4-2.html)
-- [Release 2.4.3 (2019-09-09)](http://balancingrock.github.io/classic-jekyll-theme//2019/09/09/release-2-4-3.html)
-- [Release 2.5.0 (2019-09-10)](http://balancingrock.github.io/classic-jekyll-theme//2019/09/10/release-2-5-0.html)
 
-## Suport & Feedback
 
-Comments, bug reports, feature requests and improvements are eagerly anticipated via email: rien@balancingrock.nl or via [github](http://balancingrock.github.io/classic-jekyll-theme).
+<!-- ROADMAP/ENHANCEMENTS -->
+## Roadmap/Enhancements
 
-## License
+- [ ] Overall Website Design
+- [ ] More Lanaguages
 
-The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+<p align="right">(<a href="#top">back to top</a>)</p>
 
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+We request you to not make any edits to the code itself.
+
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/0shaurya/mathular/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/0shaurya/mathular/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
+[product-screenshot]: images/screenshot.png
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[Vue-url]: https://vuejs.org/
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io/
+[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[Svelte-url]: https://svelte.dev/
+[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Laravel-url]: https://laravel.com
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery-url]: https://jquery.com 
