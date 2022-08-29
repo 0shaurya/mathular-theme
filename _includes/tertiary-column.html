@@ -1,0 +1,41 @@
+
+<!-- include tertiary-column.html -->
+
+<style type="text/css">
+	.tertiary-column-content {
+		position: sticky;
+		top: 30px;
+	}
+</style>
+
+{%- comment -%}<!-- This widget separator will only show up when the tertiary column content is merged into the secondary column-->{%- endcomment %}
+<div class="tertiary-widget-separator"></div>
+<div class="widget">
+</div>
+
+<div class="terms-container">
+	{% for term in page.terms%}
+		<div class="term">
+		<b>{{ term[0] }}</b> <br><br>
+		{{ term[1] }}
+		</div><br>
+	{% endfor %}
+</div>
+
+<style type="text/css">
+	.terms-container {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.term {
+		top: 10rem;
+		background-color: lightblue;
+		border-radius: 5px;
+		text-align: center;
+		padding: 10px;
+		margin-bottom: 20px;
+	}
+</style>
+<!-- end of include tertiary-column.html -->
