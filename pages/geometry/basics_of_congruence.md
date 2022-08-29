@@ -8,7 +8,8 @@ menuSubs:
   index: 2
 excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
 terms:
-  - ['term', 'def']
+  - ['Congruent Shapes', 'Shapes that are the same size and the same shape are congruent.']
+  - ['Congruent Angles', 'Angles that are equal in the measure.']
 ---
 
 <h1>Geometry</h1>
