@@ -1,47 +1,176 @@
 ---
 layout: page
 menuInclude: yes
-menuLink: yes
-menuTopTitle: Menus
+menuTopTitle: Geometry
 menuSubs:
-- title: Centralized
+- title: Circles, Volume, and Surface Area
   index: 3
-  sub:
-  - title: Centralized - Subsub item 1
-    index: 1
-    url: /pages/menus/subsubmenu3-1.html
-  - title: Centralized - Subsub item 2
-    index: 2
-    url: /pages/menus/subsubmenu3-2.html
 excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
 ---
-### Centralized
 
-One way to create a subsub-menu structure is 'all in one place'. This file specifies the menu for all items below the section `Centralized`
+<h1>Geometry</h1>
 
-#### Advantage
+<h2>Circles, Volume, and Surface Area</h2><br>
 
-The subsub items of this sub-item do not need a menuSubs entry in their YAML frontmatter.
+<p>
 
-#### Disadvantage
+We've covered the fundamentals of Congruency, Proofs, and Geometry. Finally, we'll move on to the more complicated topics of Circles, Volume, and Surface Area.
 
-The URL of the target must be specified
+</p>
 
-### YAML
+<p>
 
-The relevant YAML frontmatter for this page is:
+<h3><u>Circles</u></h3> <br>
 
-    ---
-    layout: page
-    menuInclude: yes
-    menuTopTitle: Menus
-    menuSubs:
-    - title: Centralized
-      index: 3
-      sub:
-      - title: Centralized - item 1
-        url: /pages/menus/subsubmenu3-1.html
-      - title: Centralized - item 2
-        url: /pages/menus/subsubmenu3-2.html
-    ---
+<li>
 
+<b>Arc of a Circle:</b> It is basically any portion of the circumference of a circle. The circumference is the perimeter of a circle. Hence, the circumference is a full arc of the circle.
+  
+</li>
+
+<li>
+
+  <b>Finding the Length of an Arc:</b>
+
+<ul><u>Arc Length:</u> The length of an arc is the distance between the start and end points of the arc. <br></ul>
+
+<ul><u>Formula for the arc length</u>  = $(2πr)$ $(θ/360)$, where $r$ is the radius of the circle.</ul>
+
+<center><img src="https://www.storyofmathematics.com/wp-content/uploads/2020/07/Arc-of-a-Circle.jpg" alt="Coordinate Plane" style="width:45%;">
+
+</center>
+
+<center>The length of the arc (drawn in red) is the distance from point A to point B.</center><br>
+
+<br>
+
+<center><b>Example:</b> Arc $AB$ has an angle of $40°$ and the circle has a radius of $7cm$. Calculate the length of arc $AB$.
+
+<img src="https://www.storyofmathematics.com/wp-content/uploads/2020/07/Arc-of-a-Circle-Example.jpg" alt="Example Question" style="width:45%;">
+
+<br>
+
+<b>Answer:</b> $(2π7)$ $(40/360)$ = $4.884$ cm.
+  
+  <br>
+
+</center>
+
+
+<p>
+  
+  <br>
+
+<li><b>Area of Sector of a Circle:</b> Space enclosed by the sector of a circle.
+
+<b>Formula = </b> Area of sector of circle = $(πr^2)$ $(θ/360)$, where $θ$ is the sector angle subtended by the arc at the center, <b>in degrees</b>. And, $r$ is the radius of the circle.
+
+Area of sector of circle = $(\frac {1}{2})$ $(r^2 θ)$, where $θ$ is the sector angle subtended by the arc at the center, <b>in radians</b>. And, $r$ is the radius of the circle.
+
+<center><img src="https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/area-of-sector-of-a-circle-1637917885.png" alt="Coordinate Plane" style="width:50%;">
+
+<center>&copy; 2022 Cue Learn Pvt. Ltd.</center>
+
+</center>
+
+</li></p>
+
+<p>
+
+<h3><u>Volume Formulas:</u></h3>
+
+<p><li>
+
+<b>Volume of a Cube:</b>
+
+Formula = $V = a^3$, where $a$ is the edge of the cube.
+
+</li>
+
+<li>
+
+<b>Volume of a Rectangular Prism:</b>
+
+Formula = $V = w*h*l$, where $w$ is the width of the prism, $h$ is the height of the prism, and $l$ is the length of the prism.
+
+</li>
+
+<li>
+
+<b>Volume of a Cylinder:</b>
+
+Formula = $V = πr^2h$, where $r$ is the radius of the cylinder, and $h$ is the height of the cylinder.
+
+</li>
+
+<li>
+
+<b>Volume of a Sphere:</b>
+
+Formula = $V = \frac {4}{3}$ $πr^3$, where $r$ is the radius of the sphere.
+
+</li>
+
+<li>
+
+<b>Volume of a Cone:</b>
+
+Formula = $V = πr^2h/3$, where $r$ is the radius of the cone, and $h$ is the height of the cone.
+
+</li>
+
+<li>
+
+<b>Volume of a Pyramid:</b>
+
+Formula = $V = l * w * (\frac{h}{3})$, where $w$ is the width of the pyramid, $h$ is the height of the pyramid, and $l$ is the base length of the pyramid.
+
+</li></p>
+
+</p>
+
+<p>
+
+<h3><u>Surface Area Formulas:</u></h3>
+
+<p><li>
+
+<b>Surface Area of a Cube:</b>
+
+Formula = $SA = 6a^2$, where $a$ is the edge of the cube.
+
+</li>
+
+<li>
+
+<b>Surface Area of a Rectangular Prism:</b>
+
+Formula = $SA = 2wh + 2wl + 2hl$, where $w$ is the width of the prism, $h$ is the height of the prism, and $l$is the length of the prism.
+
+</li>
+
+<li>
+
+<b>Surface Area of a Cylinder:</b>
+
+Formula = $SA = 2πr^2 + 2πrh$, where $r$ is the radius of the cylinder, and $h$ is the height of the cylinder.
+
+</li>
+
+<li>
+
+<b>Surface Area of a Sphere:</b>
+
+Formula = $SA = 4πr^2$, where $r$ is the radius of the sphere.
+
+</li>
+
+<li>
+
+<b>Surface Area of a Cone:</b>
+
+Formula = $SA = πr^2 + πrl$, where $r$ is the radius of the cone, $h$ is the height of the cone, and $l$ is the slant height of the cone.
+
+</li></p>
+
+</p>
