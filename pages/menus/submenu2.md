@@ -1,11 +1,14 @@
 ---
 layout: page
 menuInclude: yes
+menuLink: yes
 menuTopTitle: Geometry
 menuSubs:
 - title: Basics of Congruence
   index: 2
 excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+terms:
+  - ['term', 'def']
 ---
 
 <h1>Geometry</h1>
