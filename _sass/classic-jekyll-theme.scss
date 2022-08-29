@@ -223,7 +223,7 @@ $banner-title-enabled-widest:					true;
 //
 $banner-subtitle-enabled-narrow:				false;
 $banner-subtitle-enabled-medium:				false;
-$banner-subtitle-enabled-widest:				true;
+$banner-subtitle-enabled-widest:				false;
 
 // The z-order of the title-area. Use this to position the title-area relative to the icon and the menu-symbol.
 // CSS property: z-index
@@ -828,8 +828,8 @@ $column-panel-background-widest:		none;
 // Used in the mixin definitions.
 //
 $primary-column-min-width:				480px;
-$secondary-column-width: 				240px;
-$tertiary-column-width:					360px;
+$secondary-column-width: 				300px;
+$tertiary-column-width:					300px;
 
 // For the primary column.
 // CSS property: background
