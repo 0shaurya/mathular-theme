@@ -28,6 +28,6 @@ remote-theme: Balancingrock/classic-jekyll-theme@2.5.0
 markdown: kramdown
 keep_files: [assets, icons]
 exclude: [README.md]
-theme: classic-jekyll-theme
+# theme: classic-jekyll-theme
 plugins:
   - jekyll-feed
