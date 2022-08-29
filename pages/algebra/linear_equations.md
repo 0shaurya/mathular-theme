@@ -5,7 +5,7 @@ menuLink: yes
 menuTopTitle: Algebra
 menuSubs:
 - title: Linear Equations
-  index: 1
+  index: 2
 excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
 terms:
   - ['Coefficient', 'The number next to a variable. The variable is multiplied by the coefficient.']
