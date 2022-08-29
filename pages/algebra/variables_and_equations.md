@@ -4,7 +4,7 @@ menuInclude: yes
 menuLink: yes
 menuTopTitle: Algebra
 menuSubs:
-- title: Variables and Equations Geometry
+- title: Variables and Equations
   index: 1
 excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
 terms:
