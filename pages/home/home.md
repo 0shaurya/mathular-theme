@@ -1,4 +1,8 @@
 ---
+permalink: /
+redirect_from:
+  - /home
+
 layout: page
 title: Home
 menuInclude: yes
