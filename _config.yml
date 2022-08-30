@@ -31,3 +31,4 @@ exclude: [README.md]
 # theme: classic-jekyll-theme
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
