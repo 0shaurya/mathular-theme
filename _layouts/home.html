@@ -12,7 +12,7 @@ layout: default
 
 {%- for post in site.posts limit: site.data.setup.number-of-posts-on-home-page -%}
 
-    <h2><a href="https://www.mathular.com/pages/home/home.html">{{ post.title | escape }}</a></h2>
+    <h2><a href="{{ home.url | relative_url }}">{{ post.title | escape }}</a></h2>
     <span class="post-meta">{{ post.date | date: "%F" }}</span>
     
     <div>{{ post.content }}</div>
