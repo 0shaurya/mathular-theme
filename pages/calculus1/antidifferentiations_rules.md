@@ -99,7 +99,7 @@ $$\frac{1}{2} \int \cos(u)du$$
 
 Because we know that the antiderivative \\(\cos(u)\\) is \\(\sin(u)\\) (because the derivative of \\(\sin(u)\\) is \\(\cos(u)\\), we can write:
 
-$$\int x\cos(x^2)\,dx = \frac{1}{2} sin(u)$$
+$$\int x\cos(x^2)\,dx = \frac{1}{2} \sin(u)$$
 
 We aren't quite done yet. Because our question was given to us in terms of \\(x\\), we have to leave the answer in terms of \\(x\\). Recall that we set \\(u = x^2\\). Let's substitute that in and add the constant of integration to find our final answer:
 
