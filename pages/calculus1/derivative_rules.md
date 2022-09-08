@@ -24,7 +24,7 @@ The first rule we will learn is the <b>constant term rule</b>. This says that th
 
   
 
-$$\frac{d}{dx} [c] = 0 \text{where } c \text{ is a constant}$$
+$$\frac{d}{dx} [c] = 0 \text{ where } c \text{ is a constant}$$
 
   
 
