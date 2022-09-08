@@ -25,7 +25,7 @@ A <b>limit</b> is a fairly simple concept, but is the basis of all of calculus. 
 
 For example, take the following graph of \\(x^2\\):
 
-<video width="320" height="240" autoplay loop muted>
+<video width="400" height="320" autoplay loop muted>
   <source src="/videos/graph_x2.mp4" type="video/mp4" />
 </video>
 
