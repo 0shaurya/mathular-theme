@@ -1,4 +1,5 @@
 ---
+title: The Limit Definition of an Integral
 layout: page
 menuInclude: yes
 menuLink: yes
@@ -103,5 +104,11 @@ A = \lim_{n \to \infty} \sum_{i=1}^{n} \left[\left(1+i\left(\frac{3}{n}\right)\r
 Here is a visual of the above integral:
 
 (image), gif
+
+One important thing to note is that when we say "the area under a curve", we subtract any area that is below the x-axis. This is best shown visually:
+
+(image)
+
+Here, the total area between the x-axis and the curve between \\(x=?????\\) and \\(x=?????\\) is \\(??????\\) but the <b>signed area</b> is only \\(????\\). This is because we add the area above the x-axis, and then subtract the area beneath the x-axis. The signed area is the more important one - it's the value that the above formula returns, and it's the one that mathematicians use more often.
 
 Actually solving the integral to find the area is very difficult using limits and sums, but in the next chapter, we'll go over a <i>much</i> easier way.

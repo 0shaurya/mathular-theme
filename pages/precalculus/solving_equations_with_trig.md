@@ -1,4 +1,5 @@
 ---
+title: Solving Equations with Trigonometry
 layout: page
 menuInclude: yes
 menuLink: yes
@@ -6,7 +7,7 @@ menuTopTitle: Precalculus
 menuSubs:
 - title: Solving Equations with Trigonometry
   index: 3
-excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+excerpt: "Discussing solving eq with trig"
 ---
 
 
@@ -104,4 +105,4 @@ $$\tan(x)=-\frac{1}{\sqrt3} \\
 x = \frac{5 \pi}{6} + \pi k
 $$
 
-Now we have learned how to solve equations involving trigonometric functions using certain values of \\(\theta\\) in the unit circle.
+We have learned how to solve equations involving trigonometric functions using certain values of \\(\theta\\) in the unit circle.

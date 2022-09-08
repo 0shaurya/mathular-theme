@@ -1,4 +1,5 @@
 ---
+title: Basics of Congruence
 layout: page
 menuInclude: yes
 menuLink: yes

@@ -1,4 +1,5 @@
 ---
+title: L'Hôpital's Rule
 layout: page
 menuInclude: yes
 menuLink: yes

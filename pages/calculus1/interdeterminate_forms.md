@@ -1,4 +1,5 @@
 ---
+title: Indeterminate Forms
 layout: page
 menuInclude: yes
 menuLink: yes
@@ -7,6 +8,8 @@ menuSubs:
 - title: Indeterminate Forms
   index: 3
 excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+terms:
+  - ['Indeterminate Form', 'If a limit is equal to one of the 7 indeterminate forms, then more work is required to solve the limit. The 7 indeterminate forms are: \(~ \frac {0}{0},~ {\frac {\infty }{\infty }},~0\cdot\infty ,~\infty -\infty ,~0^{0},~1^{\infty },~ \infty ^{0}\)']
 ---
 
 
@@ -19,7 +22,7 @@ In the last section, we went over the basics of solving limits of continuous fun
 
 $$\frac {0}{0},~ {\frac {\infty }{\infty }},~0\cdot\infty ,~\infty -\infty ,~0^{0},~1^{\infty },{\text{ and }}\infty ^{0}$$
 
-These are known as the seven <b>indeterminate forms</b>. If a limit is equal to one of the above, then more work is required to find the answer. This does not mean that the limit is undefined - it simply means that no conclusion can be drawn. Thus, simply plugging in \\(a\\) for \\(x\\) is sometimes not enough to solve a limit.
+These are known as the seven <b>indeterminate forms</b>. If a limit is equal to one of the above, then more work is required to find the answer. This does not mean that the limit is undefined - it simply means that no conclusion can be drawn so far. Thus, simply plugging in \\(a\\) for \\(x\\) is sometimes not enough to solve a limit.
 
 Why are these forms indeterminate? For each of the indeterminate forms, It is possible to find a set of limits that simplify down to the form yet do not equal each other. For example, for the indeterminate form \\(0 \cdot \infty\\):
 

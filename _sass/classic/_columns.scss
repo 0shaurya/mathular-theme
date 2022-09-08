@@ -5,9 +5,9 @@
 
 .secondary-column {
 	
-	@include narrow-layout { margin-left: $secondary-column-margin-narrow; }
-	@include medium-layout { margin-left: $secondary-column-margin-medium; }
-	@include widest-layout { margin-left: $secondary-column-margin-widest; }
+	@include narrow-layout { margin-right: $secondary-column-margin-narrow; }
+	@include medium-layout { margin-right: $secondary-column-margin-medium; }
+	@include widest-layout { margin-right: $secondary-column-margin-widest; }
 
 	// Use the theme insets to keep the content of the column away from the edges.
 	@extend .theme-insets;	
@@ -19,6 +19,9 @@
 }
 
 main {
+	@include narrow-layout { margin-left: $secondary-column-margin-narrow; }
+	@include medium-layout { margin-left: $secondary-column-margin-medium; }
+	@include widest-layout { margin-left: $secondary-column-margin-widest; }
 
 	// Use the theme insets to keep the content of the column away from the edges.
 	@extend .theme-insets;
@@ -31,9 +34,9 @@ main {
 
 .tertiary-column {
 	
-	@include narrow-layout { margin-right: $tertiary-column-margin-narrow; }
-	@include medium-layout { margin-right: $tertiary-column-margin-medium; }
-	@include widest-layout { margin-right: $tertiary-column-margin-widest; }
+	@include narrow-layout { margin-left: $tertiary-column-margin-narrow; }
+	@include medium-layout { margin-left: $tertiary-column-margin-medium; }
+	@include widest-layout { margin-left: $tertiary-column-margin-widest; }
 	
 	// Use the theme insets to keep the content of the column away from the edges.
 	@extend .theme-insets;
@@ -60,10 +63,10 @@ main {
 		flex-direction: column;
 				
 		// The primary column must be displayed on top, use the 'order' property to enforce this.
-		.primary-column { order: 1; }
+		.primary-column { order: 2; }
 
 		// The secondary column is put below the primary the second place
-		.secondary-column { order: 2; }
+		.secondary-column { order: 1; }
 
 		// Unused		
 		.tertiary-column,

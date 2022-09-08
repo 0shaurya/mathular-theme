@@ -1,4 +1,5 @@
 ---
+title: Polynomials
 layout: page
 menuInclude: yes
 menuLink: yes

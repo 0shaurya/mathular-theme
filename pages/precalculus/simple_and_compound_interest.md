@@ -1,4 +1,5 @@
 ---
+title: Simple and Compound Interest
 layout: page
 menuInclude: yes
 menuLink: yes
@@ -6,7 +7,12 @@ menuTopTitle: Precalculus
 menuSubs:
 - title: Simple and Compound Interest
   index: 1
-excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+excerpt: "Discussing Interest"
+terms:
+  - ['Interest', 'Money put into bank account regularly at a specified percentage']
+  - ['Simple Interest', 'A type of interest where the same amount of money is paid regularly. That amount is determined by the initial value deposited into the bank account.']
+  - ['Principal', 'The initial amount of money deposited into a bank account']
+  - ['Compound Interest', 'A type of interest where the amount of interest paid is a percentage of the money in the bank account at the time of interest being paid']
 ---
 
 

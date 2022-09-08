@@ -10,6 +10,129 @@
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"
     integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
 	onload="renderMathInElement(document.body);"></script>
+
+	<style type="text/css">
+	/* Code by derekkedziora */
+
+	html, html[data-theme="light"] {
+		--link-color: rgb(0, 112, 201);
+		--main-background-color: hsl(0, 0%, 93%);
+		--main-text-color: hsl(0, 0%, 0%);
+		--accent-color: #f77570;
+		--term-bg-color: lightblue;
+		--scrollbar-color: black;
+		--menubar-hover-color: rgb(220, 220, 220);
+		--selected-menu-item-color: rgb(210, 210, 210);
+
+	}
+
+	html[data-theme="dark"] {
+		--link-color: rgb( 100, 210, 255);
+		--main-background-color: hsl(240, 6.3%, 12.5%);
+		--main-text-color: hsl(0, 0%, 90%);
+		--accent-color: #ffffff; 
+		--term-bg-color: #155468;
+		--scrollbar-color: white;
+		--menubar-hover-color: rgb(80, 80, 80);
+		--selected-menu-item-color: rgb(100, 100, 100);
+	}
+
+
+	@media (prefers-color-scheme: dark) {
+	    html, html[data-theme="dark"] {
+	    	--link-color: rgb( 100, 210, 255);
+	    	--main-background-color: hsl(240, 6.3%, 12.5%);
+	    	--main-text-color: hsl(0, 0%, 90%);
+	    	--accent-color: #ffffff;
+	    	--term-bg-color: #155468;
+	    	--scrollbar-color: white;
+	    	--menubar-hover-color: rgb(80, 80, 80);
+	    	--selected-menu-item-color: rgb(100, 100, 100);
+	    }
+
+	    html[data-theme="light"] {
+	    	--link-color: rgb(0, 112, 201);
+			--main-background-color: hsl(0, 0%, 93%);
+	    	--main-text-color: hsl(0, 0%, 0%);
+	  		--accent-color: #f77570;
+	  		--term-bg-color: lightblue;
+	  		--scrollbar-color: black;
+	  		--menubar-hover-color: rgb(220, 220, 220);
+	  		--selected-menu-item-color: rgb(210, 210, 210);
+	  } 
+	}
+	</style>
+
+	<script defer>
+	// Code by derekkedziora
+
+	let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
+	let theme = sessionStorage.getItem('theme');
+
+	if (systemInitiatedDark.matches) {
+		document.getElementById("theme-toggle").innerHTML = "Light Mode";
+		document.getElementsByClassName("dark-mode")[0].style.backgroundImage = "url({{ site.url }}/icons/light-mode.svg)";
+	} else {
+		document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+		document.getElementsByClassName("dark-mode")[0].style.backgroundImage = "url({{ site.url }}/icons/dark-mode.svg)";
+
+	}
+
+	function prefersColorTest(systemInitiatedDark) {
+	  if (systemInitiatedDark.matches) {
+	  	document.documentElement.setAttribute('data-theme', 'dark');		
+		document.getElementsByClassName("dark-mode")[0].style.backgroundImage = "url({{ site.url }}/icons/light-mode.svg)";
+	   	sessionStorage.setItem('theme', '');
+	  } else {
+	  	document.documentElement.setAttribute('data-theme', 'light');
+			document.getElementsByClassName("dark-mode")[0].style.backgroundImage = "url({{ site.url }}/icons/dark-mode.svg)";
+	    sessionStorage.setItem('theme', '');
+	  }
+	}
+	systemInitiatedDark.addListener(prefersColorTest);
+
+
+	function modeSwitcher() {
+		let theme = sessionStorage.getItem('theme');
+		if (theme === "dark") {
+			document.documentElement.setAttribute('data-theme', 'light');
+			document.getElementsByClassName("dark-mode")[0].style.backgroundImage = "url({{ site.url }}/icons/light-mode.svg)";
+			sessionStorage.setItem('theme', 'light');
+		}	else if (theme === "light") {
+			document.documentElement.setAttribute('data-theme', 'dark');
+			document.getElementsByClassName("dark-mode")[0].style.backgroundImage = "url({{ site.url }}/icons/light-mode.svg)";
+			sessionStorage.setItem('theme', 'dark');
+		} else if (systemInitiatedDark.matches) {	
+			document.documentElement.setAttribute('data-theme', 'light');
+			document.getElementsByClassName("dark-mode")[0].style.backgroundImage = "url({{ site.url }}/icons/light-mode.svg)";
+			sessionStorage.setItem('theme', 'light');
+		} else {
+			document.documentElement.setAttribute('data-theme', 'dark');
+			document.getElementsByClassName("dark-mode")[0].style.backgroundImage = "url({{ site.url }}/icons/light-mode.svg)";
+			sessionStorage.setItem('theme', 'dark');
+		}
+	}
+
+	if (theme === "dark") {
+		document.documentElement.setAttribute('data-theme', 'dark');
+		document.getElementsByClassName("dark-mode")[0].style.backgroundImage = "url({{ site.url }}/icons/light-mode.svg)";
+		sessionStorage.setItem('theme', 'dark');
+	} else if (theme === "light") {
+		document.documentElement.setAttribute('data-theme', 'light');
+		document.getElementsByClassName("dark-mode")[0].style.backgroundImage = "url({{ site.url }}/icons/dark-mode.svg)";
+		sessionStorage.setItem('theme', 'light');
+	}
+	</script>
+	<script>
+	function switchIcon() {
+		if (document.querySelector("html").getAttribute("data-theme") === "dark") {
+			document.getElementsByClassName("dark-mode")[0].style.backgroundImage = "url({{ site.url }}/icons/light-mode.svg)";
+		} else {
+			document.getElementsByClassName("dark-mode")[0].style.backgroundImage = "url({{ site.url }}/icons/dark-mode.svg)";
+		}
+	}
+	const switchIconInterval = setInterval(switchIcon, 10)
+	</script>
 </head>
 
 {%- comment -%}<!-- Determine placing of secondary column -->{%- endcomment -%}
@@ -74,6 +197,21 @@
 <html>
 	{% include head.html %}
 	
+	<div class="dark-mode" onclick="modeSwitcher()"></div>
+	<style type="text/css">
+		.dark-mode {
+			position: fixed;
+			width: 80px;
+			height: 80px;
+
+			z-index: 100000;
+		}
+
+		.dark-mode:hover {
+			cursor: pointer;
+		}
+	</style>
+
   	<body class="body-panel">
   	
 	{%- if banner-position == 'top' or banner-position == 'top-fixed' -%}
@@ -124,6 +262,64 @@
 
 <!-- Start of main content -->
 {{ content }}
+
+<style>
+
+	html {
+		scrollbar-color: var(--scrollbar-color) var(--main-background-color);
+	}
+
+	body, .footer-panel, html {
+		background-color: var(--main-background-color) !important;
+		color: var(--main-text-color) !important;
+	}
+
+	.menubar-top-separator, .menubar-bottom-separator {
+		background-color: var(--accent-color) !important;
+	}
+
+	.banner, .menubar {
+		background-color: var(--main-background-color) !important;
+	}
+
+	/*  */
+
+	.text {
+		background-color: var(--main-background-color) !important;
+	}
+	
+	.text:hover {
+		background-color: var(--menubar-hover-color) !important;
+	}
+
+	.isActiveSelection > .title > .text {
+		background-color: var(--selected-menu-item-color) !important;
+	}
+
+	.text a, .text p {
+		color: var(--accent-color) !important;
+	}
+
+	/*  */
+
+	.term, .question {
+		background-color: var(--term-bg-color) !important;
+	}
+
+	.question span {
+		color: var(--link-color);
+	}
+
+	.footer-separator {
+		border-bottom: 1px solid var(--accent-color);
+	}
+
+	/*  */
+
+	.dropdown, .drop-down-menu, .subitem {
+		transition: 5s ease-in-out !important;
+	}
+</style>
 
 <div class="questions-container">
 	{% for question in page.questions %}

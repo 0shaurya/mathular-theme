@@ -1,4 +1,5 @@
 ---
+title: Functions and Graphing
 layout: page
 menuInclude: yes
 menuLink: yes

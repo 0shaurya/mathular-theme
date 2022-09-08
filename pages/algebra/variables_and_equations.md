@@ -1,4 +1,5 @@
 ---
+title: Variables and Equations
 layout: page
 menuInclude: yes
 menuLink: yes

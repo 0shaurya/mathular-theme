@@ -23,6 +23,10 @@ Configuration:
 	
 -->{%- endcomment %}
 <head>
+	<script type="text/javascript">console.log("jekyll envrionment = {{ jekyll.environment }}")</script>
+
+	<link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,7 +43,7 @@ Configuration:
 	<meta name="theme-color" content="#ffffff">
 	{%- endif %}
 
-	<title>{%- if page.title -%}{{ page.title | escape }}{%- else -%}{{ site.title | escape }}{%- endif -%}</title>
+	<title>{%- if page.title -%}{{ page.title | append: " - Mathular" | escape }}{%- else -%}{{ site.title | escape }}{%- endif -%}</title>
 
 	{%- if page.excerpt -%}
 		{%- assign description = page.excerpt -%}
@@ -71,16 +75,6 @@ Configuration:
 			{%- include widgets/cookie-consent.html -%}
 		{%- endif -%}
 	{%- endif %}
-	
-	<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-        inlineMath: [['$','$']]
-      }
-    });
-  </script>
-  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
 	
 </head>
 <!-- end of include head.html -->

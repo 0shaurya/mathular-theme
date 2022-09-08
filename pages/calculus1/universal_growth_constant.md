@@ -1,18 +1,21 @@
 ---
+title: e, the Universal Growth Constant
 layout: page
 menuInclude: yes
 menuLink: yes
 menuTopTitle: Calculus I
 menuSubs:
-- title: \\(e\\), the universal growth constant
+- title: e, the Universal Growth Constant
   index: 4
 excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+terms:
+  - ['Natural log', 'The logarithm with base \(e\). Because it is so common in math, it has its own symbol, \(\ln\) (as opposed to the usual \(\log\)). \(~ \ln(x) = \log_{e}(x)\).']
 ---
 
 
 <h1>Calculus I</h1>
 
-<h2>\\(e\\), the universal growth constant</h2><br>
+<h2>\(e\), the Universal Growth Constant</h2><br>
 
 
 \\(e\\) is an irrational number equal to about \\(2.718\\). It is an integral part of calculus, although it appears in far more fields. \\(e\\) represents the concept of continuous growth, and we will see how \\(e\\) can be derived and why it is so important.

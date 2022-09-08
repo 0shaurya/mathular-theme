@@ -1,4 +1,5 @@
 ---
+title: Complex Numbers
 layout: page
 menuInclude: yes
 menuLink: yes
@@ -7,6 +8,8 @@ menuSubs:
 - title: Complex Numbers
   index: 6
 excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+terms:
+  - ['Imaginary Number', 'Any real number  multiplied by \(i\), the square root of \(-1\)']
 ---
 
 

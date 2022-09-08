@@ -1,4 +1,5 @@
 ---
+title: Derivative Rules
 layout: page
 menuInclude: yes
 menuLink: yes

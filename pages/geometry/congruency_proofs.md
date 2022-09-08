@@ -1,4 +1,5 @@
 ---
+title: Congruency Proofs
 layout: page
 menuInclude: yes
 menuTopTitle: Geometry

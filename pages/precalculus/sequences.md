@@ -1,4 +1,5 @@
 ---
+title: Sequences, Summations, and Series
 layout: page
 menuInclude: yes
 menuLink: yes
@@ -6,7 +7,18 @@ menuTopTitle: Precalculus
 menuSubs:
 - title: Sequences, Summations, and Series
   index: 6
-excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+excerpt: "Discussing Sequences"
+terms:
+  - ['Sequence', 'A set of numbers whose order is important']
+  - ['Arithmetic Sequence', 'A sequence where a number is determined by adding some value to the previous number in the sequence']
+  - ['Geometric Sequence', 'A sequence where a number is determined by multiplying some value to the previous number in the sequence']
+  - ['Common ratio', 'The value multiplied onto the previous number in a geometric sequence']
+  - ['Summations', 'An expression where numbers are being added together']
+  - ['Index Variable', 'Part of summation notation. The index variable starts at some value, gets substituted into an expression, increases by 1, and repeats until it hits a certain value.']
+  - ['Series', 'A summation that has an infinite number of terms being added']
+  - ['Geometric Series', 'A series whose terms are found by multiplying the previous term in the series by some common ratio']
+  - ['Diverging Series', 'A series that is equal to \(\infty\) or \(-\infty\)']
+  - ['Converging Series', 'A series that is equal to some specific value that isn''t \(\infty\) or \(-\infty\)']
 ---
 
 

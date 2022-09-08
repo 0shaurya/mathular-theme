@@ -1,4 +1,5 @@
 ---
+title: Linear Equations
 layout: page
 menuInclude: yes
 menuLink: yes

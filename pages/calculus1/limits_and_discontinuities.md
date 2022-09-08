@@ -1,4 +1,5 @@
 ---
+title: Limits and Discontinuities
 layout: page
 menuInclude: yes
 menuLink: yes
@@ -7,6 +8,11 @@ menuSubs:
 - title: Limits and Discontinuities
   index: 1
 excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+terms:
+  - ['Limit', 'The basis of calculus and an operation on a function that measures the value of the function as the inputs approaches some value']
+  - ['Removable Discontinuity', 'A type of discontinuity where the limit of a function at a value \(a\) exists, but the function at that value does not']
+  - ['Manipulate', 'The process of rearranging parts of an expression to get it to something else that is equal, but easier to work with. It is an important and frequently used problem-solving method in calculus.']
+  - ['Jump Discontinuity', 'A type of discontinuity where the function suddenly and sharply changes from one x-value to a neighboring x-value. On a graph, this looks like the function is jumping.']
 ---
 
 
@@ -27,7 +33,7 @@ $$\lim_{x\to 2} x^2 = 4$$
 
 Here, the notation is saying that in the function \\(x^2\\), as x approaches 2, the function's value will approach 4. This is an obvious result, because \\(2^2 = 4\\). However, this is not so obvious for other functions. Take the function \\(f(x) = \frac{1}{x^2}\\). What is the limit of this function as \\(x\\) approaches 0?
 
-$$\lim_{x \to 0} \frac{1}{x^2} = ?$$
+$$\lim_{x \to 0} \frac{1}{x^2} = \,?$$
 
 In the earlier problem, we could just plug in 2 to the limit to get our answer. Now, if we plug in 0 this doesn't work, because \\(\frac{1}{0^2}\\) is undefined. So, what's the answer? Well, let's look at the graph of \\(f(x) = \frac{1}{x^2}\\).
 
@@ -110,13 +116,7 @@ The graph of \\(i(x)\\) is
 
 What's the limit as x approaches 3? Despite \\(i(3)\\) equalling 4, the correct answer is \\(2\\). This is because we aren't looking for \\(i(3)\\), we are looking for the value of \\(i(x)\\) as \\(x\\) gets closer and closer to \\(3\\). And as \\(x\\) gets closer to \\(3\\), \\(i(x)\\) gets closer and closer to \\(2\\).
 
-The third type of discontinuity is an <b>essential discontinuity</b>. This is when one or both sides of a function at a point either goes to either positive or negative \\(\infty\\). Take the function \\(j(x) = \frac{1}{x+1}\\):
-
-(graph) 1 over x+1
-
-\\(j(x)\\) is discontinuous at \\(x=-1\\). What is \\(\lim_{x \to -1} j(x)\\)? We can see that \\(\lim_{x \to -1^-} j(x) = -\infty\\) and \\(\lim_{x \to -1^+} j(x) = \infty\\). Because those two values are not equal, \\(\lim_{x \to -1} j(x) = \text{DNE}\\).
-
-Here's another example of an essential discontinuity:
+Here's another example of a discontinuity:
 
 $$
 k(x) =

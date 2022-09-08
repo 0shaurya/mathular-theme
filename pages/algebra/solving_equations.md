@@ -1,4 +1,5 @@
 ---
+title: Solving Equations
 layout: page
 menuInclude: yes
 menuLink: yes

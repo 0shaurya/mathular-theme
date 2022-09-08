@@ -1,4 +1,5 @@
 ---
+title: Derivatives of Certain Functions
 layout: page
 menuInclude: yes
 menuLink: yes

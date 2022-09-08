@@ -1,4 +1,5 @@
 ---
+title: Implicit Differentiation
 layout: page
 menuInclude: yes
 menuLink: yes

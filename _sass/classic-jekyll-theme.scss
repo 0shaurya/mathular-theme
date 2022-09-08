@@ -49,14 +49,14 @@ $grey-color-dark:				darken($grey-color, 25%);
 
 // Since Liquid is not available, it is necessary to redefine the baseurl from the _config.yml file here
 //
-$baseurl:						"/mathular-theme"; // eg: "/classic" a leading '/' is important.
+$baseurl:						""; // eg: "/classic" a leading '/' is important.
 
 // *********************************************************************************************************************
 // General color and background settings
 // ---------------------------------------------------------------------------------------------------------------------
 // The theme-color is the default for some of the other elements that can be colored in this theme.
 //
-$theme-color:							green;
+$theme-color:							#f77570;
 
 // Background color, picture or pattern.
 //
@@ -114,7 +114,7 @@ $banner-enabled-widest:					true;
 //
 $banner-height-narrow:					48px;
 $banner-height-medium:					68px;
-$banner-height-widest:					135px;
+$banner-height-widest:					100px;
 
 // The background of the banner. (Not the banner-area!)
 // CSS property: Background.
@@ -189,9 +189,9 @@ $banner-icon-padding-widest:			0px;
 // Example: $banner-icon-url-...: url("#{$baseurl}/assets/img/wide-icon.png");
 // Set to 'none' if there is no banner icon.
 //
-$banner-icon-url-narrow:				url("#{$baseurl}/assets/img/60by43.png");
-$banner-icon-url-medium:				url("#{$baseurl}/assets/img/120by68.png");
-$banner-icon-url-widest:				url("#{$baseurl}/assets/img/240by135.png");
+$banner-icon-url-narrow:				none;
+$banner-icon-url-medium:				none;
+$banner-icon-url-widest:				none;
 
 // The background for the icon div.
 // CSS property: background
@@ -242,9 +242,9 @@ $banner-title-area-width-widest:				auto;
 // Size the title area vertically
 // CSS property: height
 //
-$banner-title-area-height-narrow:				auto;
-$banner-title-area-height-medium:				auto;
-$banner-title-area-height-widest:				auto;
+$banner-title-area-height-narrow:				100px;
+$banner-title-area-height-medium:				100px;
+$banner-title-area-height-widest:				100px;
 
 // Background of the title area
 // CSS property: background
@@ -807,9 +807,9 @@ $menubar-icon-padding-widest:			0px;
 // ---------------------------------------------------------------------------------------------------------------------
 // Secondary column margin
 //
-$secondary-column-margin-narrow:		0%;
-$secondary-column-margin-medium:		5%;
-$secondary-column-margin-widest:		10%;
+$secondary-column-margin-narrow:		0vw;
+$secondary-column-margin-medium:		5vw;
+$secondary-column-margin-widest:		10vw;
 
 // Tertiary column margin
 //
@@ -828,7 +828,7 @@ $column-panel-background-widest:		none;
 // Used in the mixin definitions.
 //
 $primary-column-min-width:				600px;
-$secondary-column-width: 				240px;
+$secondary-column-width: 				400px;
 $tertiary-column-width:					240px;
 
 // For the primary column.
@@ -862,7 +862,7 @@ $column-separator-color-widest:			lighten($grey-color, 30%);
 //
 // Values: true | false
 //
-$column-separator-display:				true;
+$column-separator-display:				false;
 
 // Set the space between the top of the separator and the menubar-bottom-separator.
 // The background for the separator is the background of the column panel.

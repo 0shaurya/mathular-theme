@@ -1,4 +1,5 @@
 ---
+title: Quadratic Equations
 layout: page
 menuInclude: yes
 menuLink: yes

@@ -2246,4 +2246,6 @@ Actually solving the integral to find the area is very difficult using limits an
 
 ## Integration
 
-Now that we have an understanding of both antiderivatives and integrals, we can explore the connection between them. By the end of this chapter, we'll see see how the area under a curve can simply
+Now that we have an understanding of both antiderivatives and integrals, we can explore the connection between them. By the end of this chapter, we'll see see how the area under a curve can be found by simply taking an antiderivative.
+
+To start, let's first discuss 

@@ -1,4 +1,5 @@
 ---
+title: Circles, Volume, and Surface Area
 layout: page
 menuInclude: yes
 menuTopTitle: Geometry
@@ -11,6 +12,8 @@ terms:
   - ['Area of Sector of a Circle', 'Space enclosed by the sector of a circle.']
   - ['Volume', 'Space occupied within the boundaries of an object in 3-D space.']
   - ['Surface Area', 'Amount of space covering the outside of a 3-D shape.']
+questions:
+  - ['question', 'answer']
 ---
 
 <h1>Geometry</h1>

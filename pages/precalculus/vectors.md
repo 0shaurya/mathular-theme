@@ -1,4 +1,5 @@
 ---
+title: Vectors
 layout: page
 menuInclude: yes
 menuLink: yes
@@ -6,7 +7,12 @@ menuTopTitle: Precalculus
 menuSubs:
 - title: Vectors
   index: 5
-excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+excerpt: "Discussing vectors"
+terms:
+  - ['Vector', 'A geometric object that contains a magnitude and a direction. It is usually drawn as an arrow.']
+  - ['Magnitude', 'The length of a vector (represented by the length of an arrow)']
+  - ['Direction', 'The direction (represented by the direction of the arrow)']
+  - ['Scalar', 'A regular number. Unlike a vector, which contains two quantities (magnitude and direction), a scalar only contains one, which is a number.']
 ---
 
 

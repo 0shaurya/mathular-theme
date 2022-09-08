@@ -19,9 +19,12 @@ Example: <div class='myclass display-block-narrow'><p>Hello</p></div>
 Will display the text "Hello" only when the narrow layout is in use.
 
 -->{%- endcomment %}
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+</style>
 <div class="title-area">
 	<div class="title">
-		<p>{{ site.title }}</p>
+		<p style="font-family: 'Abril Fatface', cursive; font-size: 72px">{{ site.title }}</p>
 	</div>
 	<div class="subtitle">
 		<p>{{ site.data.setup.subtitle }}</p>

@@ -2,21 +2,18 @@
 layout: default
 ---
 
-<div>
+<h1 style="text-align: center;">------------------------</h1>
 
-{%- assign posts-text = 'Posts' -%}
-{%- if site.data.text-for.tPosts -%}{%- assign posts-text = site.data.text-for.tPosts -%}{%- endif -%}
-	<h1>{{ posts-text }}</h1>
-	
-<!--	{{ content }} -->
+<style>
+	html {
+		overflow-x: hidden;
+	}
 
-{%- for post in site.posts limit: site.data.setup.number-of-posts-on-home-page -%}
-
-    <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
-    <span class="post-meta">{{ post.date | date: "%F" }}</span>
-    
-    <div>{{ post.content }}</div>
-
-{%- endfor -%}
-
-</div>
+	main {
+		width: 100vw;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+</style>

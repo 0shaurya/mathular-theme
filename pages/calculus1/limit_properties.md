@@ -1,4 +1,5 @@
 ---
+title: Limit Properties
 layout: page
 menuInclude: yes
 menuLink: yes
@@ -7,6 +8,8 @@ menuSubs:
 - title: Limit Properties
   index: 2
 excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+terms:
+  - ['Direct Substitution', 'A method for solving limits that involves plugging in the limiting value for the variable and solving. This method always works, except in certain specific scenarios.']
 ---
 
 

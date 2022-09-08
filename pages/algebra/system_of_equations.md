@@ -1,10 +1,11 @@
 ---
+title: Systems of Equations
 layout: page
 menuInclude: yes
 menuLink: yes
 menuTopTitle: Algebra
 menuSubs:
-- title: System of Equations
+- title: Systems of Equations
   index: 8
 excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
 terms:
@@ -18,7 +19,7 @@ terms:
 
 <h1>Algebra</h1>
 
-<h2>System of Equations</h2><br>
+<h2>Systems of Equations</h2><br>
 
 A <b>system of equations</b> is a group of multiple equations with multiple variables. Usually, it is mostly impossible to solve for an equation if you are only given one equation - however, with multiple equations, we can solve for multiple variables.
 

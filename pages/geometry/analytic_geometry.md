@@ -1,4 +1,5 @@
 ---
+title: Analytic Geometry
 layout: page
 menuInclude: yes
 menuLink: yes
@@ -6,7 +7,7 @@ menuTopTitle: Geometry
 menuSubs:
 - title: Analytic Geometry
   index: 1
-excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+excerpt: "Analytic geometry excerpt"
 terms:
   - ['Coordinate Plane', 'Two-dimensional plane formed by the intersection of the \(y-axis\) and the \(x-axis\)']
 ---

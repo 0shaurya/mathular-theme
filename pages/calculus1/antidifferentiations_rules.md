@@ -1,4 +1,5 @@
 ---
+title: Antidifferentiation Rules and Methods
 layout: page
 menuInclude: yes
 menuLink: yes
