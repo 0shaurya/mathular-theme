@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js" integrity="sha384-X/XCfMm41VSsqRNQgDerQczD69XqmjOOOwYQvr/uuC+j4OPoNhVgjdGFwhvN02Ja" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"
+    integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
+	onload="renderMathInElement(document.body);"></script>
+
+	<style type="text/css">
+	/* Code by derekkedziora */
+
+	html, html[data-theme="light"] {
+		--link-color: rgb(0, 112, 201);
+		--main-background-color: hsl(0, 0%, 93%);
+		--main-text-color: hsl(0, 0%, 0%);
+		--accent-color: #f77570;
+		--term-bg-color: lightblue;
+		--scrollbar-color: black;
+		--menubar-hover-color: rgb(220, 220, 220);
+		--selected-menu-item-color: rgb(210, 210, 210);
+
+	}
+
+	html[data-theme="dark"] {
+		--link-color: rgb( 100, 210, 255);
+		--main-background-color: hsl(240, 6.3%, 12.5%);
+		--main-text-color: hsl(0, 0%, 90%);
+		--accent-color: #ffffff; 
+		--term-bg-color: #155468;
+		--scrollbar-color: white;
+		--menubar-hover-color: rgb(80, 80, 80);
+		--selected-menu-item-color: rgb(100, 100, 100);
+	}
+
+
+	@media (prefers-color-scheme: dark) {
+	    html, html[data-theme="dark"] {
+	    	--link-color: rgb( 100, 210, 255);
+	    	--main-background-color: hsl(240, 6.3%, 12.5%);
+	    	--main-text-color: hsl(0, 0%, 90%);
+	    	--accent-color: #ffffff;
+	    	--term-bg-color: #155468;
+	    	--scrollbar-color: white;
+	    	--menubar-hover-color: rgb(80, 80, 80);
+	    	--selected-menu-item-color: rgb(100, 100, 100);
+	    }
+
+	    html[data-theme="light"] {
+	    	--link-color: rgb(0, 112, 201);
+			--main-background-color: hsl(0, 0%, 93%);
+	    	--main-text-color: hsl(0, 0%, 0%);
+	  		--accent-color: #f77570;
+	  		--term-bg-color: lightblue;
+	  		--scrollbar-color: black;
+	  		--menubar-hover-color: rgb(220, 220, 220);
+	  		--selected-menu-item-color: rgb(210, 210, 210);
+	  } 
+	}
+	</style>
+
+	<script defer>
+	// Code by derekkedziora
+
+	let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
+	let theme = sessionStorage.getItem('theme');
+
+	if (systemInitiatedDark.matches) {
+		document.getElementById("theme-toggle").innerHTML = "Light Mode";
+		document.getElementsByClassName("dark-mode")[0].style.backgroundImage = "url(http://localhost:4000/icons/light-mode.svg)";
+	} else {
+		document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+		document.getElementsByClassName("dark-mode")[0].style.backgroundImage = "url(http://localhost:4000/icons/dark-mode.svg)";
+
+	}
+
+	function prefersColorTest(systemInitiatedDark) {
+	  if (systemInitiatedDark.matches) {
+	  	document.documentElement.setAttribute('data-theme', 'dark');		
+		document.getElementsByClassName("dark-mode")[0].style.backgroundImage = "url(http://localhost:4000/icons/light-mode.svg)";
+	   	sessionStorage.setItem('theme', '');
+	  } else {
+	  	document.documentElement.setAttribute('data-theme', 'light');
+			document.getElementsByClassName("dark-mode")[0].style.backgroundImage = "url(http://localhost:4000/icons/dark-mode.svg)";
+	    sessionStorage.setItem('theme', '');
+	  }
+	}
+	systemInitiatedDark.addListener(prefersColorTest);
+
+
+	function modeSwitcher() {
+		let theme = sessionStorage.getItem('theme');
+		if (theme === "dark") {
+			document.documentElement.setAttribute('data-theme', 'light');
+			document.getElementsByClassName("dark-mode")[0].style.backgroundImage = "url(http://localhost:4000/icons/light-mode.svg)";
+			sessionStorage.setItem('theme', 'light');
+		}	else if (theme === "light") {
+			document.documentElement.setAttribute('data-theme', 'dark');
+			document.getElementsByClassName("dark-mode")[0].style.backgroundImage = "url(http://localhost:4000/icons/light-mode.svg)";
+			sessionStorage.setItem('theme', 'dark');
+		} else if (systemInitiatedDark.matches) {	
+			document.documentElement.setAttribute('data-theme', 'light');
+			document.getElementsByClassName("dark-mode")[0].style.backgroundImage = "url(http://localhost:4000/icons/light-mode.svg)";
+			sessionStorage.setItem('theme', 'light');
+		} else {
+			document.documentElement.setAttribute('data-theme', 'dark');
+			document.getElementsByClassName("dark-mode")[0].style.backgroundImage = "url(http://localhost:4000/icons/light-mode.svg)";
+			sessionStorage.setItem('theme', 'dark');
+		}
+	}
+
+	if (theme === "dark") {
+		document.documentElement.setAttribute('data-theme', 'dark');
+		document.getElementsByClassName("dark-mode")[0].style.backgroundImage = "url(http://localhost:4000/icons/light-mode.svg)";
+		sessionStorage.setItem('theme', 'dark');
+	} else if (theme === "light") {
+		document.documentElement.setAttribute('data-theme', 'light');
+		document.getElementsByClassName("dark-mode")[0].style.backgroundImage = "url(http://localhost:4000/icons/dark-mode.svg)";
+		sessionStorage.setItem('theme', 'light');
+	}
+	</script>
+	<script>
+	function switchIcon() {
+		if (document.querySelector("html").getAttribute("data-theme") === "dark") {
+			document.getElementsByClassName("dark-mode")[0].style.backgroundImage = "url(http://localhost:4000/icons/light-mode.svg)";
+		} else {
+			document.getElementsByClassName("dark-mode")[0].style.backgroundImage = "url(http://localhost:4000/icons/dark-mode.svg)";
+		}
+	}
+	const switchIconInterval = setInterval(switchIcon, 10)
+	</script>
+</head>
+<html>
+	
+<!-- include head.html -->
+<head>
+	<script type="text/javascript">console.log("jekyll envrionment = development")</script>
+
+	<link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>The Limit Definition of an Integral - Mathular</title>
+
+	<meta name="description" content="An excerpt is used as the page description and can be up to 160 characters long...">
+
+	<link rel="stylesheet" href="/assets/main.css">
+	<link rel="canonical" href="http://localhost:4000/pages/calculus1/limit_def_of_an_integral.html">
+	<link rel="alternate" type="application/rss+xml" title="Mathular" href="/feed.xml">
+	
+</head>
+<!-- end of include head.html -->
+
+	
+	<div class="dark-mode" onclick="modeSwitcher()"></div>
+	<style type="text/css">
+		.dark-mode {
+			position: fixed;
+			width: 80px;
+			height: 80px;
+
+			z-index: 100000;
+		}
+
+		.dark-mode:hover {
+			cursor: pointer;
+		}
+	</style>
+
+  	<body class="body-panel">
+<!-- include banner-area.html -->
+<input type="checkbox" id="banner-menu-symbol">
+<div class="banner-area banner-area-in-dom">
+	<div class="banner"></div>
+	<div class="icon-container">
+		
+<!-- include banner-icon.html -->
+<div class="banner-icon"></div>
+<!-- end of include banner-icon.html -->
+
+	</div>
+	<div class="title-area-container">
+		
+<!-- include banner-title-area.html -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+</style>
+<div class="title-area">
+	<div class="title">
+		<p style="font-family: 'Abril Fatface', cursive; font-size: 72px">Mathular</p>
+	</div>
+	<div class="subtitle">
+		<p>easy to use and highly customizable</p>
+	</div>
+</div>
+<!-- end of include banner-title-area.html -->
+
+	</div>
+	<div class="label-container"><label for="banner-menu-symbol"><p><!-- empty but necessary! --></p></label></div>
+	<div class="menubar-top-separator"></div>
+	
+<!-- include menubar.html -->
+<nav class="menubar">
+<!-- include menubar-icon.html -->
+<div class="menubar-icon"></div>
+<!-- end of include menubar-icon.html -->
+
+	<div class="item">
+		<div class="title">
+			<label class="symbol"><p></p></label>
+			<div class="text"><a href="http://localhost:4000/index.html"><p>Home</p></a></div>
+		</div>
+	</div>
+	<div class="item-separator"><p><!-- empty but necessary --></p></div>
+	<div class="item">
+		<input type="checkbox" id="Algebra-checkbox">
+		<div class="title">
+			<label class="symbol" for="Algebra-checkbox">
+				<p class="code"><!-- will be filled by disclosure indicator --></p>
+			</label>
+			<div class="text"><a href="/pages/algebra.html"><p>Algebra</p></a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Variables-and-Equations-checkbox">
+				<div class="title">
+					<label class="symbol" for="Variables-and-Equations-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/algebra/variables_and_equations.html"><p>Variables and Equations</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Linear-Equations-checkbox">
+				<div class="title">
+					<label class="symbol" for="Linear-Equations-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/algebra/linear_equations.html"><p>Linear Equations</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Solving-Equations-checkbox">
+				<div class="title">
+					<label class="symbol" for="Solving-Equations-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/algebra/solving_equations.html"><p>Solving Equations</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Functions-and-Graphing-checkbox">
+				<div class="title">
+					<label class="symbol" for="Functions-and-Graphing-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/algebra/functions_and_graphing.html"><p>Functions and Graphing</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Polynomials-checkbox">
+				<div class="title">
+					<label class="symbol" for="Polynomials-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/algebra/polynomials.html"><p>Polynomials</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Complex-Numbers-checkbox">
+				<div class="title">
+					<label class="symbol" for="Complex-Numbers-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/algebra/complex_numbers.html"><p>Complex Numbers</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Quadratic-Equations-checkbox">
+				<div class="title">
+					<label class="symbol" for="Quadratic-Equations-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/algebra/quadratic_equations.html"><p>Quadratic Equations</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Systems-of-Equations-checkbox">
+				<div class="title">
+					<label class="symbol" for="Systems-of-Equations-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/algebra/system_of_equations.html"><p>Systems of Equations</p></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="item-separator"><p><!-- empty but necessary --></p></div>
+	<div class="item">
+		<input type="checkbox" id="Geometry-checkbox">
+		<div class="title">
+			<label class="symbol" for="Geometry-checkbox">
+				<p class="code"><!-- will be filled by disclosure indicator --></p>
+			</label>
+			<div class="text"><a href="/pages/geometry.html"><p>Geometry</p></a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Analytic-Geometry-checkbox">
+				<div class="title">
+					<label class="symbol" for="Analytic-Geometry-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/geometry/analytic_geometry.html"><p>Analytic Geometry</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Basics-of-Congruence-checkbox">
+				<div class="title">
+					<label class="symbol" for="Basics-of-Congruence-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/geometry/basics_of_congruence.html"><p>Basics of Congruence</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Circles,-Volume,-and-Surface-Area-checkbox">
+				<div class="title">
+					<label class="symbol" for="Circles,-Volume,-and-Surface-Area-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/geometry/circles.html"><p>Circles, Volume, and Surface Area</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Congruency-Proofs-checkbox">
+				<div class="title">
+					<label class="symbol" for="Congruency-Proofs-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/geometry/congruency_proofs.html"><p>Congruency Proofs</p></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="item-separator"><p><!-- empty but necessary --></p></div>
+	<div class="item">
+		<input type="checkbox" id="Precalculus-checkbox">
+		<div class="title">
+			<label class="symbol" for="Precalculus-checkbox">
+				<p class="code"><!-- will be filled by disclosure indicator --></p>
+			</label>
+			<div class="text"><a href="/pages/precalculus.html"><p>Precalculus</p></a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Simple-and-Compound-Interest-checkbox">
+				<div class="title">
+					<label class="symbol" for="Simple-and-Compound-Interest-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/precalculus/simple_and_compound_interest.html"><p>Simple and Compound Interest</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Trigonometry-checkbox">
+				<div class="title">
+					<label class="symbol" for="Trigonometry-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/precalculus/trigonometry.html"><p>Trigonometry</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Solving-Equations-with-Trigonometry-checkbox">
+				<div class="title">
+					<label class="symbol" for="Solving-Equations-with-Trigonometry-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/precalculus/solving_equations_with_trig.html"><p>Solving Equations with Trigonometry</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Exponentials-and-Logarithms-checkbox">
+				<div class="title">
+					<label class="symbol" for="Exponentials-and-Logarithms-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/precalculus/exponentials_and_logarithms.html"><p>Exponentials and Logarithms</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Vectors-checkbox">
+				<div class="title">
+					<label class="symbol" for="Vectors-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/precalculus/vectors.html"><p>Vectors</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Sequences,-Summations,-and-Series-checkbox">
+				<div class="title">
+					<label class="symbol" for="Sequences,-Summations,-and-Series-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/precalculus/sequences.html"><p>Sequences, Summations, and Series</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Probability-checkbox">
+				<div class="title">
+					<label class="symbol" for="Probability-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/precalculus/probability.html"><p>Probability</p></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="item-separator"><p><!-- empty but necessary --></p></div>
+	<div class="item isActiveSelection">
+		<input type="checkbox" id="Calculus-I-checkbox">
+		<div class="title">
+			<label class="symbol" for="Calculus-I-checkbox">
+				<p class="code"><!-- will be filled by disclosure indicator --></p>
+			</label>
+			<div class="text"><a href="/pages/calculus1.html"><p>Calculus I</p></a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Limits-and-Discontinuities-checkbox">
+				<div class="title">
+					<label class="symbol" for="Limits-and-Discontinuities-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/calculus1/limits_and_discontinuities.html"><p>Limits and Discontinuities</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Limit-Properties-checkbox">
+				<div class="title">
+					<label class="symbol" for="Limit-Properties-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/calculus1/limit_properties.html"><p>Limit Properties</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Indeterminate-Forms-checkbox">
+				<div class="title">
+					<label class="symbol" for="Indeterminate-Forms-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/calculus1/interdeterminate_forms.html"><p>Indeterminate Forms</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="e,-the-Universal-Growth-Constant-checkbox">
+				<div class="title">
+					<label class="symbol" for="e,-the-Universal-Growth-Constant-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/calculus1/universal_growth_constant.html"><p>e, the Universal Growth Constant</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Derivatives-checkbox">
+				<div class="title">
+					<label class="symbol" for="Derivatives-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/calculus1/derivatives.html"><p>Derivatives</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Derivative-Rules-checkbox">
+				<div class="title">
+					<label class="symbol" for="Derivative-Rules-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/calculus1/derivative_rules.html"><p>Derivative Rules</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Derivatives-of-Certain-Functions-checkbox">
+				<div class="title">
+					<label class="symbol" for="Derivatives-of-Certain-Functions-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/calculus1/derivatives_of_certain_functions.html"><p>Derivatives of Certain Functions</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="L'Hôpital's-Rule-checkbox">
+				<div class="title">
+					<label class="symbol" for="L'Hôpital's-Rule-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/calculus1/l_hospital_rule.html"><p>L'Hôpital's Rule</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Implicit-Differentiation-checkbox">
+				<div class="title">
+					<label class="symbol" for="Implicit-Differentiation-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/calculus1/implicit_differentiation.html"><p>Implicit Differentiation</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Antiderivatives-checkbox">
+				<div class="title">
+					<label class="symbol" for="Antiderivatives-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/calculus1/antiderivatives.html"><p>Antiderivatives</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Antidifferentiation-Rules-and-Methods-checkbox">
+				<div class="title">
+					<label class="symbol" for="Antidifferentiation-Rules-and-Methods-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/calculus1/antidifferentiations_rules.html"><p>Antidifferentiation Rules and Methods</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem isActiveSelection">
+				<input type="checkbox" id="The-Limit-Definition-of-an-Integral-checkbox">
+				<div class="title">
+					<label class="symbol" for="The-Limit-Definition-of-an-Integral-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/calculus1/limit_def_of_an_integral.html"><p>The Limit Definition of an Integral</p></a></div>
+				</div>
+			</div>
+			<div class="subitem-separator"><p></p></div>
+			<div class="subitem">
+				<input type="checkbox" id="Integration-checkbox">
+				<div class="title">
+					<label class="symbol" for="Integration-checkbox">
+						<p></p>
+					</label>
+					<div class="text"><a href="/pages/calculus1/integration.html"><p>Integration</p></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="item-separator"><p><!-- empty but necessary --></p></div>
+	<div class="item">
+		<input type="checkbox" id="About-checkbox">
+		<div class="title">
+			<label class="symbol" for="About-checkbox">
+				<p></p>
+			</label>
+			<div class="text"><a href="/pages/about/about.html"><p>About</p></a>
+			</div>
+		</div>
+	</div>
+
+<style>
+.dropdown {
+	z-index: 10000;
+}
+</style>
+
+</nav>
+<!-- end of include menubar.html -->
+	<div class="menubar-bottom-separator"></div>
+</div><!-- end of include banner-area.html -->
+
+
+		<div class="column-panel">
+
+			<div class="primary-column">
+				<main>
+
+<!-- Start of main content -->
+<article class="page" itemscope itemtype="http://schema.org/Article">
+	<header class="page-header">
+		<!-- <h1 class="page-title" itemprop="name headline">The Limit Definition of an Integral</h1> -->
+		<p class="page-meta"></p>
+	</header>
+	<div class="page-content" itemprop="articleBody">
+<!-- Page content -->
+   <h1>Calculus I</h1>
+
+<h2>The Limit Definition of an Integral</h2>
+<p><br /></p>
+
+<p>Finding the area under a linear function is fairly easy. For example, take a look at the following graph of \(y=-\frac{1}{2}x+4\):</p>
+
+<p>(graph), -1 over 2 + 4</p>
+
+<p>What is the area underneath the line and between the x-axis, \(x=2\), and \(x=4\)? Here is that region shaded:</p>
+
+<p>(image)</p>
+
+<p>The area of the shaded region is composed solely of a triangle and rectangle, meaning we can just add the areas for those shapes to find the total area. In this case, \((2)(2)+\frac{1}{2}(2)(1)=5\). However, this is not as easy for curves. For example, here is the graph of \(f(x) = -\frac{1}{8}x^{2}+3\) with the same region shaded:</p>
+
+<p>(image)</p>
+
+<p>Finding the area of this is considerably harder. Notice that this is similar to the problem we were facing when trying to calculate the slope of a curve - we could find the slope of a linear equation easily, but finding the slope of a curve was considerably harder. Eventually, we were able to formalize that concept to the derivative by using approximations and limits. Here, we will do the same.</p>
+
+<p>To start approximating this value, let’s start by identifying a shape that we <i>do</i> know how to find the area of. The easiest shape of those is probably the rectangle, because all we have to do is multiply the width times the height. Let’s cover the shaded region with some rectangles:</p>
+
+<p>(image)</p>
+
+<p>Here, we covered the area with two rectangles, each with width \(1\). This doesn’t solve our problem, because the area covered by the rectangles is a little less than the shaded regions. We can make this approximation slightly better though by increasing the number of rectangles. Here, we have four rectangles, each with width \(0.5\):</p>
+
+<p>(image)</p>
+
+<p>The more rectangles we have, the better the approximation will be. This can be visualized by the following gif, where the difference between the total area of the rectangles and the area under the curve is shaded in red. Notice how the difference decreases, meaning the total area in the rectangles gets closer and closer to matching the area under the curve.</p>
+
+<p>(image), gif</p>
+
+<p>To formalize this problem, let’s add some variables. Let \(A\) be the <i>actual</i> area under the curve, and let \(n\) be the number of rectangles. Let \(a\) and \(b\) be the starting and ending x values of the area we’re trying to find (in this case, \(2\) and \(4\)). Knowing that, we can calculate the width of each rectangle, \(dx\), to be \(\frac{b-a}{n}\).</p>
+
+<p>(image)</p>
+
+<p>The reason we call the width of a rectangle \(dx\) is for a similar reason we have \(dx\) in the denominator of the derivative symbol:</p>
+
+<p>(image)</p>
+
+<p>\(dx\) is supposed to represent a tiny nudge in the x direction, and we want the widths of each rectangle to be as tiny as possible so that the approximation is as accurate as possible.</p>
+
+<p>Now that we have all those variables, we can formalize this by turning it into a formula:</p>
+
+\[\text{Area under curve} \approx (\text{Area of Rectangle 1})+(\text{Area of Rectangle 2})+(\text{Area of Rectangle 3})+\cdots\]
+
+<p>We assigned the area under the curve to be \(A\). To find the area of each rectangle, we should multiply each rectangle’s width by each rectangle’s height. The width of every rectangle is \(dx\), but the height varies. More specifically, the height of each rectangle is dependent on the <i>function’s value</i> at the x-value where the rectangle touches the function:</p>
+
+<p>(image)</p>
+
+<p>The first rectangle comes into contact with \(f(x)\) at \(x=2.5\), the second rectangle comes into contact with \(f(x)\) at \(x=3\), the third rectangle comes into contact with \(f(x)\) at \(x=3.5\), and so on. This is because the width of each rectangle (or \(dx\)) is \(0.5\). In general, the height for the \(i^{\text{th}}\) rectangle is \(f(a + i\cdot dx)\).</p>
+
+<p>Now that we know that the height of the \(i^{th}\) rectangle is \(f(i\cdot dx)\) and the width of each rectangle is \(dx\), we can finally find the true area underneath the curve. Recalling that \(n\) is the number of rectangles and \(dx\) = \(\frac{b-1}{n}\),</p>
+
+\[\begin{array}{r c c l}
+\text{Area under curve} &amp;\approx&amp; &amp; (\text{Area of Rectangle 1})\\
+&amp; &amp;+&amp; (\text{Area of Rectangle 2})\\
+&amp; &amp;+&amp; (\text{Area of Rectangle 3})\\
+&amp; &amp;+&amp; (\text{Area of Rectangle 4})\\
+&amp; &amp;\vdots&amp; \\
+&amp; &amp;+&amp; (\text{Area of Rectangle } n)\\
+\end{array}\]
+
+\[\begin{array}{r c c l}
+\text{Area under curve} &amp;\approx&amp; &amp; f(2+1\cdot dx)\cdot dx\\
+&amp; &amp;+&amp; f(2+2\cdot dx)\cdot dx\\
+&amp; &amp;+&amp; f(2+3\cdot dx)\cdot dx\\
+&amp; &amp;+&amp; f(2+4\cdot dx)\cdot dx\\
+&amp; &amp;\vdots&amp; \\
+&amp; &amp;+&amp; f(2+n\cdot dx)\cdot dx\\
+\end{array}\]
+
+<p>There’s a clear pattern in the addition here. The only thing that changes from term to term is the number that is being multiplied to \(dx\). We can use summation notation to simplify this formula:</p>
+
+\[A \approx \sum_{i=1}^{n} [f(2+i \cdot dx) \cdot dx]\]
+
+<p>Remember earlier that we said that as \(n\) gets bigger, the approximation gets more and more accurate. If we had an infinite number of rectangles, the approximation would be exactly perfect. Thus,</p>
+
+\[A = \lim_{n \to \infty} \sum_{i=1}^{n} [f(2+i \cdot dx) \cdot dx]\]
+
+<p>Remember that \(2\) was just the starting x-coordinate of the area we were trying to find. We assigned the starting x-coordinate to \(a\), so we will use that variable instead. We have found the formula for the area under a curve:</p>
+
+\[A = \lim_{n \to \infty} \sum_{i=1}^{n} f(a+i\cdot dx) dx\\\text{where } n \text{ is the number of rectangles}\\a \text{ is the leftmost point for the area}\\b \text{ is the rightmost point for the area}\\\text{and }dx =\frac{b-a}{n}\]
+
+<p>(image)</p>
+
+<p>The area underneath a curve is known as an <b>integral</b>. This name comes from constructing the area from rectangles and bringing the rectangles closer - or integrating them together - to find the true area. For example, let’s say we wanted to find the integral of \(x^2\) between \(x=1\) and \(x=4\), If we know \(a=1\) and \(b=4\), then \(dx = \frac{4-1}{n} = \frac{3}{n}\)</p>
+
+\[A = \lim_{n \to \infty} \sum_{i=1}^{n} f(a+i\,dx) dx \\
+A = \lim_{n \to \infty} \sum_{i=1}^{n} \left[\left(1+i\left(\frac{3}{n}\right)\right)^{\displaystyle2} \left(\frac{3}{n}\right)\right]\]
+
+<p>Here is a visual of the above integral:</p>
+
+<p>(image), gif</p>
+
+<p>One important thing to note is that when we say “the area under a curve”, we subtract any area that is below the x-axis. This is best shown visually:</p>
+
+<p>(image)</p>
+
+<p>Here, the total area between the x-axis and the curve between \(x=?????\) and \(x=?????\) is \(??????\) but the <b>signed area</b> is only \(????\). This is because we add the area above the x-axis, and then subtract the area beneath the x-axis. The signed area is the more important one - it’s the value that the above formula returns, and it’s the one that mathematicians use more often.</p>
+
+<p>Actually solving the integral to find the area is very difficult using limits and sums, but in the next chapter, we’ll go over a <i>much</i> easier way.</p>
+
+<!-- End of page content -->
+</div>
+</article>
+
+
+<style>
+
+	html {
+		scrollbar-color: var(--scrollbar-color) var(--main-background-color);
+	}
+
+	body, .footer-panel, html {
+		background-color: var(--main-background-color) !important;
+		color: var(--main-text-color) !important;
+	}
+
+	.menubar-top-separator, .menubar-bottom-separator {
+		background-color: var(--accent-color) !important;
+	}
+
+	.banner, .menubar {
+		background-color: var(--main-background-color) !important;
+	}
+
+	/*  */
+
+	.text {
+		background-color: var(--main-background-color) !important;
+	}
+	
+	.text:hover {
+		background-color: var(--menubar-hover-color) !important;
+	}
+
+	.isActiveSelection > .title > .text {
+		background-color: var(--selected-menu-item-color) !important;
+	}
+
+	.text a, .text p {
+		color: var(--accent-color) !important;
+	}
+
+	/*  */
+
+	.term, .question {
+		background-color: var(--term-bg-color) !important;
+	}
+
+	.question span {
+		color: var(--link-color);
+	}
+
+	.footer-separator {
+		border-bottom: 1px solid var(--accent-color);
+	}
+
+	/*  */
+
+	.dropdown, .drop-down-menu, .subitem {
+		transition: 5s ease-in-out !important;
+	}
+</style>
+
+<div class="questions-container">
+	
+</div>
+
+<style type="text/css">
+	.question {
+		background-color: lightcoral;
+		border-radius: 5px;
+		text-align: center;
+		padding: 10px;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	.showAnswerB {
+		color: #0645AD;
+		text-decoration: underline;
+		cursor: pointer;
+	}
+
+	img {
+		display: block;
+		margin: auto;
+		width: 50%;
+		height: auto;
+	}
+</style>
+
+					
+<script type="text/javascript">
+	const showAnswerB = document.getElementsByClassName("showAnswerB")
+	const allAnswers = document.getElementsByClassName("answer")
+
+	let arr = new Array(showAnswerB.length)
+	arr.fill(0)
+
+	for (let i = 0; i < allAnswers.length; i++) {
+		allAnswers[i].style.display = "none";
+	}
+
+	for (let i = 0; i < showAnswerB.length; i++) {
+		showAnswerB[i].addEventListener("click", function() {
+			if (arr[i] === 0) {
+				allAnswers[i].style.display = "block";
+				showAnswerB[i].textContent = "Hide answer"
+				arr[i] = 1;
+			} else if (arr[i] === 1) {
+				allAnswers[i].style.display = "none";
+				showAnswerB[i].textContent = "Show answer"
+				arr[i] = 0;
+			}
+		});
+	}
+</script>
+
+<!-- End of main content -->
+
+				</main>
+			</div>
+			<div class="secondary-separator"></div>			
+			<div class="secondary-column">
+				<div class="secondary-column-content">
+<!-- include tertiary-column.html -->
+
+<style type="text/css">
+	.secondary-column-content {
+		overflow-y: scroll;
+
+		position: sticky;
+		top: 14px;
+		height: calc(100vh - 28px);
+	}
+</style>
+<script>
+	window.onload = (event) => {
+		console.log("1")
+		var height = document.getElementsByClassName("terms-container")[0].clientHeight;
+		if (document.getElementsByClassName("terms-container")[0].clientHeight < window.innerHeight) {
+			console.log("2")
+			document.getElementsByClassName("secondary-column-content")[0].style.overflowY = "hidden";
+		}
+	}
+</script>
+<!-- <div class="tertiary-widget-separator"></div> -->
+<div class="widget">
+</div>
+
+<div class="terms-container">
+	
+</div>
+
+<style type="text/css">
+	.terms-container {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.term {
+		top: 10rem;
+		background-color: lightblue;
+		border-radius: 5px;
+		text-align: center;
+		padding: 10px;
+		margin-bottom: 20px;
+	}
+</style>
+<!-- end of include tertiary-column.html -->
+
+				</div></div>
+
+		</div>
+		<div class="footer-separator"></div>
+		<div class="footer-panel">
+	
+<!-- include footer.html -->
+<footer>
+	<div>
+		<p>2022 Mathular
+</p>
+	</div>
+</footer>
+<!-- end of include footer.html -->
+
+		</div>
+  	</body>
+</html>

@@ -1,0 +1,71 @@
+I"�<h1>Algebra</h1>
+
+<h2>Solving Equations</h2>
+<p><br /></p>
+
+<p>Sometimes, you will need to solve for a variable in an equation. This means that you have to do math to figure out what number the variable is.</p>
+
+<p>Whenever solving an equation, your goal should always be to get the variable on one side of the equals sign, and all the numbers on the other side of the equals sign. That way, by the end, you will have found what number the variables equals to. To do this, our first step should be to combine like terms. To understand what that means, let’s break it down. First, a term is an expression that does not contain any pluses or minuses. A term can have numbers, variables, exponents, etc, but it can’t have a plus or minus. An expression may contain multiple smaller terms inside of it. For example, in \(23x^4p+5y+x^3-4+3x^3\), there are 4 terms:</p>
+
+\[23x^4p,\\5y,\\x^3,\\-4,\\3x^3\]
+
+<p>Note that \(-4\) is the third term, and not \(4\), because there is a minus sign before the four. If there is a minus sign before aterm, it will change to a negative sign and stay in the term.</p>
+
+<p>To combine like terms, figure out what terms have the same variables with the same exponents. Then, add the coefficients of each term, while keeping the variable(s) the same. Remember that the coefficient is the number next to the variable.</p>
+
+<p>For the next step, there is one important rule you always have to remember:</p>
+
+<p>When doing something to one side of the equals sign, always do the exact same to the other side of the equals sign. This maintains equality.</p>
+
+<p>For example, look at the following:</p>
+
+\[2=2\]
+
+<p>Everyone knows that \(2\) is equal to \(2\). However, say you multiply by 3 on the left hand side. Then, we get:</p>
+
+\[6 = 2\]
+
+<p>Obviously, this is not true. To fix it, we have to multiply 3 to the other side as well:</p>
+
+\[2\cdot3 = 2\cdot3\]
+
+<p>After combining like terms, subtract every term (or add if the term is negative) that doesn’t have the variable you are trying to solve for. Remember our rule from earlier: if you have to subtract a term from the left side, do it to the right side too. Then, when you are left with a single term on the side with the variable, divide by the coefficient. This should leave you with the variable on one side of the equals sign, with a number on the other side of the equals sign.</p>
+
+<p>Let’s try this with the following equation:</p>
+
+\[5x+12x-14=-6+x\]
+
+<p>Combine like terms.</p>
+
+\[17x-14=-6+x\]
+
+<p>Subtract both sides by x to get only numbers on the right side.</p>
+
+\[16x-14=-6\]
+
+<p>Add both sides by 3 to get a single term on the left side.</p>
+
+\[16x=8\]
+
+<p>Divide by the coefficient of the left side.</p>
+
+\[x=1/2\]
+
+<p>One final thing: if the equation has an exponent in it, use the inverse of the exponent (the root) to make x by itself. For example in:</p>
+
+\[x^2=16\]
+
+<p>Take the square root of both sides.</p>
+
+\[\begin{align*}
+x&amp;=\sqrt16\\
+x&amp;=4
+\end{align*}\]
+
+<p>To recap, the steps for solving equations are:</p>
+<ol>
+  <li>Combine like terms.</li>
+  <li>Subtract any terms that do not have the variable you are trying to solve for in it and get x on only one side of the equation.</li>
+  <li>Divide by the coefficient of x, or apply the n-th root if the x is to the n-th power.</li>
+</ol>
+:ET

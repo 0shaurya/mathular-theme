@@ -1,0 +1,92 @@
+---
+layout: default
+---
+<div class="landing-page-title">{{ page.menuTopTitle }}</div>
+<div class="landing-page-content">{{ content }}</div>
+<ul style="padding-left: 0;">
+
+{% assign sizeMinusOne = page.subs.size - 1 %}
+{% for i in (0..page.subs.size) %}
+	{% for item in site.pages %}
+		{% assign itemTree = item.dir | split: "/" %}
+		{% assign itemTree = itemTree[2] | strip %}
+    	{% if page.treeRoot == itemTree %}
+    		{% if page.subs[i] == item.menuSubs[0].title %}
+    		<a href="{{ item.url }}" class="btn">
+    			<li class="list">
+    					<div class="titles">{{ item.menuSubs[0].title }}</div><br>
+    					<div class="excerpt">{{ item.excerpt }}</div>
+    			</li>
+    		</a>
+    		{% endif %}
+    	{% endif %}
+	{% endfor %}
+{% endfor %}
+</ul>
+
+<style>
+	.landing-page-title {
+		font-size: 48px;
+		font-weight: 800;
+
+		text-align: center;
+	}
+
+	.landing-page-content {
+		font-size: 24px;
+
+		text-align: center;
+	}
+
+	html {
+		overflow-x: hidden;
+	}
+
+	main {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+
+	.list {
+		list-style: none;
+		display: block;
+		width: fit-content;
+		max-width: 700px;
+
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+
+		padding: 10px;
+
+		background-color: inherit;
+	}
+
+	.btn {
+		color: var(--main-text-color);
+		text-decoration-line: none;
+
+		text-align: center;
+
+		width: fit-content;
+		display: block;
+		margin: auto;
+
+		border-top: 3px solid var(--accent-color);
+		border-bottom: 3px solid var(--accent-color);
+		border-radius: 5px;
+		margin-bottom: 40px;
+	}
+
+	.btn:nth-child(even) {
+		background-color: gray;
+	}
+
+	.titles {
+		font-size: 32px;
+	}
+</style>
