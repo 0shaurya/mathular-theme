@@ -18,17 +18,17 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   2022 Mathular
 baseurl: "/" # the subpath of your site, e.g. /blog note that it must _also_ be defined in classic-jekyll-theme.scss!
-url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.mathular.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-# remote-theme: Balancingrock/classic-jekyll-theme@2.5.0
+remote-theme: Balancingrock/classic-jekyll-theme@2.5.0
 
 markdown: kramdown
 keep_files: [assets, icons]
 exclude: [README.md]
-theme: classic-jekyll-theme
+# theme: classic-jekyll-theme
 plugins:
   - jekyll-feed
 
