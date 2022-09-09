@@ -8,6 +8,10 @@ menuSubs:
 - title: Implicit Differentiation
   index: 9
 excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+terms:
+  - ['Explicit Function', 'A function written in terms of a single variable']
+  - ['Implicit Function', 'A function not written in terms of a single variable. It contains more than one variable on either side.']
+  - ['Implicit Differentiation', 'A differentiation technique that is used to differentaite implicit functions. It is done by taking the derivative of both sides of an implicit equation.']
 ---
 
 

@@ -8,6 +8,11 @@ menuSubs:
 - title: Antidifferentiation Rules and Methods
   index: 11
 excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+terms:
+  - ['Sum Rule', 'Rule that says the antiderivative of a sum is the sum of the antiderivatives. Or, \(\int f(x)\pm g(x)\,dx=\int f(x)\,dx\pm\int g(x)\,dx\).']
+  - ['Constant Multiple Rule', 'Rule that asays we can pull out a constant out of an antiderivative. Or, \(\int cf(x)\,dx = c\int f(x)\,dx\).']
+  - ['Reverse Power Rule', '\(\int x^n \,dx = \frac{1}{n+1}x^{n+1}\)']
+  - ['Antidifferentiation by Substitution', 'A method for antidifferentiating which involves creating a new variable in terms of the variable we are antidifferentiating with respect to and then substituting the new variable in. This can simplify the expression, making it easier to work with.'] 
 ---
 
 

@@ -509,32 +509,12 @@
 			</div>
 			<div class="subitem-separator"><p></p></div>
 			<div class="subitem">
-				<input type="checkbox" id="Derivative-Rules-checkbox">
-				<div class="title">
-					<label class="symbol" for="Derivative-Rules-checkbox">
-						<p></p>
-					</label>
-					<div class="text"><a href="/pages/calculus1/derivative_rules.html"><p>Derivative Rules</p></a></div>
-				</div>
-			</div>
-			<div class="subitem-separator"><p></p></div>
-			<div class="subitem">
 				<input type="checkbox" id="Derivatives-of-Certain-Functions-checkbox">
 				<div class="title">
 					<label class="symbol" for="Derivatives-of-Certain-Functions-checkbox">
 						<p></p>
 					</label>
 					<div class="text"><a href="/pages/calculus1/derivatives_of_certain_functions.html"><p>Derivatives of Certain Functions</p></a></div>
-				</div>
-			</div>
-			<div class="subitem-separator"><p></p></div>
-			<div class="subitem">
-				<input type="checkbox" id="L'Hôpital's-Rule-checkbox">
-				<div class="title">
-					<label class="symbol" for="L'Hôpital's-Rule-checkbox">
-						<p></p>
-					</label>
-					<div class="text"><a href="/pages/calculus1/l_hospital_rule.html"><p>L'Hôpital's Rule</p></a></div>
 				</div>
 			</div>
 			<div class="subitem-separator"><p></p></div>
@@ -668,17 +648,17 @@
 
 <p>The little bar at the right is known as the <b>evaluation bar</b>. The evaluation bar just means to plug in the top number in for \(x\), and then subtract it by the bottom number. In general,</p>
 
-\[f(x)\rvert_a^b = f(b)-f(a)\]
+\[f(x)\bigg\rvert_a^b = f(b)-f(a)\]
 
 <p>The evaluation bar is just a way to shorten the expression so there isn’t as much to write. Back to the problem, we have</p>
 
-\[\int_0^\pi \cos(x) \,dx = \left.\sin(x)\right\rvert_0^\pi\]
+\[\int_0^\pi \cos(x) \,dx = \sin(x)\bigg\rvert_0^\pi\]
 
 <p>which simplifies into</p>
 
 \[\begin{align*}
 \int_0^{\pi/2}\ \cos(x) \,dx &amp;= \sin(x)\bigg\rvert_0^{\pi/2}\\
-&amp;=\sin(\frac{\pi}{2})-\sin(0)\\
+&amp;=\sin \left(\frac{\pi}{2}\right) - \sin(0)\\
 &amp;=1 - 0\\
 &amp;=1
 \end{align*}\]
@@ -834,6 +814,10 @@
 <!-- include tertiary-column.html -->
 
 <style type="text/css">
+	.terms-container {
+		height: max-content;
+	}
+
 	.secondary-column-content {
 		overflow-y: scroll;
 
@@ -857,6 +841,16 @@
 </div>
 
 <div class="terms-container">
+	
+		<div class="term">
+		<b>Definite Integral</b> <br><br>
+		The area under a between the curve, the x-axis, and two \(x\) values
+		</div><br>
+	
+		<div class="term">
+		<b>Evaluation Bar</b> <br><br>
+		A piece of notation. The number at the top is plugged into the variable for the expression which then subtracts the expression with the bottom number plugged in. Or, \(f(x)\Big\rvert_a^b = f(b)-f(a)\).
+		</div><br>
 	
 </div>
 

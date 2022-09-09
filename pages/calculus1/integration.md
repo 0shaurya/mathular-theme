@@ -8,6 +8,9 @@ menuSubs:
 - title: Integration
   index: 13
 excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+terms:
+  - ['Definite Integral', 'The area under a between the curve, the x-axis, and two \(x\) values']
+  - ['Evaluation Bar', 'A piece of notation. The number at the top is plugged into the variable for the expression which then subtracts the expression with the bottom number plugged in. Or, \(f(x)\Big\rvert_a^b = f(b)-f(a)\).']
 ---
 
 
@@ -53,18 +56,18 @@ $$\int_0^\pi \cos(x) \,dx = \sin(x)\bigg\rvert_0^\pi$$
 
 The little bar at the right is known as the <b>evaluation bar</b>. The evaluation bar just means to plug in the top number in for \\(x\\), and then subtract it by the bottom number. In general,
 
-$$f(x)\rvert_a^b = f(b)-f(a)$$
+$$f(x)\bigg\rvert_a^b = f(b)-f(a)$$
 
 The evaluation bar is just a way to shorten the expression so there isn't as much to write. Back to the problem, we have
 
-$$\int_0^\pi \cos(x) \,dx = \left.\sin(x)\right\rvert_0^\pi$$
+$$\int_0^\pi \cos(x) \,dx = \sin(x)\bigg\rvert_0^\pi$$
 
 which simplifies into
 
 $$
 \begin{align*}
 \int_0^{\pi/2}\ \cos(x) \,dx &= \sin(x)\bigg\rvert_0^{\pi/2}\\
-&=\sin(\frac{\pi}{2})-\sin(0)\\
+&=\sin \left(\frac{\pi}{2}\right) - \sin(0)\\
 &=1 - 0\\
 &=1
 \end{align*}$$

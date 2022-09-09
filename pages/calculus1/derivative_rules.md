@@ -8,6 +8,15 @@ menuSubs:
 - title: Derivative Rules
   index: 6
 excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+terms:
+  - ['Differentiation', 'the process of taking the derivative of a function']
+  - ['Constant Term Rule', 'Rule that says the derivative of any constant is \(0\)']
+  - ['Constant Multiple Rule', '\(\frac{d}{dx}[af(x)]=a\frac{d}{dx}[f(x)]\)']
+  - ['Sum Rule', '\(\frac{d}{dx}[f(x)\pm g(x)] = \frac{d}{dx}f(x)\pm \frac{d}{dx}\)']
+  - ['Product Rule', '\(\frac{d}{dx}[f(x)\cdot(g(x)]= f(x)g'(x)+g(x)f'(x)\)']
+  - ['Quotient Rule', '\(\frac{d}{dx}\bigg[\frac{f(x)}{g(x)}\bigg] = \frac{g(x)f'(x)-f(x)g'(x)}{g(x)^2}\)']
+  - ['Power Rule', '\(\frac{d}{dx} x^a = ax^{a-1}\)']
+  - ['Chain Rule', '\(\frac{d}{dx} f(g(x)) = f'(g(x) \cdot g'(x)\)']
 ---
 
 
