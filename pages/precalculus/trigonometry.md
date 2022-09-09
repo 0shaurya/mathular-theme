@@ -57,17 +57,16 @@ Using this information, we can follow \\(\theta\\) around the full \\(2pi\\) rad
 
 This gives us the shape of \\(\sin(\theta)\\).
 
-<center><video width="450" height="370" autoplay loop muted>
-  <source src="/videos/sine_curve_circle.mp4" type="video/mp4" />
-</video></center>
 
 Now, let's do a similar process for cosine.
 
 Here, we can see that \\(\cos(\theta)\\) is equal to the length of line ???? divided by the length of the hypotenuse. Again, because the length of the hypotenuse is always \\(1\\) no matter the value of \\(\theta\\), \\(\cos(\theta)\\) is equal to the length of line ?????
 
-This gives us the shape of the cosine curve:
+Here's the shape of the sine and cosine curve:
 
-(image)
+<center><video width="450" height="370" autoplay loop muted>
+  <source src="/videos/sin_and_cos.mp4" type="video/mp4" />
+</video></center>
 
 Something to notice is how the graphs of sine and cosine will repeat. Because the unit circle has a circumference of \\(2\pi\\), it means that the values for sine and cosine will repeat every \\(2\pi\\) units. This is known as the <b>period</b> of the curve. The period is how long it takes for the curve to repeat its pattern.
 
