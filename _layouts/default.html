@@ -324,9 +324,9 @@
 <div class="questions-container">
 	{% for question in page.questions %}
 		<div class="question" style="color:var(--main-text-color)">
-			<b>{{ question[0] }}</b> <br><br>
+			<b style="color:var(--main-text-color) !important">{{ question[0] }}</b> <br><br>
 			[<span class="showAnswerB">Show answer</span>]
-			<span class="answer"><br>{{ question[1] }}</span>
+			<span class="answer" style="color:var(--main-text-color) !important"><br>{{ question[1] }}</span>
 		</div><br>
 	{% endfor %}
 </div>
