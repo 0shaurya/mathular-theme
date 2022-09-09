@@ -43,7 +43,7 @@ Now, we just have to figure out the first and second limit. Unfortunately, plugg
 
 (graph), sinx over x and cosx - 1 over x
 
-We can see that as \\(x\\) approaches 0, \\(\frac{cos(x)-1}{x}\\) approaches 0 and \\(\frac{sin(x)}{x}\\) approaches 1.
+We can see that as \\(x\\) approaches 0, \\(\frac{\cos(x)-1}{x}\\) approaches 0 and \\(\frac{\sin(x)}{x}\\) approaches 1.
 
 $$
 \sin(x) \lim_{h \to 0} \underbrace{\bigg[\frac{\cos(h) -1}{h}\bigg]}_ {=0}+ \cos(x) \underbrace{\lim_{x \to 0}\bigg[\frac{\sin(h)}{h}\bigg]}_ {=1} = \cos (x)$$

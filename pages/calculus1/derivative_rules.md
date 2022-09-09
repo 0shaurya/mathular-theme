@@ -33,7 +33,7 @@ The first rule we will learn is the <b>constant term rule</b>. This says that th
 
   
 
-$$\frac{d}{dx} [c] = 0 \text{where } c \text{ is a constant}$$
+$$\frac{d}{dx} [c] = 0 \text{ where } c \text{ is a constant}$$
 
   
 
@@ -112,7 +112,7 @@ The fourth rule is the <b>product rule</b>. The product rule says the derivative
 $$
 \frac{d}{dx}[f(x)\cdot(g(x)] = f(x) \frac{d g(x)}{dx} + g(x) \frac{d f(x)}{dx} \\
 \text{or written more compactly:}\\
-\frac{d}{dx}[f(x)\cdot(g(x)]= f(x)g'(x)+g(x)f'(x)
+\frac{d}{dx}[f(x)\cdot g(x)]= f(x)g'(x)+g(x)f'(x)
 $$
 
   
