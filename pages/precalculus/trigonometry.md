@@ -64,7 +64,7 @@ Here, we can see that \\(\cos(\theta)\\) is equal to the length of line ???? div
 
 Here's the shape of the sine and cosine curve:
 
-<center><video width="450" height="370" autoplay loop muted>
+<center><video width="500" height="420" autoplay loop muted>
   <source src="/videos/sin_and_cos.mp4" type="video/mp4" />
 </video></center>
 
