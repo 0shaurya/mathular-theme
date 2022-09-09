@@ -57,6 +57,10 @@ Using this information, we can follow \\(\theta\\) around the full \\(2pi\\) rad
 
 This gives us the shape of \\(\sin(\theta)\\).
 
+<center><video width="450" height="370" autoplay loop muted>
+  <source src="/videos/sine_curve_circle.mp4" type="video/mp4" />
+</video></center>
+
 Now, let's do a similar process for cosine.
 
 Here, we can see that \\(\cos(\theta)\\) is equal to the length of line ???? divided by the length of the hypotenuse. Again, because the length of the hypotenuse is always \\(1\\) no matter the value of \\(\theta\\), \\(\cos(\theta)\\) is equal to the length of line ?????
