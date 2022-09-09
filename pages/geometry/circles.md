@@ -42,7 +42,7 @@ We've covered the fundamentals of Congruency, Proofs, and Geometry. Finally, we'
 
 <ul><u>Arc Length:</u> The length of an arc is the distance between the start and end points of the arc. <br></ul>
 
-<ul><u>Formula for the arc length</u>  = $(2πr)$ $(θ/360)$, where $r$ is the radius of the circle.</ul>
+<ul><u>Formula for the arc length</u>  = \\((2πr)\\) \\((θ/360)\\), where \\(r\\) is the radius of the circle.</ul>
 
 <center><img src="https://www.storyofmathematics.com/wp-content/uploads/2020/07/Arc-of-a-Circle.jpg" alt="Coordinate Plane" style="width:45%;">
 
@@ -52,13 +52,13 @@ We've covered the fundamentals of Congruency, Proofs, and Geometry. Finally, we'
 
 <br>
 
-<center><b>Example:</b> Arc $AB$ has an angle of $40°$ and the circle has a radius of $7cm$. Calculate the length of arc $AB$.
+<center><b>Example:</b> Arc \\(AB\\) has an angle of \\(40°\\) and the circle has a radius of \\(7cm\\). Calculate the length of arc \\(AB\\).
 
 <img src="https://www.storyofmathematics.com/wp-content/uploads/2020/07/Arc-of-a-Circle-Example.jpg" alt="Example Question" style="width:45%;">
 
 <br>
 
-<b>Answer:</b> $(2π7)$ $(40/360)$ = $4.884$ cm.
+<b>Answer:</b> \\((2π7)\\) \\((40/360)\\) = \\(4.884\\) cm.
   
   <br>
 
@@ -71,9 +71,9 @@ We've covered the fundamentals of Congruency, Proofs, and Geometry. Finally, we'
 
 <li><b>Area of Sector of a Circle:</b> Space enclosed by the sector of a circle.
 
-<b>Formula = </b> Area of sector of circle = $(πr^2)$ $(θ/360)$, where $θ$ is the sector angle subtended by the arc at the center, <b>in degrees</b>. And, $r$ is the radius of the circle.
+<b>Formula = </b> Area of sector of circle = \\((πr^2)\\) \\((θ/360)\\), where \\(θ\\) is the sector angle subtended by the arc at the center, <b>in degrees</b>. And, \\(r\\) is the radius of the circle.
 
-Area of sector of circle = $(\frac {1}{2})$ $(r^2 θ)$, where $θ$ is the sector angle subtended by the arc at the center, <b>in radians</b>. And, $r$ is the radius of the circle.
+Area of sector of circle = \\((\frac {1}{2})\\) \\((r^2 θ)\\), where \\(θ\\) is the sector angle subtended by the arc at the center, <b>in radians</b>. And, \\(r\\) is the radius of the circle.
 
 <center><img src="https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/area-of-sector-of-a-circle-1637917885.png" alt="Coordinate Plane" style="width:50%;">
 
@@ -91,7 +91,7 @@ Area of sector of circle = $(\frac {1}{2})$ $(r^2 θ)$, where $θ$ is the sector
 
 <b>Volume of a Cube:</b>
 
-Formula = $V = a^3$, where $a$ is the edge of the cube.
+Formula = \\(V = a^3\\), where \\(a\\) is the edge of the cube.
 
 </li>
 
@@ -99,7 +99,7 @@ Formula = $V = a^3$, where $a$ is the edge of the cube.
 
 <b>Volume of a Rectangular Prism:</b>
 
-Formula = $V = w*h*l$, where $w$ is the width of the prism, $h$ is the height of the prism, and $l$ is the length of the prism.
+Formula = \\(V = w*h*l\\), where \\(w\\) is the width of the prism, \\(h\\) is the height of the prism, and \\(l\\) is the length of the prism.
 
 </li>
 
@@ -107,7 +107,7 @@ Formula = $V = w*h*l$, where $w$ is the width of the prism, $h$ is the height of
 
 <b>Volume of a Cylinder:</b>
 
-Formula = $V = πr^2h$, where $r$ is the radius of the cylinder, and $h$ is the height of the cylinder.
+Formula = \\(V = πr^2h\\), where \\(r\\) is the radius of the cylinder, and \\(h\\) is the height of the cylinder.
 
 </li>
 
@@ -115,7 +115,7 @@ Formula = $V = πr^2h$, where $r$ is the radius of the cylinder, and $h$ is the 
 
 <b>Volume of a Sphere:</b>
 
-Formula = $V = \frac {4}{3}$ $πr^3$, where $r$ is the radius of the sphere.
+Formula = \\(V = \frac {4}{3}\\) \\(πr^3\\), where \\(r\\) is the radius of the sphere.
 
 </li>
 
@@ -123,7 +123,7 @@ Formula = $V = \frac {4}{3}$ $πr^3$, where $r$ is the radius of the sphere.
 
 <b>Volume of a Cone:</b>
 
-Formula = $V = πr^2h/3$, where $r$ is the radius of the cone, and $h$ is the height of the cone.
+Formula = \\(V = πr^2h/3\\), where \\(r\\) is the radius of the cone, and \\(h\\) is the height of the cone.
 
 </li>
 
@@ -131,7 +131,7 @@ Formula = $V = πr^2h/3$, where $r$ is the radius of the cone, and $h$ is the he
 
 <b>Volume of a Pyramid:</b>
 
-Formula = $V = l * w * (\frac{h}{3})$, where $w$ is the width of the pyramid, $h$ is the height of the pyramid, and $l$ is the base length of the pyramid.
+Formula = \\(V = l * w * (\frac{h}{3})\\), where \\(w\\) is the width of the pyramid, \\(h\\) is the height of the pyramid, and \\(l\\) is the base length of the pyramid.
 
 </li></p>
 
@@ -145,7 +145,7 @@ Formula = $V = l * w * (\frac{h}{3})$, where $w$ is the width of the pyramid, $h
 
 <b>Surface Area of a Cube:</b>
 
-Formula = $SA = 6a^2$, where $a$ is the edge of the cube.
+Formula = \\(SA = 6a^2\\), where \\(a\\) is the edge of the cube.
 
 </li>
 
@@ -153,7 +153,7 @@ Formula = $SA = 6a^2$, where $a$ is the edge of the cube.
 
 <b>Surface Area of a Rectangular Prism:</b>
 
-Formula = $SA = 2wh + 2wl + 2hl$, where $w$ is the width of the prism, $h$ is the height of the prism, and $l$is the length of the prism.
+Formula = \\(SA = 2wh + 2wl + 2hl\\), where \\(w\\) is the width of the prism, \\(h\\) is the height of the prism, and \\(l\\)is the length of the prism.
 
 </li>
 
@@ -161,7 +161,7 @@ Formula = $SA = 2wh + 2wl + 2hl$, where $w$ is the width of the prism, $h$ is th
 
 <b>Surface Area of a Cylinder:</b>
 
-Formula = $SA = 2πr^2 + 2πrh$, where $r$ is the radius of the cylinder, and $h$ is the height of the cylinder.
+Formula = \\(SA = 2πr^2 + 2πrh\\), where \\(r\\) is the radius of the cylinder, and \\(h\\) is the height of the cylinder.
 
 </li>
 
@@ -169,7 +169,7 @@ Formula = $SA = 2πr^2 + 2πrh$, where $r$ is the radius of the cylinder, and $h
 
 <b>Surface Area of a Sphere:</b>
 
-Formula = $SA = 4πr^2$, where $r$ is the radius of the sphere.
+Formula = \\(SA = 4πr^2\\), where \\(r\\) is the radius of the sphere.
 
 </li>
 
@@ -177,7 +177,7 @@ Formula = $SA = 4πr^2$, where $r$ is the radius of the sphere.
 
 <b>Surface Area of a Cone:</b>
 
-Formula = $SA = πr^2 + πrl$, where $r$ is the radius of the cone, $h$ is the height of the cone, and $l$ is the slant height of the cone.
+Formula = \\(SA = πr^2 + πrl\\), where \\(r\\) is the radius of the cone, \\(h\\) is the height of the cone, and \\(l\\) is the slant height of the cone.
 
 </li></p>
 

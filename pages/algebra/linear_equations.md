@@ -9,8 +9,12 @@ menuSubs:
   index: 2
 excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
 terms:
+  - ['Linear Equation', 'An equation that can be written in the form \(ax+b=0\), where \(a\) and \(b\) are constants,']
   - ['Coefficient', 'The number next to a variable. The variable is multiplied by the coefficient.']
-
+questions:
+  - ['Is \(7x^2-x+3=0\) a linear equation?', 'No, because there is a term with \(x^2\).']
+  - ['Is \(3x+4=9\) a linear equation?', 'Yes, because there if we subtract \(9\) from both sides, we see that it can be written as \(3x-5=0\).']
+  - ['In the linear equation of \(12x+5=0\), what is the coefficient for the \(x\) term?', '\(12\), because that is the number being multiplied by \(x\).']
 ---
 
 

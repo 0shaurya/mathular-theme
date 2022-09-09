@@ -114,7 +114,7 @@ $$
 &=\frac{-\sin^2(x)-\cos^2(x)}{\sin^2(x)}\\
 &=\frac{-1(\sin^2(x)+\cos^2(x))}{\sin^2(x)}\\
 &=\frac{-1(\sin^2(x)+\cos^2(x))}{\sin^2(x)}\\
-&=-\csc(x)
+&=-\csc^2(x)
 \end{align*}
 $$
 

@@ -9,11 +9,10 @@ menuSubs:
   index: 8
 excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
 terms:
-  - ['Variable', 'A symbol (usually a letter) that represents an unknown number']
-  - ['Equation', 'Two expressions seperated by an equals sign']
-  - ['Expression', 'A set of numbers or variables that interact with each other using operations']
-  - ['Operation', 'A function that manipulates two numbers to form another number (e.g. addition, division, exponentiation)']
-  - ['Constant', 'A number added onto an expression']
+  - ['System of Equations', 'A group of multiple equations with at least 2 variables in total']
+  - ['Substitution', 'A method of solving systems of equations where we solve for one variable in terms of the other, and then substitute that into the other equation']
+questions:
+  - ['What is the solution to the following system of equations?', '']
 ---
 
 
@@ -21,7 +20,7 @@ terms:
 
 <h2>Systems of Equations</h2><br>
 
-A <b>system of equations</b> is a group of multiple equations with multiple variables. Usually, it is mostly impossible to solve for an equation if you are only given one equation - however, with multiple equations, we can solve for multiple variables.
+A <b>system of equations</b> is a group of multiple equations with at least 2 variables in total. Usually, it is mostly impossible to solve for multiple variables if you are only given one equation - however, with multiple equations, we can solve for multiple variables.
 
 Take a look at the following system of equations:
 
@@ -31,6 +30,8 @@ b-7=-2a
 \end{cases} $$
 
 Here, \\(a\\) and \\(b\\) are variables. We are trying to solve for the combination of \\(a\\) and \\(b\\) that make both equations true. To understand it better, let's look at a graph:
+
+(image)
 
 We can clearly see that both equations intersect at \\(a=2\\) and \\(b=3\\). This is our solution, because both the equations intersect at this point. We have just graphically solved the system of equations. Let's try to solve it algebraically now.
 

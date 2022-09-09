@@ -11,9 +11,6 @@ excerpt: "An excerpt is used as the page description and can be up to 160 charac
 terms:
   - ['Constant', 'The term of the polynomial that contains only a number. The constant can be negative.']
   - ['Degree', 'Equal to the biggest exponent of the function. Always an integer, because polynomials always have integer exponents.']
-  - ['Expression', 'A set of numbers or variables that interact with each other using operations']
-  - ['Operation', 'A function that manipulates two numbers to form another number (e.g. addition, division, exponentiation)']
-  - ['Constant', 'A number added onto an expression']
 ---
 
 

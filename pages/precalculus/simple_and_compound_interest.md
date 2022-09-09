@@ -13,6 +13,10 @@ terms:
   - ['Simple Interest', 'A type of interest where the same amount of money is paid regularly. That amount is determined by the initial value deposited into the bank account.']
   - ['Principal', 'The initial amount of money deposited into a bank account']
   - ['Compound Interest', 'A type of interest where the amount of interest paid is a percentage of the money in the bank account at the time of interest being paid']
+questions:
+  - ['What is the simple interest gained for a bank account whose principal value was $150 if the interest rate is 10%?', '$15, because \(150 \cdot 0.1 = 15\).']
+  - ['How much money will be in David''s bank account after 5 months if he starts with $100 and the simple interest rate is 3% monthly?', '\(A=100(1+(0.03)(5)) = 100(1.15) = $115\)']
+  - ['How much money will be in Lisa''s bank account after 4 years if she starts with $500 and the compound interest rate is 2%, compounded monthly?, '\(A=500(1+\frac{0.02}{12})^{12\cdot 4} = $541.6\)']
 ---
 
 
@@ -20,9 +24,9 @@ terms:
 
 <h2>Simple and Compound Interest</h2><br>
 
-A bank will give you <b>interest</b> on money stored in an account. Interest is the money paid regularly at a specified percentage. For example, if Alice keeps \\(100\\) in her bank account, and it has an interest rate of 3% monthly, she will get 3 more dollars in her account the next month.
+A bank will give you <b>interest</b> on money stored in an account. Interest is the money paid regularly at a specified percentage. For example, if Alice keeps $100 in her bank account, and it has an interest rate of 3% monthly, she will get 3 more dollars in her account the next month.
 
-There are two types of interest. The first type is <b>simple interest</b>. Simple interest is when the bank pays you back at a percentage of the initial value deposited. For example, if Bob deposits \\(1,000\\) into his bank account initially (note that the initial value deposited is known as the <b>principal</b> value), with a simple interest of 10% yearly, he will gain \\(0.1\cdot1000=100\\) dollars every year. Bob's account will look like the following:
+There are two types of interest. The first type is <b>simple interest</b>. Simple interest is when the bank pays you back at a percentage of the initial value deposited. For example, if Bob deposits $1,000 into his bank account initially (note that the initial value deposited is known as the <b>principal</b> value), with a simple interest of 10% yearly, he will gain \\(0.1\cdot1000=100\\) dollars every year. Bob's account will look like the following:
 
 table
 
@@ -53,7 +57,7 @@ The formula for compound interest is quite a bit more complicated than the simpl
 
 $$A = P(1+\frac{r}{n})^{nt}$$
 
-Here, \\(n\\) is the new parameter. \\(n\\) represents the number of times the money is compounded in the time period \\(t\\). For example, if \\(t\\) is measured in years and the money is compounded monthly, \\(n\\) would be 12. If \\(t\\) was measured in years and the money was compounded years, \\(n\\) would be 1.
+Here, \\(n\\) is the new parameter. \\(n\\) represents the number of times the money is compounded per time period \\(t\\). For example, if \\(t\\) is measured in years and the money is compounded monthly, \\(n\\) would be 12. If \\(t\\) was measured in years and the money was compounded years, \\(n\\) would be 1.
 
 Let's plug our new formula into Charlie's situation to find out how much money he would have after 3 years:
 

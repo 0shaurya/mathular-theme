@@ -49,7 +49,7 @@ Or, we can use graphs. Functions on graphs are very useful and common. This is t
 
 An important note about functions: when inputting a number into a function, the function should always return either 1 or 0 numbers. In other words, inputting a number into a function can never give 2 (or more) results. For example, the following graph is not a function:
 
-because at \\(x=??????\\), there are two y values. You can use something called the vertical line test to test if a function on a graph is actually a function. If you can make at least 1 vertical line on the graph that crosses the function at least twice, that is automatically not a function. Look at the following for an example of the vertical line test:
+because at \\(x=??????\\), there are two y values. You can use something called the <b>vertical line test</b> to test if a function on a graph is actually a function. If you can make at least 1 vertical line on the graph that crosses the function at least twice, that is automatically not a function. Look at the following for an example of the vertical line test:
 
 Feel free to play with functions as you want here:
 
