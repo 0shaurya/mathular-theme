@@ -20,7 +20,7 @@
 		--main-text-color: hsl(0, 0%, 0%);
 		--accent-color: #f77570;
 		--term-bg-color: lightblue;
-		--scrollbar-color: black;
+		--scrollbar-color: auto;
 		--menubar-hover-color: rgb(220, 220, 220);
 		--selected-menu-item-color: rgb(210, 210, 210);
 
@@ -56,7 +56,7 @@
 	    	--main-text-color: hsl(0, 0%, 0%);
 	  		--accent-color: #f77570;
 	  		--term-bg-color: lightblue;
-	  		--scrollbar-color: black;
+	  		--scrollbar-color: auto;
 	  		--menubar-hover-color: rgb(220, 220, 220);
 	  		--selected-menu-item-color: rgb(210, 210, 210);
 	  } 
@@ -140,7 +140,7 @@
 <head>
 	<script type="text/javascript">console.log("jekyll envrionment = development")</script>
 
-	<link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="http://localhost:4000/icons/favicon.ico">
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -376,16 +376,6 @@
 		<div class="dropdown">
 			<div class="subitem-separator"><p></p></div>
 			<div class="subitem">
-				<input type="checkbox" id="Simple-and-Compound-Interest-checkbox">
-				<div class="title">
-					<label class="symbol" for="Simple-and-Compound-Interest-checkbox">
-						<p></p>
-					</label>
-					<div class="text"><a href="/pages/precalculus/simple_and_compound_interest.html"><p>Simple and Compound Interest</p></a></div>
-				</div>
-			</div>
-			<div class="subitem-separator"><p></p></div>
-			<div class="subitem">
 				<input type="checkbox" id="Trigonometry-checkbox">
 				<div class="title">
 					<label class="symbol" for="Trigonometry-checkbox">
@@ -611,7 +601,7 @@
 <h2>Quadratic Equations</h2>
 <p><br /></p>
 
-<p>Let’s go over one type of polynomial, quadratic equations. Quadratic equations are functions that can be written in the following form:</p>
+<p>Let’s go over one type of polynomial, quadratic equations. <b>Quadratic equations</b> are functions that can be written in the following form:</p>
 
 \[f(x)=ax^2+bx+c\]
 
@@ -619,9 +609,9 @@
 
 <p><img src="https://lh5.googleusercontent.com/AfnbtWRS53SZwZGHLKaXj22zrZLCgjCqlxM3N7cA0PB5HolY6NT5zW6IuFEKxBV_jc-OOucws3zBWHxfLAIAJbXw00zbf9dGQBIpaaSWWki77Yqd__GsbQ2EViOuSZvBDtiHR33TmdDW4JUtkMnB8lY" alt="" /></p>
 
-<p>As you can see, parabolas can either open down or open up. The orange and blue parabolas open up, and the green and red parabolas open down. A parabola opens up when \(a\) is positive, and open downs when \(a\) is negative. When \(a\) is \(0\), the entire first term is canceled out and it becomes a linear function.</p>
+<p>As you can see, parabolas can either open down or open up. The orange and blue parabolas open up, and the green and red parabolas open down. A parabola opens up when \(a\)is positive, and open downs when \(a\) is negative. When\(a\) is \(0\) the entire first term is canceled out and it becomes a linear function.</p>
 
-<p>Another thing to notice is the root(s) of an equation. The root of a quadratic equation \(f(x)\) is when it hits the x-axis, or when \(f(x)=0\). A quadratic equation can have 0, 1, or 2 real roots. In the earlier image, the red and orange parabolas have 2 roots, because they cross the x-axis twice, the blue parabola has 0 roots, because it never crosses the x-axis, and the green parabola has 1 root, because it crosses the x-axis only once.</p>
+<p>Another thing to notice is the root(s) of an equation. The root of a quadratic equation \(f(x\) is when it hits the x-axis, or when \(f(x)=0\). A quadratic equation can have 0, 1, or 2 real roots. In the earlier image, the red and orange parabolas have 2 roots, because they cross the x-axis twice, the blue parabola has 0 roots, because it never crosses the x-axis, and the green parabola has 1 root, because it crosses the x-axis only once.</p>
 
 <p>Sometimes, it’s important to find the x-values of the roots of an equation. The roots of an equation are the answer to the following expression:</p>
 
@@ -675,8 +665,8 @@
 		background-color: var(--term-bg-color) !important;
 	}
 
-	.question span {
-		color: var(--link-color);
+	.showAnswerB {
+		color: var(--link-color) !important;
 	}
 
 	.footer-separator {
@@ -692,6 +682,30 @@
 
 <div class="questions-container">
 	
+		<div class="question">
+			<b style="color:var(--main-text-color) !important">Is \(3x^2-4x+2=0\) a quadratic equation?</b> <br><br>
+			[<span class="showAnswerB">Show answer</span>]
+			<span class="answer"><br>Yes, because it is written in the form \(ax^2+bx+c\), where \(a=3\), \(b=-4\), and \(c=2\).</span>
+		</div><br>
+	
+		<div class="question">
+			<b style="color:var(--main-text-color) !important">Is \(4x^2+7x=9\) a quadratic equation?</b> <br><br>
+			[<span class="showAnswerB">Show answer</span>]
+			<span class="answer"><br>Yes, because if we subtract both sides by \(9\), we see that it can be written in the form \(ax^2+bx+c=0\).</span>
+		</div><br>
+	
+		<div class="question">
+			<b style="color:var(--main-text-color) !important">Is \(x^2=5\) a quadratic equation?</b> <br><br>
+			[<span class="showAnswerB">Show answer</span>]
+			<span class="answer"><br>Yes, because it can be written in the form \(ax^2+bx+c=0\) where \(a=1\), \(b=0\), and \(c=-5\).</span>
+		</div><br>
+	
+		<div class="question">
+			<b style="color:var(--main-text-color) !important">What are the roots of the following parabola?</b> <br><br>
+			[<span class="showAnswerB">Show answer</span>]
+			<span class="answer"><br></span>
+		</div><br>
+	
 </div>
 
 <style type="text/css">
@@ -705,7 +719,6 @@
 	}
 
 	.showAnswerB {
-		color: #0645AD;
 		text-decoration: underline;
 		cursor: pointer;
 	}
@@ -782,30 +795,15 @@
 </div>
 
 <div class="terms-container">
+	<h1 style="display:block;margin:auto">
+		
+			Terms (1)
+		
+	</h1>
 	
 		<div class="term">
-		<b>Variable</b> <br><br>
-		A symbol (usually a letter) that represents an unknown number
-		</div><br>
-	
-		<div class="term">
-		<b>Equation</b> <br><br>
-		Two expressions seperated by an equals sign
-		</div><br>
-	
-		<div class="term">
-		<b>Expression</b> <br><br>
-		A set of numbers or variables that interact with each other using operations
-		</div><br>
-	
-		<div class="term">
-		<b>Operation</b> <br><br>
-		A function that manipulates two numbers to form another number (e.g. addition, division, exponentiation)
-		</div><br>
-	
-		<div class="term">
-		<b>Constant</b> <br><br>
-		A number added onto an expression
+		<b>Quadratic Equation</b> <br><br>
+		An equation that can be written in the form \(f(x)=ax^2+bx+c\), where \(a\) and \(b\) are constants
 		</div><br>
 	
 </div>

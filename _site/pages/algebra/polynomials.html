@@ -20,7 +20,7 @@
 		--main-text-color: hsl(0, 0%, 0%);
 		--accent-color: #f77570;
 		--term-bg-color: lightblue;
-		--scrollbar-color: black;
+		--scrollbar-color: auto;
 		--menubar-hover-color: rgb(220, 220, 220);
 		--selected-menu-item-color: rgb(210, 210, 210);
 
@@ -56,7 +56,7 @@
 	    	--main-text-color: hsl(0, 0%, 0%);
 	  		--accent-color: #f77570;
 	  		--term-bg-color: lightblue;
-	  		--scrollbar-color: black;
+	  		--scrollbar-color: auto;
 	  		--menubar-hover-color: rgb(220, 220, 220);
 	  		--selected-menu-item-color: rgb(210, 210, 210);
 	  } 
@@ -140,7 +140,7 @@
 <head>
 	<script type="text/javascript">console.log("jekyll envrionment = development")</script>
 
-	<link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="http://localhost:4000/icons/favicon.ico">
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -374,16 +374,6 @@
 			</div>
 		</div>
 		<div class="dropdown">
-			<div class="subitem-separator"><p></p></div>
-			<div class="subitem">
-				<input type="checkbox" id="Simple-and-Compound-Interest-checkbox">
-				<div class="title">
-					<label class="symbol" for="Simple-and-Compound-Interest-checkbox">
-						<p></p>
-					</label>
-					<div class="text"><a href="/pages/precalculus/simple_and_compound_interest.html"><p>Simple and Compound Interest</p></a></div>
-				</div>
-			</div>
 			<div class="subitem-separator"><p></p></div>
 			<div class="subitem">
 				<input type="checkbox" id="Trigonometry-checkbox">
@@ -697,8 +687,8 @@ h(x)=7x^4−2x−\frac{18}{5}\]
 		background-color: var(--term-bg-color) !important;
 	}
 
-	.question span {
-		color: var(--link-color);
+	.showAnswerB {
+		color: var(--link-color) !important;
 	}
 
 	.footer-separator {
@@ -727,7 +717,6 @@ h(x)=7x^4−2x−\frac{18}{5}\]
 	}
 
 	.showAnswerB {
-		color: #0645AD;
 		text-decoration: underline;
 		cursor: pointer;
 	}
@@ -804,6 +793,11 @@ h(x)=7x^4−2x−\frac{18}{5}\]
 </div>
 
 <div class="terms-container">
+	<h1 style="display:block;margin:auto">
+		
+			Terms (2)
+		
+	</h1>
 	
 		<div class="term">
 		<b>Constant</b> <br><br>
@@ -813,21 +807,6 @@ h(x)=7x^4−2x−\frac{18}{5}\]
 		<div class="term">
 		<b>Degree</b> <br><br>
 		Equal to the biggest exponent of the function. Always an integer, because polynomials always have integer exponents.
-		</div><br>
-	
-		<div class="term">
-		<b>Expression</b> <br><br>
-		A set of numbers or variables that interact with each other using operations
-		</div><br>
-	
-		<div class="term">
-		<b>Operation</b> <br><br>
-		A function that manipulates two numbers to form another number (e.g. addition, division, exponentiation)
-		</div><br>
-	
-		<div class="term">
-		<b>Constant</b> <br><br>
-		A number added onto an expression
 		</div><br>
 	
 </div>

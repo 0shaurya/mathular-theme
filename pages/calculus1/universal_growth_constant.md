@@ -22,11 +22,11 @@ terms:
 
 Imagine a type of 2D goo that exists in an infinite 2D world. This special type of goo will grow and spread in a special way. To begin, let's define the intervals it will grow in. The goo below grows in intervals of 1 second with a growth rate of 100%. This means that every one second, the goo will grow by 100%:
 
-(image)
+<img src="../../visuals/googrowth1.svg" style="width:30%;height:auto;display:block;margin:auto;">
 
 Notice that at the end of 1 second, there are 2 units of goo present. This makes sense, because the goo grew by 100% after the first second. Now, let's imagine the same situation, but the goo grows in intervals of half a second instead. Every half second, the goo will grow by 50%:
 
-(image)
+<img src="../../visuals/googrowth2.svg" style="width:30%;height:auto;display:block;margin:auto;">
 
 Here, every 0.5 seconds, the amount of goo increases by 50%. After one second, the goo has gone through two iterations, and it's final amount is \\(2.25\\), because
 
@@ -40,7 +40,7 @@ $$\begin{align*}
 
 Let's imagine another situation, where the goo grows in intervals of every one third of a second. Every one third of a second, the goo will grow by \\(33.\overline{3}\%\\):
 
-(image)
+<img src="../../visuals/googrowth3.svg" style="width:30%;height:auto;display:block;margin:auto;">
 
 At the end of the 1 second, our final amount of goo will be \\(2.\overline{370}\\):
 
@@ -131,7 +131,8 @@ Because \\(e^x\\) is so important, it's useful to have an equation that represen
 
   
 
-(graph) e^x and lnx
+<img src="../../visuals/e^x and lnx.png" style="width:50%;height:auto;display:block;margin:auto;">
+
 
   
 

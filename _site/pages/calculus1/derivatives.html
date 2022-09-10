@@ -20,7 +20,7 @@
 		--main-text-color: hsl(0, 0%, 0%);
 		--accent-color: #f77570;
 		--term-bg-color: lightblue;
-		--scrollbar-color: black;
+		--scrollbar-color: auto;
 		--menubar-hover-color: rgb(220, 220, 220);
 		--selected-menu-item-color: rgb(210, 210, 210);
 
@@ -56,7 +56,7 @@
 	    	--main-text-color: hsl(0, 0%, 0%);
 	  		--accent-color: #f77570;
 	  		--term-bg-color: lightblue;
-	  		--scrollbar-color: black;
+	  		--scrollbar-color: auto;
 	  		--menubar-hover-color: rgb(220, 220, 220);
 	  		--selected-menu-item-color: rgb(210, 210, 210);
 	  } 
@@ -140,7 +140,7 @@
 <head>
 	<script type="text/javascript">console.log("jekyll envrionment = development")</script>
 
-	<link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="http://localhost:4000/icons/favicon.ico">
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -376,16 +376,6 @@
 		<div class="dropdown">
 			<div class="subitem-separator"><p></p></div>
 			<div class="subitem">
-				<input type="checkbox" id="Simple-and-Compound-Interest-checkbox">
-				<div class="title">
-					<label class="symbol" for="Simple-and-Compound-Interest-checkbox">
-						<p></p>
-					</label>
-					<div class="text"><a href="/pages/precalculus/simple_and_compound_interest.html"><p>Simple and Compound Interest</p></a></div>
-				</div>
-			</div>
-			<div class="subitem-separator"><p></p></div>
-			<div class="subitem">
 				<input type="checkbox" id="Trigonometry-checkbox">
 				<div class="title">
 					<label class="symbol" for="Trigonometry-checkbox">
@@ -613,27 +603,27 @@
 
 <p>In algebra, we learned what the slope of a linear function was. To review, the slope of a linear equation was the increase in y units for every 1 unit increase on the x-axis. For example, take a look at the following graph of \(y = \frac{3}{2}x -1\):</p>
 
-<p>(graph) 3x over 2 - 1</p>
+<p><img src="../../visuals/3x over 2 - 1.png" style="width:50%;height:auto;display:block;margin:auto;" /></p>
 
 <p>Because the line goes up 1.5 units for every 1 unit it goes to the right, we can say that the slope of this line is equal to 1.5. However, this will not work for other functions.</p>
 
 <p>For example, look at the function \(a(x)\) below:</p>
 
-<p>(graph), a(x)</p>
+<p><img src="../../visuals/a(x).png" style="width:50%;height:auto;display:block;margin:auto;" /></p>
 
 <p>Because this function is curved, it doesn’t have a single slope. Instead, the slope of the curve varies at different x-values. To show this, we can look at lines <b>tangent</b> to the curve at various points:</p>
 
-<p>(graph), a(x) tangent lines</p>
+<p><img src="../../visuals/a(x) tangent lines.png" style="width:50%;height:auto;display:block;margin:auto;" /></p>
 
 <p>A tangent line is the line with the same slope at a point on a curve. In this case, because the slope of the tangent changes as \(x\) changes, we know that there is not one constant slope for the entire curve. This is in contrast to a linear equation, where there would just be one tangent line, and therefore one slope for the entire line.</p>
 
 <p>Let’s see we wanted to make another function, \(b(x)\), that describes the slope of \(a(x)\) for various values of \(x\). \(b(x)\) would look something like this:</p>
 
-<p>(graph), b(x)</p>
+<p><img src="../../visuals/b(x).png" style="width:50%;height:auto;display:block;margin:auto;" /></p>
 
 <p>Why is it like this? Well, \(b(x)\) is dependent on the slope of the tangent line to \(a(x)\) at \(x\). Notice that for every x-value, the slope of the tangent line to \(a(x)\) is equal to \(b(x)\). Or, shown visually:</p>
 
-<p>(image), gif</p>
+<p><img src="../../visuals/a(x) b(x) tangent.gif" style="width:50%;height:auto;display:block;margin:auto;" /></p>
 
 <p>We call \(b(x)\) the <b>derivative</b> of \(a(x)\). The derivative of a function is another function, whose values are the slopes of the respective tangent lines of \(a(x)\). Let’s try to figure out how to construct the derivative of any function \(f(x)\).</p>
 
@@ -749,8 +739,8 @@ f'(x) = ??????\]
 		background-color: var(--term-bg-color) !important;
 	}
 
-	.question span {
-		color: var(--link-color);
+	.showAnswerB {
+		color: var(--link-color) !important;
 	}
 
 	.footer-separator {
@@ -779,7 +769,6 @@ f'(x) = ??????\]
 	}
 
 	.showAnswerB {
-		color: #0645AD;
 		text-decoration: underline;
 		cursor: pointer;
 	}
@@ -856,6 +845,11 @@ f'(x) = ??????\]
 </div>
 
 <div class="terms-container">
+	<h1 style="display:block;margin:auto">
+		
+			Terms (4)
+		
+	</h1>
 	
 		<div class="term">
 		<b>Tangent</b> <br><br>

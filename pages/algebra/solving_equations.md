@@ -10,7 +10,7 @@ menuSubs:
 excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
 questions:
   - ['In the equation \(4x+3=11\), what does \(x\) equal?', 'Subtract both sides by \(3\) and then divide both sides by \(4\) to find \(x=2\).']
-  - ['In the equation \(0.5x-5=-19\), what does \(x\) equal?, 'Add both sides by \(5\) and then multiply both sides by \(2\) to find \(x=-28\).']
+  - ['In the equation \(0.5x-5=-19\), what does \(x\) equal?', 'Add both sides by \(5\) and then multiply both sides by \(2\) to find \(x=-28\).']
   - ['In the equation \(x^2=25\), what does \(x\) equal?', 'Take the square root of both sides to find \(x=5\).']
   - ['In the equation \(3x^2=27\), what does \(x\) equal?', 'Divide both sides by \(3\) and then takek the square root of both sides to find \(x=3\)']
 ---

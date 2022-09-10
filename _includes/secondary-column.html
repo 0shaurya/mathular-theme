@@ -31,6 +31,13 @@
 </div>
 
 <div class="terms-container">
+	<h1 style="display:block;margin:auto">
+		{% if page.terms and page.terms.size > 0 %}
+			Terms ({{ page.terms.size}})
+		{% else %}
+			No terms for this chapter.
+		{% endif %}
+	</h1>
 	{% for term in page.terms%}
 		<div class="term">
 		<b>{{ term[0] }}</b> <br><br>

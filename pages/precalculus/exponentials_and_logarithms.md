@@ -9,7 +9,7 @@ menuSubs:
   index: 4
 excerpt: "Discussing Exponentials and Logarithms"
 terms:
-  - ['Exponential function', 'A function written in the form of \(f(x) = ab^x\), where \(a\\) and \(b\) are parameters. Exponential functions grow very fast.']
+  - ['Exponential function', 'A function written in the form of \(f(x) = ab^x\), where \(a\) and \(b\) are parameters. Exponential functions grow very fast.']
   - ['Logarithm', 'the inverse operation of an exponential. It cancels out the base of an exponential.']
   - ['Product rule law', 'A law that states \(\log_{b}{M\cdot N}\ = \log_{b}{M}+\log_{b}{N}\). It can split apart multiplication inside a logarithm.']
   - ['Quotient rule law', 'A law that states \(\log_{b}{\frac{M}{N}} = \log_{b}{M} - \log_{b}{N}\). It can split apart division inside a logarithm.']

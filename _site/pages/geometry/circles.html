@@ -20,7 +20,7 @@
 		--main-text-color: hsl(0, 0%, 0%);
 		--accent-color: #f77570;
 		--term-bg-color: lightblue;
-		--scrollbar-color: black;
+		--scrollbar-color: auto;
 		--menubar-hover-color: rgb(220, 220, 220);
 		--selected-menu-item-color: rgb(210, 210, 210);
 
@@ -56,7 +56,7 @@
 	    	--main-text-color: hsl(0, 0%, 0%);
 	  		--accent-color: #f77570;
 	  		--term-bg-color: lightblue;
-	  		--scrollbar-color: black;
+	  		--scrollbar-color: auto;
 	  		--menubar-hover-color: rgb(220, 220, 220);
 	  		--selected-menu-item-color: rgb(210, 210, 210);
 	  } 
@@ -140,7 +140,7 @@
 <head>
 	<script type="text/javascript">console.log("jekyll envrionment = development")</script>
 
-	<link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="http://localhost:4000/icons/favicon.ico">
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -374,16 +374,6 @@
 			</div>
 		</div>
 		<div class="dropdown">
-			<div class="subitem-separator"><p></p></div>
-			<div class="subitem">
-				<input type="checkbox" id="Simple-and-Compound-Interest-checkbox">
-				<div class="title">
-					<label class="symbol" for="Simple-and-Compound-Interest-checkbox">
-						<p></p>
-					</label>
-					<div class="text"><a href="/pages/precalculus/simple_and_compound_interest.html"><p>Simple and Compound Interest</p></a></div>
-				</div>
-			</div>
 			<div class="subitem-separator"><p></p></div>
 			<div class="subitem">
 				<input type="checkbox" id="Trigonometry-checkbox">
@@ -633,7 +623,7 @@ We've covered the fundamentals of Congruency, Proofs, and Geometry. Finally, we'
 
 <ul><u>Arc Length:</u> The length of an arc is the distance between the start and end points of the arc. <br /></ul>
 
-<ul><u>Formula for the arc length</u>  = $(2πr)$ $(θ/360)$, where $r$ is the radius of the circle.</ul>
+<ul><u>Formula for the arc length</u>  = \\((2πr)\\) \\((θ/360)\\), where \\(r\\) is the radius of the circle.</ul>
 
 <center><img src="https://www.storyofmathematics.com/wp-content/uploads/2020/07/Arc-of-a-Circle.jpg" alt="Coordinate Plane" style="width:45%;" />
 
@@ -643,13 +633,13 @@ We've covered the fundamentals of Congruency, Proofs, and Geometry. Finally, we'
 
 <br />
 
-<center><b>Example:</b> Arc $AB$ has an angle of $40°$ and the circle has a radius of $7cm$. Calculate the length of arc $AB$.
+<center><b>Example:</b> Arc \\(AB\\) has an angle of \\(40°\\) and the circle has a radius of \\(7cm\\). Calculate the length of arc \\(AB\\).
 
 <img src="https://www.storyofmathematics.com/wp-content/uploads/2020/07/Arc-of-a-Circle-Example.jpg" alt="Example Question" style="width:45%;" />
 
 <br />
 
-<b>Answer:</b> $(2π7)$ $(40/360)$ = $4.884$ cm.
+<b>Answer:</b> \\((2π7)\\) \\((40/360)\\) = \\(4.884\\) cm.
   
   <br />
 
@@ -662,9 +652,9 @@ We've covered the fundamentals of Congruency, Proofs, and Geometry. Finally, we'
 
 <li><b>Area of Sector of a Circle:</b> Space enclosed by the sector of a circle.
 
-<b>Formula = </b> Area of sector of circle = $(πr^2)$ $(θ/360)$, where $θ$ is the sector angle subtended by the arc at the center, <b>in degrees</b>. And, $r$ is the radius of the circle.
+<b>Formula = </b> Area of sector of circle = \\((πr^2)\\) \\((θ/360)\\), where \\(θ\\) is the sector angle subtended by the arc at the center, <b>in degrees</b>. And, \\(r\\) is the radius of the circle.
 
-Area of sector of circle = $(\frac {1}{2})$ $(r^2 θ)$, where $θ$ is the sector angle subtended by the arc at the center, <b>in radians</b>. And, $r$ is the radius of the circle.
+Area of sector of circle = \\((\frac {1}{2})\\) \\((r^2 θ)\\), where \\(θ\\) is the sector angle subtended by the arc at the center, <b>in radians</b>. And, \\(r\\) is the radius of the circle.
 
 <center><img src="https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/area-of-sector-of-a-circle-1637917885.png" alt="Coordinate Plane" style="width:50%;" />
 
@@ -682,7 +672,7 @@ Area of sector of circle = $(\frac {1}{2})$ $(r^2 θ)$, where $θ$ is the sector
 
 <b>Volume of a Cube:</b>
 
-Formula = $V = a^3$, where $a$ is the edge of the cube.
+Formula = \\(V = a^3\\), where \\(a\\) is the edge of the cube.
 
 </li>
 
@@ -690,7 +680,7 @@ Formula = $V = a^3$, where $a$ is the edge of the cube.
 
 <b>Volume of a Rectangular Prism:</b>
 
-Formula = $V = w*h*l$, where $w$ is the width of the prism, $h$ is the height of the prism, and $l$ is the length of the prism.
+Formula = \\(V = w*h*l\\), where \\(w\\) is the width of the prism, \\(h\\) is the height of the prism, and \\(l\\) is the length of the prism.
 
 </li>
 
@@ -698,7 +688,7 @@ Formula = $V = w*h*l$, where $w$ is the width of the prism, $h$ is the height of
 
 <b>Volume of a Cylinder:</b>
 
-Formula = $V = πr^2h$, where $r$ is the radius of the cylinder, and $h$ is the height of the cylinder.
+Formula = \\(V = πr^2h\\), where \\(r\\) is the radius of the cylinder, and \\(h\\) is the height of the cylinder.
 
 </li>
 
@@ -706,7 +696,7 @@ Formula = $V = πr^2h$, where $r$ is the radius of the cylinder, and $h$ is the 
 
 <b>Volume of a Sphere:</b>
 
-Formula = $V = \frac {4}{3}$ $πr^3$, where $r$ is the radius of the sphere.
+Formula = \\(V = \frac {4}{3}\\) \\(πr^3\\), where \\(r\\) is the radius of the sphere.
 
 </li>
 
@@ -714,7 +704,7 @@ Formula = $V = \frac {4}{3}$ $πr^3$, where $r$ is the radius of the sphere.
 
 <b>Volume of a Cone:</b>
 
-Formula = $V = πr^2h/3$, where $r$ is the radius of the cone, and $h$ is the height of the cone.
+Formula = \\(V = πr^2h/3\\), where \\(r\\) is the radius of the cone, and \\(h\\) is the height of the cone.
 
 </li>
 
@@ -722,7 +712,7 @@ Formula = $V = πr^2h/3$, where $r$ is the radius of the cone, and $h$ is the he
 
 <b>Volume of a Pyramid:</b>
 
-Formula = $V = l * w * (\frac{h}{3})$, where $w$ is the width of the pyramid, $h$ is the height of the pyramid, and $l$ is the base length of the pyramid.
+Formula = \\(V = l * w * (\frac{h}{3})\\), where \\(w\\) is the width of the pyramid, \\(h\\) is the height of the pyramid, and \\(l\\) is the base length of the pyramid.
 
 </li></p>
 
@@ -736,7 +726,7 @@ Formula = $V = l * w * (\frac{h}{3})$, where $w$ is the width of the pyramid, $h
 
 <b>Surface Area of a Cube:</b>
 
-Formula = $SA = 6a^2$, where $a$ is the edge of the cube.
+Formula = \\(SA = 6a^2\\), where \\(a\\) is the edge of the cube.
 
 </li>
 
@@ -744,7 +734,7 @@ Formula = $SA = 6a^2$, where $a$ is the edge of the cube.
 
 <b>Surface Area of a Rectangular Prism:</b>
 
-Formula = $SA = 2wh + 2wl + 2hl$, where $w$ is the width of the prism, $h$ is the height of the prism, and $l$is the length of the prism.
+Formula = \\(SA = 2wh + 2wl + 2hl\\), where \\(w\\) is the width of the prism, \\(h\\) is the height of the prism, and \\(l\\)is the length of the prism.
 
 </li>
 
@@ -752,7 +742,7 @@ Formula = $SA = 2wh + 2wl + 2hl$, where $w$ is the width of the prism, $h$ is th
 
 <b>Surface Area of a Cylinder:</b>
 
-Formula = $SA = 2πr^2 + 2πrh$, where $r$ is the radius of the cylinder, and $h$ is the height of the cylinder.
+Formula = \\(SA = 2πr^2 + 2πrh\\), where \\(r\\) is the radius of the cylinder, and \\(h\\) is the height of the cylinder.
 
 </li>
 
@@ -760,7 +750,7 @@ Formula = $SA = 2πr^2 + 2πrh$, where $r$ is the radius of the cylinder, and $h
 
 <b>Surface Area of a Sphere:</b>
 
-Formula = $SA = 4πr^2$, where $r$ is the radius of the sphere.
+Formula = \\(SA = 4πr^2\\), where \\(r\\) is the radius of the sphere.
 
 </li>
 
@@ -768,7 +758,7 @@ Formula = $SA = 4πr^2$, where $r$ is the radius of the sphere.
 
 <b>Surface Area of a Cone:</b>
 
-Formula = $SA = πr^2 + πrl$, where $r$ is the radius of the cone, $h$ is the height of the cone, and $l$ is the slant height of the cone.
+Formula = \\(SA = πr^2 + πrl\\), where \\(r\\) is the radius of the cone, \\(h\\) is the height of the cone, and \\(l\\) is the slant height of the cone.
 
 </li></p>
 
@@ -823,8 +813,8 @@ Formula = $SA = πr^2 + πrl$, where $r$ is the radius of the cone, $h$ is the h
 		background-color: var(--term-bg-color) !important;
 	}
 
-	.question span {
-		color: var(--link-color);
+	.showAnswerB {
+		color: var(--link-color) !important;
 	}
 
 	.footer-separator {
@@ -841,7 +831,7 @@ Formula = $SA = πr^2 + πrl$, where $r$ is the radius of the cone, $h$ is the h
 <div class="questions-container">
 	
 		<div class="question">
-			<b>question</b> <br><br>
+			<b style="color:var(--main-text-color) !important">question</b> <br><br>
 			[<span class="showAnswerB">Show answer</span>]
 			<span class="answer"><br>answer</span>
 		</div><br>
@@ -859,7 +849,6 @@ Formula = $SA = πr^2 + πrl$, where $r$ is the radius of the cone, $h$ is the h
 	}
 
 	.showAnswerB {
-		color: #0645AD;
 		text-decoration: underline;
 		cursor: pointer;
 	}
@@ -936,6 +925,11 @@ Formula = $SA = πr^2 + πrl$, where $r$ is the radius of the cone, $h$ is the h
 </div>
 
 <div class="terms-container">
+	<h1 style="display:block;margin:auto">
+		
+			Terms (4)
+		
+	</h1>
 	
 		<div class="term">
 		<b>Arc Length</b> <br><br>

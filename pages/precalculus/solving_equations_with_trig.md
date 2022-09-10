@@ -20,7 +20,7 @@ Using algebra to solve equations is a fairly straightforward process most of the
 
 Let's start with the unit circle. In the last chapter we talked about the unit circle and how it relates to sine and cosine. Remember that the unit circle is the circle centered at (0, 0) with a radius of 1. We related it to trigonometric functions by drawing right triangles inside it, and discovered that \\(\sin(\theta)\\) is equal to the height of the right triangle that has a vertex on the origin and a hypotenuse of length 1.
 
-(image)
+<img src="../../visuals/unitcircleinstance.png" style="width:50%;height:auto;display:block;margin:auto;">
 
 Using this knowledge, we can figure out the value of \\(\sin(\theta)\\) for select values of \\(\theta\\). Let's try to find \\(\sin(\theta)\\) for values of \\(\theta = \frac{\pi}{3}, \frac{\pi}{4}, and \frac{\pi}{6}\\). First, let's try to find \\(\sin(\frac{\pi}{3}\\), or \\(\sin(30^{\circ})\\). This is the corresponding diagram:
 
@@ -50,7 +50,7 @@ Because \\(\sin(\theta)\\) is directly equal to the y-value and \\(\cos(\theta)\
 
 Now that we know the unit circle, we can solve an equation like this:
 
-$$cos(\theta) = \frac{1}{2}$$
+$$\cos(\theta) = \frac{1}{2}$$
 
 Take a look at our unit circle. We're looking for values of \\(\theta\\) where the x-value is equal to \\(\frac{1}{2}\\) (because cosine is represented by the x-value). Looking at our unit circle, we can see that those x-values appears when \\(\theta\\) equals \\(\frac{\pi}{3}\\) and \\(\frac{5\pi}{3}\\). However, remember that \\(\cos(\theta)\\) has a period of \\(2\pi\\) - this means that values for cosine will repeat every \\(2\pi\\) units, so the actual answer is:
 

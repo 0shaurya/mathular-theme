@@ -24,9 +24,7 @@ terms:
 In algebra, we learned what the slope of a linear function was. To review, the slope of a linear equation was the increase in y units for every 1 unit increase on the x-axis. For example, take a look at the following graph of \\(y = \frac{3}{2}x -1\\):
 
   
-
-(graph) 3x over 2 - 1
-
+<img src="../../visuals/3x over 2 - 1.png" style="width:50%;height:auto;display:block;margin:auto;">
   
 
 Because the line goes up 1.5 units for every 1 unit it goes to the right, we can say that the slope of this line is equal to 1.5. However, this will not work for other functions.
@@ -36,16 +34,14 @@ Because the line goes up 1.5 units for every 1 unit it goes to the right, we can
 For example, look at the function \\(a(x)\\) below:
 
   
-
-(graph), a(x)
+<img src="../../visuals/a(x).png" style="width:50%;height:auto;display:block;margin:auto;">
 
   
 
 Because this function is curved, it doesn't have a single slope. Instead, the slope of the curve varies at different x-values. To show this, we can look at lines <b>tangent</b> to the curve at various points:
 
   
-
-(graph), a(x) tangent lines
+<img src="../../visuals/a(x) tangent lines.png" style="width:50%;height:auto;display:block;margin:auto;">
 
   
 
@@ -56,16 +52,14 @@ A tangent line is the line with the same slope at a point on a curve. In this ca
 Let's see we wanted to make another function, \\(b(x)\\), that describes the slope of \\(a(x)\\) for various values of \\(x\\). \\(b(x)\\) would look something like this:
 
   
-
-(graph), b(x)
+<img src="../../visuals/b(x).png" style="width:50%;height:auto;display:block;margin:auto;">
 
   
 
 Why is it like this? Well, \\(b(x)\\) is dependent on the slope of the tangent line to \\(a(x)\\) at \\(x\\). Notice that for every x-value, the slope of the tangent line to \\(a(x)\\) is equal to \\(b(x)\\). Or, shown visually:
 
   
-
-(image), gif
+<img src="../../visuals/a(x) b(x) tangent.gif" style="width:50%;height:auto;display:block;margin:auto;">
 
   
 

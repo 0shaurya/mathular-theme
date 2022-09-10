@@ -20,7 +20,7 @@
 		--main-text-color: hsl(0, 0%, 0%);
 		--accent-color: #f77570;
 		--term-bg-color: lightblue;
-		--scrollbar-color: black;
+		--scrollbar-color: auto;
 		--menubar-hover-color: rgb(220, 220, 220);
 		--selected-menu-item-color: rgb(210, 210, 210);
 
@@ -56,7 +56,7 @@
 	    	--main-text-color: hsl(0, 0%, 0%);
 	  		--accent-color: #f77570;
 	  		--term-bg-color: lightblue;
-	  		--scrollbar-color: black;
+	  		--scrollbar-color: auto;
 	  		--menubar-hover-color: rgb(220, 220, 220);
 	  		--selected-menu-item-color: rgb(210, 210, 210);
 	  } 
@@ -140,7 +140,7 @@
 <head>
 	<script type="text/javascript">console.log("jekyll envrionment = development")</script>
 
-	<link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="http://localhost:4000/icons/favicon.ico">
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -376,16 +376,6 @@
 		<div class="dropdown">
 			<div class="subitem-separator"><p></p></div>
 			<div class="subitem">
-				<input type="checkbox" id="Simple-and-Compound-Interest-checkbox">
-				<div class="title">
-					<label class="symbol" for="Simple-and-Compound-Interest-checkbox">
-						<p></p>
-					</label>
-					<div class="text"><a href="/pages/precalculus/simple_and_compound_interest.html"><p>Simple and Compound Interest</p></a></div>
-				</div>
-			</div>
-			<div class="subitem-separator"><p></p></div>
-			<div class="subitem">
 				<input type="checkbox" id="Trigonometry-checkbox">
 				<div class="title">
 					<label class="symbol" for="Trigonometry-checkbox">
@@ -611,7 +601,7 @@
 <h2>Systems of Equations</h2>
 <p><br /></p>
 
-<p>A <b>system of equations</b> is a group of multiple equations with multiple variables. Usually, it is mostly impossible to solve for an equation if you are only given one equation - however, with multiple equations, we can solve for multiple variables.</p>
+<p>A <b>system of equations</b> is a group of multiple equations with at least 2 variables in total. Usually, it is mostly impossible to solve for multiple variables if you are only given one equation - however, with multiple equations, we can solve for multiple variables.</p>
 
 <p>Take a look at the following system of equations:</p>
 
@@ -621,6 +611,8 @@ b-7=-2a
 \end{cases}\]
 
 <p>Here, \(a\) and \(b\) are variables. We are trying to solve for the combination of \(a\) and \(b\) that make both equations true. To understand it better, let’s look at a graph:</p>
+
+<p>(image)</p>
 
 <p>We can clearly see that both equations intersect at \(a=2\) and \(b=3\). This is our solution, because both the equations intersect at this point. We have just graphically solved the system of equations. Let’s try to solve it algebraically now.</p>
 
@@ -707,8 +699,8 @@ b&amp;=3
 		background-color: var(--term-bg-color) !important;
 	}
 
-	.question span {
-		color: var(--link-color);
+	.showAnswerB {
+		color: var(--link-color) !important;
 	}
 
 	.footer-separator {
@@ -724,6 +716,12 @@ b&amp;=3
 
 <div class="questions-container">
 	
+		<div class="question">
+			<b style="color:var(--main-text-color) !important">What is the solution to the following system of equations?</b> <br><br>
+			[<span class="showAnswerB">Show answer</span>]
+			<span class="answer"><br></span>
+		</div><br>
+	
 </div>
 
 <style type="text/css">
@@ -737,7 +735,6 @@ b&amp;=3
 	}
 
 	.showAnswerB {
-		color: #0645AD;
 		text-decoration: underline;
 		cursor: pointer;
 	}
@@ -814,30 +811,20 @@ b&amp;=3
 </div>
 
 <div class="terms-container">
+	<h1 style="display:block;margin:auto">
+		
+			Terms (2)
+		
+	</h1>
 	
 		<div class="term">
-		<b>Variable</b> <br><br>
-		A symbol (usually a letter) that represents an unknown number
+		<b>System of Equations</b> <br><br>
+		A group of multiple equations with at least 2 variables in total
 		</div><br>
 	
 		<div class="term">
-		<b>Equation</b> <br><br>
-		Two expressions seperated by an equals sign
-		</div><br>
-	
-		<div class="term">
-		<b>Expression</b> <br><br>
-		A set of numbers or variables that interact with each other using operations
-		</div><br>
-	
-		<div class="term">
-		<b>Operation</b> <br><br>
-		A function that manipulates two numbers to form another number (e.g. addition, division, exponentiation)
-		</div><br>
-	
-		<div class="term">
-		<b>Constant</b> <br><br>
-		A number added onto an expression
+		<b>Substitution</b> <br><br>
+		A method of solving systems of equations where we solve for one variable in terms of the other, and then substitute that into the other equation
 		</div><br>
 	
 </div>

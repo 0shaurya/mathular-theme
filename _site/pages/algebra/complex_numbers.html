@@ -20,7 +20,7 @@
 		--main-text-color: hsl(0, 0%, 0%);
 		--accent-color: #f77570;
 		--term-bg-color: lightblue;
-		--scrollbar-color: black;
+		--scrollbar-color: auto;
 		--menubar-hover-color: rgb(220, 220, 220);
 		--selected-menu-item-color: rgb(210, 210, 210);
 
@@ -56,7 +56,7 @@
 	    	--main-text-color: hsl(0, 0%, 0%);
 	  		--accent-color: #f77570;
 	  		--term-bg-color: lightblue;
-	  		--scrollbar-color: black;
+	  		--scrollbar-color: auto;
 	  		--menubar-hover-color: rgb(220, 220, 220);
 	  		--selected-menu-item-color: rgb(210, 210, 210);
 	  } 
@@ -140,7 +140,7 @@
 <head>
 	<script type="text/javascript">console.log("jekyll envrionment = development")</script>
 
-	<link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="http://localhost:4000/icons/favicon.ico">
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -148,7 +148,7 @@
 
 	<title>Complex Numbers - Mathular</title>
 
-	<meta name="description" content="An excerpt is used as the page description and can be up to 160 characters long...">
+	<meta name="description" content="Learn about complex numbers.">
 
 	<link rel="stylesheet" href="/assets/main.css">
 	<link rel="canonical" href="http://localhost:4000/pages/algebra/complex_numbers.html">
@@ -374,16 +374,6 @@
 			</div>
 		</div>
 		<div class="dropdown">
-			<div class="subitem-separator"><p></p></div>
-			<div class="subitem">
-				<input type="checkbox" id="Simple-and-Compound-Interest-checkbox">
-				<div class="title">
-					<label class="symbol" for="Simple-and-Compound-Interest-checkbox">
-						<p></p>
-					</label>
-					<div class="text"><a href="/pages/precalculus/simple_and_compound_interest.html"><p>Simple and Compound Interest</p></a></div>
-				</div>
-			</div>
 			<div class="subitem-separator"><p></p></div>
 			<div class="subitem">
 				<input type="checkbox" id="Trigonometry-checkbox">
@@ -687,8 +677,8 @@ i = \sqrt{-1}
 		background-color: var(--term-bg-color) !important;
 	}
 
-	.question span {
-		color: var(--link-color);
+	.showAnswerB {
+		color: var(--link-color) !important;
 	}
 
 	.footer-separator {
@@ -717,7 +707,6 @@ i = \sqrt{-1}
 	}
 
 	.showAnswerB {
-		color: #0645AD;
 		text-decoration: underline;
 		cursor: pointer;
 	}
@@ -794,6 +783,11 @@ i = \sqrt{-1}
 </div>
 
 <div class="terms-container">
+	<h1 style="display:block;margin:auto">
+		
+			Terms (1)
+		
+	</h1>
 	
 		<div class="term">
 		<b>Imaginary Number</b> <br><br>

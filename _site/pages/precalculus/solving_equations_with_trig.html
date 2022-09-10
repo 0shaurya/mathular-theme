@@ -20,7 +20,7 @@
 		--main-text-color: hsl(0, 0%, 0%);
 		--accent-color: #f77570;
 		--term-bg-color: lightblue;
-		--scrollbar-color: black;
+		--scrollbar-color: auto;
 		--menubar-hover-color: rgb(220, 220, 220);
 		--selected-menu-item-color: rgb(210, 210, 210);
 
@@ -56,7 +56,7 @@
 	    	--main-text-color: hsl(0, 0%, 0%);
 	  		--accent-color: #f77570;
 	  		--term-bg-color: lightblue;
-	  		--scrollbar-color: black;
+	  		--scrollbar-color: auto;
 	  		--menubar-hover-color: rgb(220, 220, 220);
 	  		--selected-menu-item-color: rgb(210, 210, 210);
 	  } 
@@ -140,7 +140,7 @@
 <head>
 	<script type="text/javascript">console.log("jekyll envrionment = development")</script>
 
-	<link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="http://localhost:4000/icons/favicon.ico">
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -376,16 +376,6 @@
 		<div class="dropdown">
 			<div class="subitem-separator"><p></p></div>
 			<div class="subitem">
-				<input type="checkbox" id="Simple-and-Compound-Interest-checkbox">
-				<div class="title">
-					<label class="symbol" for="Simple-and-Compound-Interest-checkbox">
-						<p></p>
-					</label>
-					<div class="text"><a href="/pages/precalculus/simple_and_compound_interest.html"><p>Simple and Compound Interest</p></a></div>
-				</div>
-			</div>
-			<div class="subitem-separator"><p></p></div>
-			<div class="subitem">
 				<input type="checkbox" id="Trigonometry-checkbox">
 				<div class="title">
 					<label class="symbol" for="Trigonometry-checkbox">
@@ -615,7 +605,7 @@
 
 <p>Let’s start with the unit circle. In the last chapter we talked about the unit circle and how it relates to sine and cosine. Remember that the unit circle is the circle centered at (0, 0) with a radius of 1. We related it to trigonometric functions by drawing right triangles inside it, and discovered that \(\sin(\theta)\) is equal to the height of the right triangle that has a vertex on the origin and a hypotenuse of length 1.</p>
 
-<p>(image)</p>
+<p><img src="../../visuals/unitcircleinstance.png" style="width:50%;height:auto;display:block;margin:auto;" /></p>
 
 <p>Using this knowledge, we can figure out the value of \(\sin(\theta)\) for select values of \(\theta\). Let’s try to find \(\sin(\theta)\) for values of \(\theta = \frac{\pi}{3}, \frac{\pi}{4}, and \frac{\pi}{6}\). First, let’s try to find \(\sin(\frac{\pi}{3}\), or \(\sin(30^{\circ})\). This is the corresponding diagram:</p>
 
@@ -645,7 +635,7 @@
 
 <p>Now that we know the unit circle, we can solve an equation like this:</p>
 
-\[cos(\theta) = \frac{1}{2}\]
+\[\cos(\theta) = \frac{1}{2}\]
 
 <p>Take a look at our unit circle. We’re looking for values of \(\theta\) where the x-value is equal to \(\frac{1}{2}\) (because cosine is represented by the x-value). Looking at our unit circle, we can see that those x-values appears when \(\theta\) equals \(\frac{\pi}{3}\) and \(\frac{5\pi}{3}\). However, remember that \(\cos(\theta)\) has a period of \(2\pi\) - this means that values for cosine will repeat every \(2\pi\) units, so the actual answer is:</p>
 
@@ -748,8 +738,8 @@ x = \frac{5 \pi}{6} + \pi k\]
 		background-color: var(--term-bg-color) !important;
 	}
 
-	.question span {
-		color: var(--link-color);
+	.showAnswerB {
+		color: var(--link-color) !important;
 	}
 
 	.footer-separator {
@@ -778,7 +768,6 @@ x = \frac{5 \pi}{6} + \pi k\]
 	}
 
 	.showAnswerB {
-		color: #0645AD;
 		text-decoration: underline;
 		cursor: pointer;
 	}
@@ -855,6 +844,11 @@ x = \frac{5 \pi}{6} + \pi k\]
 </div>
 
 <div class="terms-container">
+	<h1 style="display:block;margin:auto">
+		
+			No terms for this chapter.
+		
+	</h1>
 	
 </div>
 

@@ -7,7 +7,7 @@ menuTopTitle: Algebra
 menuSubs:
 - title: Complex Numbers
   index: 6
-excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+excerpt: "Learn about complex numbers."
 terms:
   - ['Imaginary Number', 'Any real number  multiplied by \(i\), the square root of \(-1\)']
 ---

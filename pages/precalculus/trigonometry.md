@@ -21,9 +21,9 @@ terms:
 
 In geometry, you learned about the three common trigonometric functions: sine, cosine, and tangent. Let's do a little bit of review:
 
-To get the sine of an angle, take the length of the side opposite the angle and divide that by the length of the hypotenuse. Cosine and tangent work the same, except cosine is adjacent divided by hypotenuse and tangent is opposite divided by adjacent.
+To get the sine, cosine, or tangent of any angle, first create a right angle. One of the angles will be 90°, and one of the other angles should be the angle whose trigonometric function output we want to find. For sine, take the length of the side opposite the angle and divide that by the length of the hypotenuse. Cosine and tangent work the same, except cosine is adjacent divided by hypotenuse and tangent is opposite divided by adjacent.
 
-(images)
+<img src="../../visuals/sincostantriangle.png" style="width:50%;height:auto;display:block;margin:auto;">
 
 Before moving forward, it's important to have a firm understanding of <b>radians</b>. A degree is a unit measurement for an angle, with 360° being a full circle and 180° being a straight line. A radian is a similar measurement for a degree, except it is in terms of \\(\pi\\).
 
@@ -39,21 +39,19 @@ $$\text{degrees} = \text{radians} \cdot \frac{180}{\pi}$$
 
 Now, let's look at sine, cosine, and tangent as functions instead of geometrically. Let's look at the sine function. The sine function takes in an angle measurement (usually in radians) and will output a number between \\(-1\\) and \\(1\\). That number is the ratio of the opposite side to the hypotenuse. To find out the shape of this graph, it is helpful to look at a circle. Take a look at the following circle with radius 1 (known as a <b>unit circle</b>, with triangles within it:
 
-(image)
+<img src="../../visuals/unitcircle.gif" style="width:50%;height:auto;display:block;margin:auto;">
 
-No matter the angle \\(\theta\\), line ????? stays at a length of 1. This is because of the nature of equidistance in circles. However, line ????? varies in length. Let's zoom into one instance of this circle:
+No matter the angle \\(\theta\\), line \\(H\\) stays at a length of 1. This is because of the nature of equidistance in circles. However, lines \\(O\\) and \\(A\\) varies in length. Let's zoom into one instance of this circle:
 
-(image)
+<img src="../../visuals/unitcircleinstance.png" style="width:50%;height:auto;display:block;margin:auto;">
 
-It seems like a right triangle just pops out of nowhere. Labeling the sides, we have:
+It seems like a right triangle pops out of nowhere.
 
-(image)
+Now, using our definition from earlier, we can clearly see that \\(\sin(\theta) = \frac{\text{length of line }O}{\text{length of line }H}\\). Because the length of line \\(H\\) is always 1, we can say that \\(\sin(\theta) = \frac{\text{length of line }O}{1}\\). This is an important discovery - it shows us that \\(\sin(\theta)\\) is directly equal to the height of line \\(O\\).
 
-Now, using our definition from earlier, we can clearly see that \\(\sin(\theta) = \frac{\text{length of line ????}}{\text{length of line }?????}\\). Because the length of line ????? is always 1, we can say that \\(\sin(\theta) = \frac{\text{length of line }????}{\text{length of line }?????}\\). This is an important discovery - it shows us that \\(\sin(\theta)\\) is directly equal to the height of line ??????.
+Using this information, we can follow \\(\theta\\) around the full \\(2\pi\\) radians to see the following:
 
-Using this information, we can follow \\(\theta\\) around the full \\(2pi\\) radians to see the following:
-
-(image)
+<img src="../../visuals/unitcirclesin.gif" style="width:100%;height:auto;display:block;margin:auto;">
 
 This gives us the shape of \\(\sin(\theta)\\).
 
@@ -64,7 +62,7 @@ Here, we can see that \\(\cos(\theta)\\) is equal to the length of line ???? div
 
 Here's the shape of the sine and cosine curve:
 
-<center><video width="500" height="420" autoplay loop muted>
+<center><video width="500" height="auto" autoplay loop muted controls>
   <source src="/videos/sin_and_cos.mp4" type="video/mp4" />
 </video></center>
 
@@ -87,7 +85,7 @@ This is the graph of \\(\tan(x)\\) overlaid over the graphs of \\(\sin(x)\\) and
 
   
 
-(image)
+<img src="../../visuals/sincostan.png" style="width:50%;height:auto;display:block;margin:auto;">
 
   
 
@@ -107,7 +105,7 @@ Here are their graphs:
 
   
 
-(image)
+<img src="../../visuals/seccsccot.png" style="width:50%;height:auto;display:block;margin:auto;">
 
   
 
@@ -115,4 +113,4 @@ And here are the graphs of all 6 functions overlaid:
 
   
 
-(image, use matplotlib legend)
+<img src="../../visuals/trigfunctions.png" style="width:50%;height:auto;display:block;margin:auto;">

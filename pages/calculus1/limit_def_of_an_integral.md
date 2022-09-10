@@ -21,7 +21,7 @@ terms:
 
 Finding the area under a linear function is fairly easy. For example, take a look at the following graph of \\(y=-\frac{1}{2}x+4\\):
 
-(graph), -1 over 2 + 4
+<img src="../../visuals/-1 over 2 + 4.png" style="width:50%;height:auto;display:block;margin:auto;">
 
 What is the area underneath the line and between the x-axis, \\(x=2\\), and \\(x=4\\)? Here is that region shaded:
 

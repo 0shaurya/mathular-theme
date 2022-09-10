@@ -39,7 +39,7 @@ $$\lim_{x \to 0} \frac{1}{x^2} = \,?$$
 
 In the earlier problem, we could just plug in 2 to the limit to get our answer. Now, if we plug in 0 this doesn't work, because \\(\frac{1}{0^2}\\) is undefined. So, what's the answer? Well, let's look at the graph of \\(f(x) = \frac{1}{x^2}\\).
 
-(graph) 1 over x^2
+<img src="../../visuals/1 over x^2.png" style="width:50%;height:auto;display:block;margin:auto;">
 
 Notice how as the x-value approaches 0, \\(f(x)\\) approaches \\(\infty\\). Because of this, we can say that
 
@@ -55,7 +55,7 @@ $$\lim_{x \to -5} \frac{2x^{2}+10x}{x^{2}-25}$$
 
 Our first step should be to plug in \\(-5\\). However, after doing that, we get \\(\frac{0}{0}\\), which does not help us. We can take a look at this graph of \\(g(x) = \frac{2x^{2}+10x}{x^{2}-25}\\):
 
-(graph) rationalfunction.png
+<img src="../../visuals/rationalfunction.png" style="width:50%;height:auto;display:block;margin:auto;">
 
 The open circle at \\(x = -5\\) shows that \\(g(x)\\) does not actually exist at that point (because it is dividing by 0). However, we can see that when \\(x = -5\\), the y-value approaches \\(1\\). Thus,
 
@@ -86,7 +86,7 @@ $$h(x) =
 
 On a graph, this looks like
 
-(graph) jumpdiscontinuity.png
+<img src="../../visuals/jumpdiscontinuity.png" style="width:50%;height:auto;display:block;margin:auto;">
 
 Let's see if we can find \\(\lim_{x \to 1} h(x)\\). The issue here is that from the left side of \\(x = 1\\), y approaches \\(-1\\). However, on the right side, y approaches \\(0\\). Because of the discrepancy in the two sides, although \\(h(1)\\) exists, we say that the limit as \\(x\\) approaches 1 \\(DNE\\). \\(DNE\\) stands for “does not exist”:
 
@@ -114,7 +114,7 @@ $$
 
 The graph of \\(i(x)\\) is
 
-(graph) piecewisefunction2
+<img src="../../visuals/piecewisefunction2.png" style="width:50%;height:auto;display:block;margin:auto;">
 
 What's the limit as x approaches 3? Despite \\(i(3)\\) equalling 4, the correct answer is \\(2\\). This is because we aren't looking for \\(i(3)\\), we are looking for the value of \\(i(x)\\) as \\(x\\) gets closer and closer to \\(3\\). And as \\(x\\) gets closer to \\(3\\), \\(i(x)\\) gets closer and closer to \\(2\\).
 
@@ -128,6 +128,6 @@ k(x) =
 \end{cases}
 $$
 
-(graph) -1 over x^2
+<img src="../../visuals/-1 over x^2.png" style="width:50%;height:auto;display:block;margin:auto;">
 
 Both \\(\lim_{x \to 0^-}\\) and \\(\lim_{x \to 0^+}\\) equal \\(-\infty\\). Because of this, we can say that \\(\lim_{x \to 0} = -\infty\\). The fact that the \\(k(0) = 0\\) does not matter, because we are simply looking for the function value as \\(x\\) <i>approaches</i> 0, not when \\(x\\) equals 0.

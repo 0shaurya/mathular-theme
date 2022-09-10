@@ -49,4 +49,4 @@ $$\lim_{x \to \infty} \frac{x}{c} = \infty$$
 
 where \\(c>0\\). Use the constant multiple rule to figure out what happens if \\(c\\) is negative. All of these limits can be found either by looking at a graph, or by thinking about what happens to the expression as \\(x\\) approaches \\(0\\) or \\(\infty\\).
 
-Whenever evaluating a limit of a continuous function algebraically, the first step should always be to plug in the number. This method is known as <b>direct substitution</b>.Most of the time, this will be enough to get you the right answer. In the next section, we'll go over when direct substitution won't work.
+Whenever evaluating a limit of a continuous function algebraically, the first step should always be to plug in the number. This method is known as <b>direct substitution</b>. Most of the time, this will be enough to get you the right answer. In the next section, we'll go over when direct substitution won't work.

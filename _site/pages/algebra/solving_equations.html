@@ -20,7 +20,7 @@
 		--main-text-color: hsl(0, 0%, 0%);
 		--accent-color: #f77570;
 		--term-bg-color: lightblue;
-		--scrollbar-color: black;
+		--scrollbar-color: auto;
 		--menubar-hover-color: rgb(220, 220, 220);
 		--selected-menu-item-color: rgb(210, 210, 210);
 
@@ -56,7 +56,7 @@
 	    	--main-text-color: hsl(0, 0%, 0%);
 	  		--accent-color: #f77570;
 	  		--term-bg-color: lightblue;
-	  		--scrollbar-color: black;
+	  		--scrollbar-color: auto;
 	  		--menubar-hover-color: rgb(220, 220, 220);
 	  		--selected-menu-item-color: rgb(210, 210, 210);
 	  } 
@@ -140,7 +140,7 @@
 <head>
 	<script type="text/javascript">console.log("jekyll envrionment = development")</script>
 
-	<link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="http://localhost:4000/icons/favicon.ico">
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -374,16 +374,6 @@
 			</div>
 		</div>
 		<div class="dropdown">
-			<div class="subitem-separator"><p></p></div>
-			<div class="subitem">
-				<input type="checkbox" id="Simple-and-Compound-Interest-checkbox">
-				<div class="title">
-					<label class="symbol" for="Simple-and-Compound-Interest-checkbox">
-						<p></p>
-					</label>
-					<div class="text"><a href="/pages/precalculus/simple_and_compound_interest.html"><p>Simple and Compound Interest</p></a></div>
-				</div>
-			</div>
 			<div class="subitem-separator"><p></p></div>
 			<div class="subitem">
 				<input type="checkbox" id="Trigonometry-checkbox">
@@ -666,7 +656,7 @@
 <p>Take the square root of both sides.</p>
 
 \[\begin{align*}
-x&amp;=\sqrt16\\
+x&amp;=\sqrt{16}\\
 x&amp;=4
 \end{align*}\]
 
@@ -725,8 +715,8 @@ x&amp;=4
 		background-color: var(--term-bg-color) !important;
 	}
 
-	.question span {
-		color: var(--link-color);
+	.showAnswerB {
+		color: var(--link-color) !important;
 	}
 
 	.footer-separator {
@@ -742,6 +732,30 @@ x&amp;=4
 
 <div class="questions-container">
 	
+		<div class="question">
+			<b style="color:var(--main-text-color) !important">In the equation \(4x+3=11\), what does \(x\) equal?</b> <br><br>
+			[<span class="showAnswerB">Show answer</span>]
+			<span class="answer"><br>Subtract both sides by \(3\) and then divide both sides by \(4\) to find \(x=2\).</span>
+		</div><br>
+	
+		<div class="question">
+			<b style="color:var(--main-text-color) !important">In the equation \(0.5x-5=-19\), what does \(x\) equal?</b> <br><br>
+			[<span class="showAnswerB">Show answer</span>]
+			<span class="answer"><br>Add both sides by \(5\) and then multiply both sides by \(2\) to find \(x=-28\).</span>
+		</div><br>
+	
+		<div class="question">
+			<b style="color:var(--main-text-color) !important">In the equation \(x^2=25\), what does \(x\) equal?</b> <br><br>
+			[<span class="showAnswerB">Show answer</span>]
+			<span class="answer"><br>Take the square root of both sides to find \(x=5\).</span>
+		</div><br>
+	
+		<div class="question">
+			<b style="color:var(--main-text-color) !important">In the equation \(3x^2=27\), what does \(x\) equal?</b> <br><br>
+			[<span class="showAnswerB">Show answer</span>]
+			<span class="answer"><br>Divide both sides by \(3\) and then takek the square root of both sides to find \(x=3\)</span>
+		</div><br>
+	
 </div>
 
 <style type="text/css">
@@ -755,7 +769,6 @@ x&amp;=4
 	}
 
 	.showAnswerB {
-		color: #0645AD;
 		text-decoration: underline;
 		cursor: pointer;
 	}
@@ -832,6 +845,11 @@ x&amp;=4
 </div>
 
 <div class="terms-container">
+	<h1 style="display:block;margin:auto">
+		
+			No terms for this chapter.
+		
+	</h1>
 	
 </div>
 

@@ -20,7 +20,7 @@
 		--main-text-color: hsl(0, 0%, 0%);
 		--accent-color: #f77570;
 		--term-bg-color: lightblue;
-		--scrollbar-color: black;
+		--scrollbar-color: auto;
 		--menubar-hover-color: rgb(220, 220, 220);
 		--selected-menu-item-color: rgb(210, 210, 210);
 
@@ -56,7 +56,7 @@
 	    	--main-text-color: hsl(0, 0%, 0%);
 	  		--accent-color: #f77570;
 	  		--term-bg-color: lightblue;
-	  		--scrollbar-color: black;
+	  		--scrollbar-color: auto;
 	  		--menubar-hover-color: rgb(220, 220, 220);
 	  		--selected-menu-item-color: rgb(210, 210, 210);
 	  } 
@@ -140,7 +140,7 @@
 <head>
 	<script type="text/javascript">console.log("jekyll envrionment = development")</script>
 
-	<link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="http://localhost:4000/icons/favicon.ico">
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -376,16 +376,6 @@
 		<div class="dropdown">
 			<div class="subitem-separator"><p></p></div>
 			<div class="subitem">
-				<input type="checkbox" id="Simple-and-Compound-Interest-checkbox">
-				<div class="title">
-					<label class="symbol" for="Simple-and-Compound-Interest-checkbox">
-						<p></p>
-					</label>
-					<div class="text"><a href="/pages/precalculus/simple_and_compound_interest.html"><p>Simple and Compound Interest</p></a></div>
-				</div>
-			</div>
-			<div class="subitem-separator"><p></p></div>
-			<div class="subitem">
 				<input type="checkbox" id="Trigonometry-checkbox">
 				<div class="title">
 					<label class="symbol" for="Trigonometry-checkbox">
@@ -615,11 +605,11 @@
 
 <p>Imagine a type of 2D goo that exists in an infinite 2D world. This special type of goo will grow and spread in a special way. To begin, let’s define the intervals it will grow in. The goo below grows in intervals of 1 second with a growth rate of 100%. This means that every one second, the goo will grow by 100%:</p>
 
-<p>(image)</p>
+<p><img src="../../visuals/googrowth1.svg" style="width:30%;height:auto;display:block;margin:auto;" /></p>
 
 <p>Notice that at the end of 1 second, there are 2 units of goo present. This makes sense, because the goo grew by 100% after the first second. Now, let’s imagine the same situation, but the goo grows in intervals of half a second instead. Every half second, the goo will grow by 50%:</p>
 
-<p>(image)</p>
+<p><img src="../../visuals/googrowth2.svg" style="width:30%;height:auto;display:block;margin:auto;" /></p>
 
 <p>Here, every 0.5 seconds, the amount of goo increases by 50%. After one second, the goo has gone through two iterations, and it’s final amount is \(2.25\), because</p>
 
@@ -633,7 +623,7 @@
 
 <p>Let’s imagine another situation, where the goo grows in intervals of every one third of a second. Every one third of a second, the goo will grow by \(33.\overline{3}\%\):</p>
 
-<p>(image)</p>
+<p><img src="../../visuals/googrowth3.svg" style="width:30%;height:auto;display:block;margin:auto;" /></p>
 
 <p>At the end of the 1 second, our final amount of goo will be \(2.\overline{370}\):</p>
 
@@ -698,7 +688,7 @@ e^x &amp;= \left[\lim_{n \to \infty}\left(1+\frac{1}{n}\right)^n\right]^x\\
 
 <p>Because \(e^x\) is so important, it’s useful to have an equation that represents the inverse of \(e^x\). In precalculus, we covered how logarithms are the inverse of exponentials. Recall that \(\log_b(x)\) is the inverse of \(b^x\). In other words, \(log_b(b^x) = x\) and \(b^{\log_b{x}} = x\). Thus, the inverse of \(e^x\) is \(\log_e(x)\). Here is a graph of \(e^x\) and \(\log_e(x)\) - notice how they are the same graph, but flipped about \(y=x\).</p>
 
-<p>(graph) e^x and lnx</p>
+<p><img src="../../visuals/e^x and lnx.png" style="width:50%;height:auto;display:block;margin:auto;" /></p>
 
 <p>Because \(\log_e(x)\) is such an important function, mathematicians decided to give it its own name, \(\ln(x)\). This is known as the <b>natural log</b>:</p>
 
@@ -755,8 +745,8 @@ e^{\ln(x)} = x\\
 		background-color: var(--term-bg-color) !important;
 	}
 
-	.question span {
-		color: var(--link-color);
+	.showAnswerB {
+		color: var(--link-color) !important;
 	}
 
 	.footer-separator {
@@ -785,7 +775,6 @@ e^{\ln(x)} = x\\
 	}
 
 	.showAnswerB {
-		color: #0645AD;
 		text-decoration: underline;
 		cursor: pointer;
 	}
@@ -862,6 +851,11 @@ e^{\ln(x)} = x\\
 </div>
 
 <div class="terms-container">
+	<h1 style="display:block;margin:auto">
+		
+			Terms (1)
+		
+	</h1>
 	
 		<div class="term">
 		<b>Natural log</b> <br><br>

@@ -20,7 +20,7 @@
 		--main-text-color: hsl(0, 0%, 0%);
 		--accent-color: #f77570;
 		--term-bg-color: lightblue;
-		--scrollbar-color: black;
+		--scrollbar-color: auto;
 		--menubar-hover-color: rgb(220, 220, 220);
 		--selected-menu-item-color: rgb(210, 210, 210);
 
@@ -56,7 +56,7 @@
 	    	--main-text-color: hsl(0, 0%, 0%);
 	  		--accent-color: #f77570;
 	  		--term-bg-color: lightblue;
-	  		--scrollbar-color: black;
+	  		--scrollbar-color: auto;
 	  		--menubar-hover-color: rgb(220, 220, 220);
 	  		--selected-menu-item-color: rgb(210, 210, 210);
 	  } 
@@ -306,8 +306,8 @@
 		background-color: var(--term-bg-color) !important;
 	}
 
-	.question span {
-		color: var(--link-color);
+	.showAnswerB {
+		color: var(--link-color) !important;
 	}
 
 	.footer-separator {
@@ -323,10 +323,10 @@
 
 <div class="questions-container">
 	{% for question in page.questions %}
-		<div class="question" style="color:var(--main-text-color)">
+		<div class="question">
 			<b style="color:var(--main-text-color) !important">{{ question[0] }}</b> <br><br>
 			[<span class="showAnswerB">Show answer</span>]
-			<span class="answer" style="color:var(--main-text-color) !important"><br>{{ question[1] }}</span>
+			<span class="answer"><br>{{ question[1] }}</span>
 		</div><br>
 	{% endfor %}
 </div>
@@ -342,7 +342,6 @@
 	}
 
 	.showAnswerB {
-		color: #0645AD;
 		text-decoration: underline;
 		cursor: pointer;
 	}

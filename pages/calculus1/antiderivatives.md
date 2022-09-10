@@ -42,7 +42,8 @@ $$\frac{d}{dx}x^2=2x\\
 
 The reason all of the above are true is because the derivative of any constant is just 0. Because of this, there are actually an infinite number of functions whose derivative is \\(2x\\). However, all of them can be written as
 
-$$x^2+c$$
+<img src="../../visuals/x^2+c.png" style="width:50%;height:auto;display:block;margin:auto;">
+
 
 where \\(c\\) is a constant. This constant is known as the <b>constant of integration</b> (usually represented by \\(c\\). Thus, the actual antiderivative if \\(2x\\) is \\(x^2+c\\). Or, in mathematical terms,
 

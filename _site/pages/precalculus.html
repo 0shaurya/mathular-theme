@@ -20,7 +20,7 @@
 		--main-text-color: hsl(0, 0%, 0%);
 		--accent-color: #f77570;
 		--term-bg-color: lightblue;
-		--scrollbar-color: black;
+		--scrollbar-color: auto;
 		--menubar-hover-color: rgb(220, 220, 220);
 		--selected-menu-item-color: rgb(210, 210, 210);
 
@@ -56,7 +56,7 @@
 	    	--main-text-color: hsl(0, 0%, 0%);
 	  		--accent-color: #f77570;
 	  		--term-bg-color: lightblue;
-	  		--scrollbar-color: black;
+	  		--scrollbar-color: auto;
 	  		--menubar-hover-color: rgb(220, 220, 220);
 	  		--selected-menu-item-color: rgb(210, 210, 210);
 	  } 
@@ -140,7 +140,7 @@
 <head>
 	<script type="text/javascript">console.log("jekyll envrionment = development")</script>
 
-	<link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="http://localhost:4000/icons/favicon.ico">
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -374,16 +374,6 @@
 			</div>
 		</div>
 		<div class="dropdown">
-			<div class="subitem-separator"><p></p></div>
-			<div class="subitem">
-				<input type="checkbox" id="Simple-and-Compound-Interest-checkbox">
-				<div class="title">
-					<label class="symbol" for="Simple-and-Compound-Interest-checkbox">
-						<p></p>
-					</label>
-					<div class="text"><a href="/pages/precalculus/simple_and_compound_interest.html"><p>Simple and Compound Interest</p></a></div>
-				</div>
-			</div>
 			<div class="subitem-separator"><p></p></div>
 			<div class="subitem">
 				<input type="checkbox" id="Trigonometry-checkbox">
@@ -744,13 +734,6 @@
 		
 		
     	
-    		
-    		<a href="/pages/precalculus/simple_and_compound_interest.html" class="btn">
-    			<li class="list">
-    					<div class="titles">Simple and Compound Interest</div><br>
-    					<div class="excerpt">Discussing Interest</div>
-    			</li>
-    		</a>
     		
     	
 	
@@ -2082,6 +2065,13 @@
 		
     	
     		
+    		<a href="/pages/precalculus/simple_and_compound_interest.html" class="btn">
+    			<li class="list">
+    					<div class="titles"></div><br>
+    					<div class="excerpt"></div>
+    			</li>
+    		</a>
+    		
     	
 	
 		
@@ -2239,8 +2229,8 @@
 		background-color: var(--term-bg-color) !important;
 	}
 
-	.question span {
-		color: var(--link-color);
+	.showAnswerB {
+		color: var(--link-color) !important;
 	}
 
 	.footer-separator {
@@ -2269,7 +2259,6 @@
 	}
 
 	.showAnswerB {
-		color: #0645AD;
 		text-decoration: underline;
 		cursor: pointer;
 	}
