@@ -1,0 +1,57 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\usepackage{ifthen}
+\usetikzlibrary{arrows.meta}
+\begin{document}
+
+\foreach \angle in {0, 1, ..., 359} {
+\begin{tikzpicture}[scale=5]
+%grid
+
+% axes
+\draw [-{Stealth[scale=2]}] (-1.5, 0) -- (1.5, 0);
+\draw (0, 1.5) -- (0, -8.5) node [above left, scale = 2] {$\theta$};
+\node [below right, scale=2] at (1, 0) {1};
+\node [above right, scale=2] at (0, 1) {1};
+\node [below left, scale=2] at (-1, 0) {-1};
+\node [below right, scale=2] at (0, -1) {-1};
+
+\draw [{Stealth[scale=2]}-{Stealth[scale=2]}] (-1.5, -1.5) -- (1.5, -1.5) node [below left, scale = 2] {$\cos(\theta)$};
+
+% unit circle
+\draw [thick] (0, 0) circle (1);
+
+% lines
+\draw [blue,   ultra thick] (0, 0) -- ({cos(\angle)}, {sin(\angle)});
+\draw [red,    ultra thick] ({cos(\angle)}, 0) -- ({cos(\angle)}, {sin(\angle)});
+\draw [orange, ultra thick] (0, 0) -- ({cos(\angle}, 0);
+
+% arc
+%\node [above right] at (1, 1) {\angle};
+
+\draw [ultra thick] (0.1, 0) arc (0:\angle:0.1);
+\node [scale = 1.8] at ({0.17*cos(\angle/2)}, {0.17*sin(\angle/2)}) {$\theta$};
+
+% legend
+
+%wave
+\draw [orange, ultra thick, domain=0:{\angle * 0.01745329251}] plot ({cos(\x r)}, {-1.5-\x});
+
+%connection
+\draw [thick] ({cos(\angle)}, {sin(\angle)}) circle (0.03);
+\draw [thick] ({cos(\angle)}, {-1.5 - \angle*0.01745329251}) circle (0.03);
+\draw [thick] ({cos(\angle)}, {sin(\angle)}) -- ({cos(\angle)}, {-1.5 - \angle*0.01745329251});
+
+%axis ticks
+\draw (0.1, -1.5 - pi/2) -- (-0.1, -1.5 - pi/2) node [left, scale=2]  {$\pi/2$};
+\draw (0.1, -1.5 - pi) -- (-0.1, -1.5 - pi) node [left, scale=2] {$\pi$};
+\draw (0.1, -1.5 - 3*pi/2) -- (-0.1, -1.5 - 3*pi/2) node [left, scale=2] {$3\pi/2$};
+\draw (0.1, -1.5 - 2*pi) -- (-0.1, -1.5 - 2*pi) node [left, scale=2] {$2\pi$};\
+
+\draw (-1, -1.6) -- (-1, -1.4) node [above, scale=2] {$-1$};
+\draw (1, -1.6) -- (1, -1.4) node [above, scale=2] {$1$};
+
+\end{tikzpicture}
+}
+
+\end{document}
