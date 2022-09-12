@@ -12,7 +12,7 @@ terms:
   - ['Tangent', 'The line tangent to a curve at a point is the line whose slope is equal to the slope of the curve at that point. The tangent line will barely touch the curve.']
   - ['Derivative', 'The rate at which a function changes as the x-value changes']
   - ['Lagrange Notation', 'A type of notation for derivatives where a derivative of a function \(f(x)\) is \(f''(x)\), symbolized by the prime (small tick) after the \(f\)']
-  - ['Leibniz Notation', 'A type of notation for derivatives where a derivative of a function \(f(x)\) is \(\frac{df}{dx}\), where the \(f\) in the numerator represents the function being differentiated and the \(x\) in the denominator resepects the variable the function is of']
+  - ['Leibniz Notation', 'A type of notation for derivatives where a derivative of a function \(f(x)\) is \(\frac{df}{dx}\), where the \(f\) in the numerator represents the function being differentiated and the \(x\) in the denominator respects the variable the function is of']
 ---
 
 
