@@ -40,11 +40,11 @@ $$(5)^2 - (2)^2 = 21$$
 
 because we plug in \\(5\\) and \\(2\\) into the antiderivative and subtract them.
 
-But what is the significance of a definite integral? Importantly, the definite integral <i>is</i> the are under the curve between the limits of integration. In the last chapter, we found out how to find the area under a curve using the limit definition, but using the definite integral is a lot easier.
+But what is the significance of a definite integral? Importantly, the definite integral <i>is</i> the area under the curve between the limits of integration. In the last chapter, we found out how to find the area under a curve using the limit definition, but using the definite integral is a lot easier.
 
 We just saw that \\(\int_2^5 2x \,dx = 21\\). This means that the area under the graph \\(y=2x\\) between \\(x=2\\) and \\(x=5\\) is \\(21\\). Shown visually:
 
-(image)
+<img src="../../visuals/2x integral.png">
 
 Let's go over one more example of using a definite integral to find the area under a curve. Take the curve \\(f(x) = \cos(x)\\). What is the area under \\(f(x)\\) between \\(x=0\\) and \\(x=\pi\\)? Turning this into a definite integral, we have
 
@@ -74,7 +74,7 @@ $$
 
 The corresponding graph for this is:
 
-(image)
+<img src="../../visuals/cosx integral.png">
 
 One final problem: let's find the area of the same graph, except from \\(0\\) to \\(2\pi\\) instead. Setting this problem up, we have
 
@@ -92,6 +92,6 @@ $$
 
 Why did we get \\(0\\)? The reason is because the integral returns the signed area, where we <i>subtract</i> any area that lies beneath the x-axis. Looking at the graph, we can see how the answer is \\(0\\).
 
-(image)
+<img src="../../visuals/cosx2pi integral.png">
 
 Notice how the area above the x-axis and below the x-axis are equal. This leads to the signed area being equal because they cancel each other out.
