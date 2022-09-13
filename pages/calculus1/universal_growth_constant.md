@@ -78,7 +78,7 @@ Remember, we want to find \\(e\\), which takes \\(\infty\\) intervals. Now that 
 
   
 
-$$e = \lim_{x \to \infty}\left(1+\frac{100}{n}\%\right)^{\displaystyle n}$$
+$$e = \lim_{n \to \infty}\left(1+\frac{100}{n}\%\right)^{\displaystyle n}$$
 
   
 
@@ -86,7 +86,7 @@ Because \\(100\% = 1\\), we can make this look a little cleaner:
 
   
 
-$$e = \lim_{x \to \infty}\left(1+\frac{1}{n}\right)^{\displaystyle n}$$
+$$e = \lim_{n \to \infty}\left(1+\frac{1}{n}\right)^{\displaystyle n}$$
 
   
 
@@ -98,7 +98,7 @@ $$e^x = \lim_{n \to \infty}\left(1+\frac{x}{n}\right)^n$$
 
   
 
-We can prove this: If \\(e = \lim_{x \to \infty}\left(1+\frac{1}{n}\right)^{n}\\), then
+We can prove this: If \\(e = \lim_{n \to \infty}\left(1+\frac{1}{n}\right)^{n}\\), then
 
   
 
