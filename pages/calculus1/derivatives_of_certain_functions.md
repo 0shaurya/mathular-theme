@@ -41,7 +41,7 @@ $$
 
 Now, we just have to figure out the first and second limit. Unfortunately, plugging \\(h=0\\) into both of the limits gets us \\(\frac{0}{0}\\). Let's graph \\(y=\frac{cos(x)-1}{x}\\) and \\(y=\frac{sin(x)}{x}\\):
 
-(graph), sinx over x and cosx - 1 over x
+<img src="../../visuals/sinx over x and cosx - 1 over x.png">
 
 We can see that as \\(x\\) approaches 0, \\(\frac{\cos(x)-1}{x}\\) approaches 0 and \\(\frac{\sin(x)}{x}\\) approaches 1.
 

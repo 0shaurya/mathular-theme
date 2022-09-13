@@ -25,35 +25,29 @@ Finding the area under a linear function is fairly easy. For example, take a loo
 
 What is the area underneath the line and between the x-axis, \\(x=2\\), and \\(x=4\\)? Here is that region shaded:
 
-(image)
+<img src="../../visuals/-.5x+4 shaded.png">
 
 The area of the shaded region is composed solely of a triangle and rectangle, meaning we can just add the areas for those shapes to find the total area. In this case, \\((2)(2)+\frac{1}{2}(2)(1)=5\\). However, this is not as easy for curves. For example, here is the graph of \\(f(x) = -\frac{1}{8}x^{2}+3\\) with the same region shaded:
 
-(image)
+<img src="../../visuals/secondshaded.png">
 
 Finding the area of this is considerably harder. Notice that this is similar to the problem we were facing when trying to calculate the slope of a curve - we could find the slope of a linear equation easily, but finding the slope of a curve was considerably harder. Eventually, we were able to formalize that concept to the derivative by using approximations and limits. Here, we will do the same.
 
 To start approximating this value, let's start by identifying a shape that we <i>do</i> know how to find the area of. The easiest shape of those is probably the rectangle, because all we have to do is multiply the width times the height. Let's cover the shaded region with some rectangles:
 
-(image)
+<img src="../../visuals/2rects.png">
 
 Here, we covered the area with two rectangles, each with width \\(1\\). This doesn't solve our problem, because the area covered by the rectangles is a little less than the shaded regions. We can make this approximation slightly better though by increasing the number of rectangles. Here, we have four rectangles, each with width \\(0.5\\):
 
-(image)
+<img src="../../visuals/4rects.png">
 
-The more rectangles we have, the better the approximation will be. This can be visualized by the following gif, where the difference between the total area of the rectangles and the area under the curve is shaded in red. Notice how the difference decreases, meaning the total area in the rectangles gets closer and closer to matching the area under the curve.
-
-(image), gif
+The more rectangles we have, the better the approximation will be. This is because the more rectangles we have the total area in the rectangles gets closer and closer to matching the area under the curve.
 
 To formalize this problem, let's add some variables. Let \\(A\\) be the <i>actual</i> area under the curve, and let \\(n\\) be the number of rectangles. Let \\(a\\) and \\(b\\) be the starting and ending x values of the area we're trying to find (in this case, \\(2\\) and \\(4\\)). Knowing that, we can calculate the width of each rectangle, \\(dx\\), to be \\(\frac{b-a}{n}\\).
 
 (image)
 
-The reason we call the width of a rectangle \\(dx\\) is for a similar reason we have \\(dx\\) in the denominator of the derivative symbol:
-
-(image)
-
-\\(dx\\) is supposed to represent a tiny nudge in the x direction, and we want the widths of each rectangle to be as tiny as possible so that the approximation is as accurate as possible.
+The reason we call the width of a rectangle \\(dx\\) is for a similar reason we have \\(dx\\) in the denominator of the derivative symbol. \\(dx\\) is supposed to represent a tiny nudge in the x direction, and we want the widths of each rectangle to be as tiny as possible so that the approximation is as accurate as possible.
 
 Now that we have all those variables, we can formalize this by turning it into a formula:
 
@@ -61,7 +55,7 @@ $$\text{Area under curve} \approx (\text{Area of Rectangle 1})+(\text{Area of Re
 
 We assigned the area under the curve to be \\(A\\). To find the area of each rectangle, we should multiply each rectangle's width by each rectangle's height. The width of every rectangle is \\(dx\\), but the height varies. More specifically, the height of each rectangle is dependent on the <i>function's value</i> at the x-value where the rectangle touches the function:
 
-(image)
+<img src="../../dydx integral.png">
 
 The first rectangle comes into contact with \\(f(x)\\) at \\(x=2.5\\), the second rectangle comes into contact with \\(f(x)\\) at \\(x=3\\), the third rectangle comes into contact with \\(f(x)\\) at \\(x=3.5\\), and so on. This is because the width of each rectangle (or \\(dx\\)) is \\(0.5\\). In general, the height for the \\(i^{\text{th}}\\) rectangle is \\(f(a + i\cdot dx)\\).
 
