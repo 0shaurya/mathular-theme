@@ -55,10 +55,11 @@ Using this information, we can follow \\(\theta\\) around the full \\(2\pi\\) ra
 
 This gives us the shape of \\(\sin(\theta)\\).
 
-
 Now, let's do a similar process for cosine.
 
-Here, we can see that \\(\cos(\theta)\\) is equal to the length of line ???? divided by the length of the hypotenuse. Again, because the length of the hypotenuse is always \\(1\\) no matter the value of \\(\theta\\), \\(\cos(\theta)\\) is equal to the length of line ?????
+<img src="../../visuals/unitcirclecos.gif" style="width:30%;height:auto;display:block;margin:auto;">
+
+Here, we can see that \\(\cos(\theta)\\) is equal to the length of line \\(A\\) divided by the length of the hypotenuse. Again, because the length of the hypotenuse is always \\(1\\) no matter the value of \\(\theta\\), \\(\cos(\theta)\\) is equal to the length of line \\(A\\)
 
 Here's the shape of the sine and cosine curve:
 

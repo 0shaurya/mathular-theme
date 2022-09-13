@@ -22,15 +22,15 @@ In the last chapter, we went over limits, what they are, and how to evaluate the
 
 Here is a list of all the important limit properties. In the following examples, \\(f(x)\\) and \\(g(x)\\) will be any function and \\(a\\) and \\(c\\) will be any number. Assume that \\(\lim_{x \to a} f(x)\\) exists (so no jump discontinuities).
 
-|Name|Definition|Example|
-|--- |:-: |--- |
-|constant multiple law|\\(\displaystyle \lim\limits_{x \to a} [c \cdot f(x)] = c\cdot \lim\limits_{x \to a} f(x)\\) <br> \\(\text{only works for constants or variables}\\) <br> \\(\text{that are not dependent on the limit}\\)|\\(\lim\limits_{x \to 1} 5(x^2+2) = 5\lim\limits_{x \to 1} [x^2+2] = 15\\)|
-|sum law|\\(\lim\limits_{x \to a} [f(x) \pm g(x)] = \lim\limits_{x \to a} f(x) \pm \lim\limits_{x \to a} g(x)\\)|\\(\lim\limits_{x \to 7} [x^2+x] = \lim\limits_{x \to 7} x^2 + \lim\limits_{x \to 7} x = 56\\)|
-|product law|\\(\lim\limits_{x \to a} [f(x) \cdot g(x)] = \lim\limits_{x \to a} f(x) \cdot \lim\limits_{x \to a} g(x)\\)|\\(\lim\limits_{x \to 4} [x(2-x)] = \lim\limits_{x \to 4} x \cdot \lim\limits_{x \to 4} [2-x] = -8\\)|
-|quotient law|\\(\displaystyle \lim\limits_{x \to a} \bigg[\frac{f(x)}{g(x)}\bigg] = \frac{\lim\limits_{x \to a} f(x)}{\lim\limits_{x \to a} g(x)}\\) \\(\text{assuming } g(x) \ne 0\\)|\\(\displaystyle \lim\limits_{x \to 1} \frac{x^2+5x}{3x^2-5} = \frac{\lim\limits_{x \to 1} [x^2+5x]}{\lim\limits_{x \to 1} [3x^2-5]}= -3\\)|
-|exponent law|\\(\lim\limits_{x \to a} \big[(f(x))^c\big] = \Big[\lim\limits_{x \to a} f(x)\Big]^c\\)|\\(\lim\limits_{x \to 2} [(3x)^2] = \Big[\lim\limits_{x \to 2} 3x \Big]^2 = 36\\)|
-|root law|\\(\lim\limits_{x \to a} \sqrt[\large c]{f(x)} = \sqrt[\large c]{\lim\limits_{x \to a} f(x)}\\)|\\(\lim\limits_{x \to 7} \sqrt{x+2} = \sqrt{\lim\limits_{x \to 7} [x+2]} = 3 \\)|
-||\\(\lim_{x \to a}f(x) = f\Big(\lim_{x \to a}x\Big) \\ \text{as long as } f(x)\text{ is continuous around } a\\)|\\(\lim_{x \to 25}\sqrt{x} = \sqrt{\lim_{x \to 25}x} = 5\\)|
+|Definition|Example|
+|:-: |:-: |
+|\\(\displaystyle \lim\limits_{x \to a} [c \cdot f(x)] = c\cdot \lim\limits_{x \to a} f(x)\\) <br> \\(\text{only works for constants or variables}\\) <br> \\(\text{that are not dependent on the limit}\\)|\\(\lim\limits_{x \to 1} 5(x^2+2) = 5\lim\limits_{x \to 1} [x^2+2] = 15\\)|
+|\\(\lim\limits_{x \to a} [f(x) \pm g(x)] = \lim\limits_{x \to a} f(x) \pm \lim\limits_{x \to a} g(x)\\)|\\(\lim\limits_{x \to 7} [x^2+x] = \lim\limits_{x \to 7} x^2 + \lim\limits_{x \to 7} x = 56\\)|
+|\\(\lim\limits_{x \to a} [f(x) \cdot g(x)] = \lim\limits_{x \to a} f(x) \cdot \lim\limits_{x \to a} g(x)\\)|\\(\lim\limits_{x \to 4} [x(2-x)] = \lim\limits_{x \to 4} x \cdot \lim\limits_{x \to 4} [2-x] = -8\\)|
+|\\(\displaystyle \lim\limits_{x \to a} \bigg[\frac{f(x)}{g(x)}\bigg] = \frac{\lim\limits_{x \to a} f(x)}{\lim\limits_{x \to a} g(x)}\\) \\(\text{assuming } g(x) \ne 0\\)|\\(\displaystyle \lim\limits_{x \to 1} \frac{x^2+5x}{3x^2-5} = \frac{\lim\limits_{x \to 1} [x^2+5x]}{\lim\limits_{x \to 1} [3x^2-5]}= -3\\)|
+|\\(\lim\limits_{x \to a} \big[(f(x))^c\big] = \Big[\lim\limits_{x \to a} f(x)\Big]^c\\)|\\(\lim\limits_{x \to 2} [(3x)^2] = \Big[\lim\limits_{x \to 2} 3x \Big]^2 = 36\\)|
+|\\(\lim\limits_{x \to a} \sqrt[\large c]{f(x)} = \sqrt[\large c]{\lim\limits_{x \to a} f(x)}\\)|\\(\lim\limits_{x \to 7} \sqrt{x+2} = \sqrt{\lim\limits_{x \to 7} [x+2]} = 3 \\)|
+|\\(\displaystyle \lim_{x \to a}f(x) = f\Big(\lim_{x \to a}x\Big)\\) <br> \\(\text{as long as } f(x)\text{ is continuous around } a\\)|\\(\lim_{x \to 25}\sqrt{x} = \sqrt{\lim_{x \to 25}x} = 5\\)|
 
 
 All of these properties work because of the fact that \\(\lim_{x \to a} f(x)\\) exists as just a number. This allows us to treat the limit as any other number and apply corresponding rules.
