@@ -43,14 +43,18 @@ g(0.5) &= 1
 
 That's how we write functions algebraically. We can also visualize them using tables. Consider the following table for the function \\(f(x) = 3x+1\\):
 
-//table
+| \\(x\\)| \\(f(x\\)) |
+| :----: | :--------: |
+| -2     | -5         |
+| -1     | -2         |
+|  0     |  1         |
+|  1     |  4         |
+|  2     |  7         |
 
-Or, we can use graphs. Functions on graphs are very useful and common. This is the graph for the same function \\(f(x) = 3x+1\\). On the x-axis (big horizontal line), lies the value of an x value (an input to the function). On the y-axis (big vertical line), lies the corresponding f(x) value. For example, 3 units to the right of the origin (the origin is where the two axes cross), the y value is 10, because \\(f(3) = 10\\).
+Or, we can use graphs. Functions on graphs are very useful and common. This is the graph for the same function \\(f(x) = 3x+1\\). On the x-axis (big horizontal line), lies the value of an x value (an input to the function). On the y-axis (big vertical line), lies the corresponding f(x) value. For example, 3 units to the right of the origin (the origin is where the two axes cross), the y value is 10, because \\(f(3) = 3(3)+1= 10\\).
 
 An important note about functions: when inputting a number into a function, the function should always return either 1 or 0 numbers. In other words, inputting a number into a function can never give 2 (or more) results. For example, the following graph is not a function:
 
-because at \\(x=??????\\), there are two y values. You can use something called the <b>vertical line test</b> to test if a function on a graph is actually a function. If you can make at least 1 vertical line on the graph that crosses the function at least twice, that is automatically not a function. Look at the following for an example of the vertical line test:
+<img src="../../visuals/implicitfunction.png" style="width:50%;height:auto;display:block;margin:auto;">
 
-Feel free to play with functions as you want here:
-
-<br><br><iframe href=”desmos.com/calculator”>
+because at \\(x=1\\), there are two y values. You can use something called the <b>vertical line test</b> to test if a function on a graph is actually a function. If you can make at least 1 vertical line on the graph that crosses the function at least twice, that is automatically not a function.

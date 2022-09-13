@@ -608,46 +608,38 @@
 <table>
   <thead>
     <tr>
-      <th>Name</th>
       <th style="text-align: center">Definition</th>
-      <th>Example</th>
+      <th style="text-align: center">Example</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>constant multiple law</td>
       <td style="text-align: center">\(\displaystyle \lim\limits_{x \to a} [c \cdot f(x)] = c\cdot \lim\limits_{x \to a} f(x)\) <br /> \(\text{only works for constants or variables}\) <br /> \(\text{that are not dependent on the limit}\)</td>
-      <td>\(\lim\limits_{x \to 1} 5(x^2+2) = 5\lim\limits_{x \to 1} [x^2+2] = 15\)</td>
+      <td style="text-align: center">\(\lim\limits_{x \to 1} 5(x^2+2) = 5\lim\limits_{x \to 1} [x^2+2] = 15\)</td>
     </tr>
     <tr>
-      <td>sum law</td>
       <td style="text-align: center">\(\lim\limits_{x \to a} [f(x) \pm g(x)] = \lim\limits_{x \to a} f(x) \pm \lim\limits_{x \to a} g(x)\)</td>
-      <td>\(\lim\limits_{x \to 7} [x^2+x] = \lim\limits_{x \to 7} x^2 + \lim\limits_{x \to 7} x = 56\)</td>
+      <td style="text-align: center">\(\lim\limits_{x \to 7} [x^2+x] = \lim\limits_{x \to 7} x^2 + \lim\limits_{x \to 7} x = 56\)</td>
     </tr>
     <tr>
-      <td>product law</td>
       <td style="text-align: center">\(\lim\limits_{x \to a} [f(x) \cdot g(x)] = \lim\limits_{x \to a} f(x) \cdot \lim\limits_{x \to a} g(x)\)</td>
-      <td>\(\lim\limits_{x \to 4} [x(2-x)] = \lim\limits_{x \to 4} x \cdot \lim\limits_{x \to 4} [2-x] = -8\)</td>
+      <td style="text-align: center">\(\lim\limits_{x \to 4} [x(2-x)] = \lim\limits_{x \to 4} x \cdot \lim\limits_{x \to 4} [2-x] = -8\)</td>
     </tr>
     <tr>
-      <td>quotient law</td>
       <td style="text-align: center">\(\displaystyle \lim\limits_{x \to a} \bigg[\frac{f(x)}{g(x)}\bigg] = \frac{\lim\limits_{x \to a} f(x)}{\lim\limits_{x \to a} g(x)}\) \(\text{assuming } g(x) \ne 0\)</td>
-      <td>\(\displaystyle \lim\limits_{x \to 1} \frac{x^2+5x}{3x^2-5} = \frac{\lim\limits_{x \to 1} [x^2+5x]}{\lim\limits_{x \to 1} [3x^2-5]}= -3\)</td>
+      <td style="text-align: center">\(\displaystyle \lim\limits_{x \to 1} \frac{x^2+5x}{3x^2-5} = \frac{\lim\limits_{x \to 1} [x^2+5x]}{\lim\limits_{x \to 1} [3x^2-5]}= -3\)</td>
     </tr>
     <tr>
-      <td>exponent law</td>
       <td style="text-align: center">\(\lim\limits_{x \to a} \big[(f(x))^c\big] = \Big[\lim\limits_{x \to a} f(x)\Big]^c\)</td>
-      <td>\(\lim\limits_{x \to 2} [(3x)^2] = \Big[\lim\limits_{x \to 2} 3x \Big]^2 = 36\)</td>
+      <td style="text-align: center">\(\lim\limits_{x \to 2} [(3x)^2] = \Big[\lim\limits_{x \to 2} 3x \Big]^2 = 36\)</td>
     </tr>
     <tr>
-      <td>root law</td>
       <td style="text-align: center">\(\lim\limits_{x \to a} \sqrt[\large c]{f(x)} = \sqrt[\large c]{\lim\limits_{x \to a} f(x)}\)</td>
-      <td>\(\lim\limits_{x \to 7} \sqrt{x+2} = \sqrt{\lim\limits_{x \to 7} [x+2]} = 3 \)</td>
+      <td style="text-align: center">\(\lim\limits_{x \to 7} \sqrt{x+2} = \sqrt{\lim\limits_{x \to 7} [x+2]} = 3 \)</td>
     </tr>
     <tr>
-      <td> </td>
-      <td style="text-align: center">\(\lim_{x \to a}f(x) = f\Big(\lim_{x \to a}x\Big) \ \text{as long as } f(x)\text{ is continuous around } a\)</td>
-      <td>\(\lim_{x \to 25}\sqrt{x} = \sqrt{\lim_{x \to 25}x} = 5\)</td>
+      <td style="text-align: center">\(\displaystyle \lim_{x \to a}f(x) = f\Big(\lim_{x \to a}x\Big)\) <br /> \(\text{as long as } f(x)\text{ is continuous around } a\)</td>
+      <td style="text-align: center">\(\lim_{x \to 25}\sqrt{x} = \sqrt{\lim_{x \to 25}x} = 5\)</td>
     </tr>
   </tbody>
 </table>
@@ -730,6 +722,32 @@
 
 	.dropdown, .drop-down-menu, .subitem {
 		transition: 5s ease-in-out !important;
+	}
+
+	table, td, th, tr {
+		border: 1px solid var(--main-text-color);
+		border-collapse: collapse;
+	}
+
+	table {
+		margin-left: 50%;
+		transform: translateX(-50%);
+		display: table;
+		width: 90%;
+		table-layout: fixed;
+	}
+
+	th {
+		background-color: #737373;
+	}
+
+	td {
+		padding: 10px 0 10px 0;
+	}
+
+	image {
+		width: 50%;
+		height: auto;
 	}
 </style>
 
