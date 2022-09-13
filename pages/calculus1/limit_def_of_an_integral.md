@@ -45,7 +45,7 @@ The more rectangles we have, the better the approximation will be. This is becau
 
 To formalize this problem, let's add some variables. Let \\(A\\) be the <i>actual</i> area under the curve, and let \\(n\\) be the number of rectangles. Let \\(a\\) and \\(b\\) be the starting and ending x values of the area we're trying to find (in this case, \\(2\\) and \\(4\\)). Knowing that, we can calculate the width of each rectangle, \\(dx\\), to be \\(\frac{b-a}{n}\\).
 
-(image)
+<img src="../../visuals/dydx integral.png">
 
 The reason we call the width of a rectangle \\(dx\\) is for a similar reason we have \\(dx\\) in the denominator of the derivative symbol. \\(dx\\) is supposed to represent a tiny nudge in the x direction, and we want the widths of each rectangle to be as tiny as possible so that the approximation is as accurate as possible.
 
@@ -55,7 +55,7 @@ $$\text{Area under curve} \approx (\text{Area of Rectangle 1})+(\text{Area of Re
 
 We assigned the area under the curve to be \\(A\\). To find the area of each rectangle, we should multiply each rectangle's width by each rectangle's height. The width of every rectangle is \\(dx\\), but the height varies. More specifically, the height of each rectangle is dependent on the <i>function's value</i> at the x-value where the rectangle touches the function:
 
-<img src="../../dydx integral.png">
+<img src="../../visuals/f() integral.png">
 
 The first rectangle comes into contact with \\(f(x)\\) at \\(x=2.5\\), the second rectangle comes into contact with \\(f(x)\\) at \\(x=3\\), the third rectangle comes into contact with \\(f(x)\\) at \\(x=3.5\\), and so on. This is because the width of each rectangle (or \\(dx\\)) is \\(0.5\\). In general, the height for the \\(i^{\text{th}}\\) rectangle is \\(f(a + i\cdot dx)\\).
 
@@ -87,25 +87,19 @@ Remember earlier that we said that as \\(n\\) gets bigger, the approximation get
 
 $$A = \lim_{n \to \infty} \sum_{i=1}^{n} [f(2+i \cdot dx) \cdot dx]$$
 
-Remember that \\(2\\) was just the starting x-coordinate of the area we were trying to find. We assigned the starting x-coordinate to \\(a\\), so we will use that variable instead. We have found the formula for the area under a curve:
+Remember that \\(2\\) was just the starting x-coordinate of the area we were trying to find. We assigned the starting x-coordinate to \\(a\\), so we will use that variable instead. With this, we have found the formula for the area under a curve:
 
 $$A = \lim_{n \to \infty} \sum_{i=1}^{n} f(a+i\cdot dx) dx\\\text{where } n \text{ is the number of rectangles}\\a \text{ is the leftmost point for the area}\\b \text{ is the rightmost point for the area}\\\text{and }dx =\frac{b-a}{n}$$
-
-(image)
 
 The area underneath a curve is known as an <b>integral</b>. This name comes from constructing the area from rectangles and bringing the rectangles closer - or integrating them together - to find the true area. For example, let's say we wanted to find the integral of \\(x^2\\) between \\(x=1\\) and \\(x=4\\), If we know \\(a=1\\) and \\(b=4\\), then \\(dx = \frac{4-1}{n} = \frac{3}{n}\\)
 
 $$A = \lim_{n \to \infty} \sum_{i=1}^{n} f(a+i\,dx) dx \\
 A = \lim_{n \to \infty} \sum_{i=1}^{n} \left[\left(1+i\left(\frac{3}{n}\right)\right)^{\displaystyle2} \left(\frac{3}{n}\right)\right]$$
 
-Here is a visual of the above integral:
-
-(image), gif
-
 One important thing to note is that when we say "the area under a curve", we subtract any area that is below the x-axis. This is best shown visually:
 
-(image)
+<img src="../../visuals/signedarea.png">
 
-Here, the total area between the x-axis and the curve between \\(x=?????\\) and \\(x=?????\\) is \\(??????\\) but the <b>signed area</b> is only \\(????\\). This is because we add the area above the x-axis, and then subtract the area beneath the x-axis. The signed area is the more important one - it's the value that the above formula returns, and it's the one that mathematicians use more often.
+Here, the total area between the x-axis and the curve between \\(x=-2\\) and \\(x=5\\) is \\(5+2=7\\) but the <b>signed area</b> is only \\(5-2=3\\). This is because we add the area above the x-axis, and then subtract the area beneath the x-axis. The signed area is the more important one - it's the value that the above formula returns, and it's the one that mathematicians use more often.
 
 Actually solving the integral to find the area is very difficult using limits and sums, but in the next chapter, we'll go over a <i>much</i> easier way.
