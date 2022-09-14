@@ -10,6 +10,8 @@ menuSubs:
 excerpt: "Learn about Complex Numbers. Complex Numbers are the c."
 terms:
   - ['Imaginary Number', 'Any real number  multiplied by \(i\), the square root of \(-1\)']
+  - ['Complex Number', 'A number that consists of a real component and imaginary conmnponent added together']
+  - ['Complex Plane', 'A 2D plane that contains all complex numbers. On the horizontal axis lies the real numbers and on the vertical axis lies the imaginary numbers.']
 ---
 
 
