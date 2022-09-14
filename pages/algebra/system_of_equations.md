@@ -7,7 +7,7 @@ menuTopTitle: Algebra
 menuSubs:
 - title: Systems of Equations
   index: 8
-excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+excerpt: "Systems of Equations can model systems that have multiple unknown numbers. Learn what they are and how to solve them."
 terms:
   - ['System of Equations', 'A group of multiple equations with at least 2 variables in total']
   - ['Substitution', 'A method of solving systems of equations where we solve for one variable in terms of the other, and then substitute that into the other equation']

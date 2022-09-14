@@ -7,7 +7,7 @@ menuTopTitle: Algebra
 menuSubs:
 - title: Solving Equations
   index: 3
-excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+excerpt: "Learn how to solve equations for a variable - the most useful part of algebra."
 questions:
   - ['In the equation \(4x+3=11\), what does \(x\) equal?', 'Subtract both sides by \(3\) and then divide both sides by \(4\) to find \(x=2\).']
   - ['In the equation \(0.5x-5=-19\), what does \(x\) equal?', 'Add both sides by \(5\) and then multiply both sides by \(2\) to find \(x=-28\).']

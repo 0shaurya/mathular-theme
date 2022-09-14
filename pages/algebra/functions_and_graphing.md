@@ -7,7 +7,7 @@ menuTopTitle: Algebra
 menuSubs:
 - title: Functions and Graphing
   index: 4
-excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+excerpt: "Learn what a function is and how to graph one."
 terms:
   - ['Vertical line test', 'A test to find if an equation is a function. If you can make at least one vertical line on the graph that crosses touches the equation at least twice, then it means the equation is not a function.']
 ---

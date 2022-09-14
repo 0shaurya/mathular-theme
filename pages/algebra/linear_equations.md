@@ -7,7 +7,7 @@ menuTopTitle: Algebra
 menuSubs:
 - title: Linear Equations
   index: 2
-excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+excerpt: "Linear equations are a type of equation that involves a variable. They appear everywhere in math and our world."
 terms:
   - ['Linear Equation', 'An equation that can be written in the form \(ax+b=0\), where \(a\) and \(b\) are constants,']
   - ['Coefficient', 'The number next to a variable. The variable is multiplied by the coefficient.']

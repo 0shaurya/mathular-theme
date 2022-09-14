@@ -7,7 +7,7 @@ menuTopTitle: Algebra
 menuSubs:
 - title: Complex Numbers
   index: 6
-excerpt: "Learn about Complex Numbers. Complex Numbers are the c."
+excerpt: "Complex Numbers are the composed of real and imaginary components - another dimension of numbers."
 terms:
   - ['Imaginary Number', 'Any real number  multiplied by \(i\), the square root of \(-1\)']
   - ['Complex Number', 'A number that consists of a real component and imaginary conmnponent added together']

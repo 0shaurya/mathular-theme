@@ -7,7 +7,7 @@ menuTopTitle: Algebra
 menuSubs:
 - title: Polynomials
   index: 5
-excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+excerpt: "A polynomial is the huge umbrella of functions. Although being a simple concept, they have been commonplace in math and other fields for hundreds of years, and have been extensively studied."
 terms:
   - ['Constant', 'The term of the polynomial that contains only a number. The constant can be negative.']
   - ['Degree', 'Equal to the biggest exponent of the function. Always an integer, because polynomials always have integer exponents.']

@@ -7,7 +7,7 @@ menuTopTitle: Algebra
 menuSubs:
 - title: Quadratic Equations
   index: 7
-excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+excerpt: "A type of polynomial with degree 2 - they form parabolas, which have many interesting properties and uses."
 terms:
   - ['Quadratic Equation', 'An equation that can be written in the form \(f(x)=ax^2+bx+c\), where \(a\) and \(b\) are constants']
 questions:
