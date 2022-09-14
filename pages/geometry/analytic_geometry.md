@@ -14,7 +14,7 @@ terms:
   - ['Axis', 'An infinitely long line running through a plane. In a 2D plane, there are 2 axes - one describing the horizontal shift and the other describing the vertical shift.']
   - ['\(x\)-axis', 'The horizontal axis on a coordinate plane']
   - ['\(y\)-axis', 'The vertical axis on a coordinate plane']
-  - ['Origin', 'The point where the \(x\) and \(y\) axes intersect. It is at the coordinate \(0, 0\).']
+  - ['Origin', 'The point where the \(x\) and \(y\) axes intersect. It is at the coordinate \((0, 0)\).']
   - ['Midpoint', 'The point directly the middle of the line connecting two other points. The other two points have an equal distance to the midpoint.']
 ---
 <h1>Geometry</h1>

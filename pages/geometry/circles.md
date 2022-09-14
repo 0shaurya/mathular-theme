@@ -13,46 +13,38 @@ terms:
   - ['Volume', 'Space occupied within the boundaries of an object in 3-D space.']
   - ['Surface Area', 'Amount of space covering the outside of a 3-D shape.']
 questions:
-  - ['question', 'answer']
 ---
 
 <h1>Geometry</h1>
 
 <h2>Circles, Volume, and Surface Area</h2><br>
 
-<p>
-
 We've covered the fundamentals of Congruency, Proofs, and Geometry. Finally, we'll move on to the more complicated topics of Circles, Volume, and Surface Area.
 
-</p>
-
-<p>
-
-<h3><u>Circles</u></h3> <br>
-
+<h3>Circles</h3>
 <li>
 
-<b>Arc of a Circle:</b> It is basically any portion of the circumference of a circle. The circumference is the perimeter of a circle. Hence, the circumference is a full arc of the circle.
+<b>Arc of a Circle</b>: It is basically any portion of the circumference of a circle. The circumference is the perimeter of a circle. Hence, the circumference is a full arc of the circle.
   
 </li>
 
 <li>
 
-  <b>Finding the Length of an Arc:</b>
+  <b>Finding the Length of an Arc</b>:
 
 <ul><u>Arc Length:</u> The length of an arc is the distance between the start and end points of the arc. <br></ul>
 
 <ul><u>Formula for the arc length</u>  = \\((2πr)\\) \\((θ/360)\\), where \\(r\\) is the radius of the circle.</ul>
 
-<center><img src="https://www.storyofmathematics.com/wp-content/uploads/2020/07/Arc-of-a-Circle.jpg" alt="Coordinate Plane" style="width:45%;">
+<img src="https://www.storyofmathematics.com/wp-content/uploads/2020/07/Arc-of-a-Circle.jpg" alt="Coordinate Plane" style="width:45%;">
 
-</center>
 
-<center>The length of the arc (drawn in red) is the distance from point A to point B.</center><br>
+
+The length of the arc (drawn in red) is the distance from point A to point B.<br>
 
 <br>
 
-<center><b>Example:</b> Arc \\(AB\\) has an angle of \\(40°\\) and the circle has a radius of \\(7cm\\). Calculate the length of arc \\(AB\\).
+<b>Example:</b> Arc \\(AB\\) has an angle of \\(40°\\) and the circle has a radius of \\(7cm\\). Calculate the length of arc \\(AB\\).
 
 <img src="https://www.storyofmathematics.com/wp-content/uploads/2020/07/Arc-of-a-Circle-Example.jpg" alt="Example Question" style="width:45%;">
 
@@ -62,10 +54,8 @@ We've covered the fundamentals of Congruency, Proofs, and Geometry. Finally, we'
   
   <br>
 
-</center>
 
 
-<p>
   
   <br>
 
@@ -75,19 +65,18 @@ We've covered the fundamentals of Congruency, Proofs, and Geometry. Finally, we'
 
 Area of sector of circle = \\((\frac {1}{2})\\) \\((r^2 θ)\\), where \\(θ\\) is the sector angle subtended by the arc at the center, <b>in radians</b>. And, \\(r\\) is the radius of the circle.
 
-<center><img src="https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/area-of-sector-of-a-circle-1637917885.png" alt="Coordinate Plane" style="width:50%;">
+<img src="https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/area-of-sector-of-a-circle-1637917885.png" alt="Coordinate Plane" style="width:50%;">
 
-<center>&copy; 2022 Cue Learn Pvt. Ltd.</center>
+&copy; 2022 Cue Learn Pvt. Ltd.
 
-</center>
 
-</li></p>
 
-<p>
+</li>
+
 
 <h3><u>Volume Formulas:</u></h3>
 
-<p><li>
+<li>
 
 <b>Volume of a Cube:</b>
 
@@ -179,6 +168,4 @@ Formula = \\(SA = 4πr^2\\), where \\(r\\) is the radius of the sphere.
 
 Formula = \\(SA = πr^2 + πrl\\), where \\(r\\) is the radius of the cone, \\(h\\) is the height of the cone, and \\(l\\) is the slant height of the cone.
 
-</li></p>
-
-</p>
+</li>
