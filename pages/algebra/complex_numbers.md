@@ -7,7 +7,7 @@ menuTopTitle: Algebra
 menuSubs:
 - title: Complex Numbers
   index: 6
-excerpt: "Learn about complex numbers."
+excerpt: "Learn about Complex Numbers. Complex Numbers are the c."
 terms:
   - ['Imaginary Number', 'Any real number  multiplied by \(i\), the square root of \(-1\)']
 ---
@@ -46,3 +46,7 @@ i = \sqrt{-1}
 \end{align*}$$
 
 \\(i\\) is not a variable. It is a number, in the same way that 1, 2, 3, 4… are all numbers. However, it is a different type of number - an <b>imaginary number</b>. An imaginary number is a regular number multiple by \\(i\\). For example, \\(5i\\) is an imaginary number because it is \\(5\cdot i\\), or \\(5\cdot \sqrt{-1}\\).
+
+A <b>complex number</b> is a number that has an real component and an imaginary component, added to each other. Some examples of complex numbers are \\(3+2i\\), \\(4-5i\\), or \\(-2-0.5i\\). Complex numbers can be visualized on the <b>complex plane</b>, where the vertical axis represents the imaginary numbers and the horizontal axis represent real numbers. Each point on the complex plane is a complex number.
+
+<img src="../../visuals/complexplane.png">
