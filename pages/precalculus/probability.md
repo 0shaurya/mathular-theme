@@ -102,7 +102,7 @@ $$\sum{}{}{i\cdot P(i)} = 3.5$$
 This is actually the general formula for any sample space. For example, say a carnival game costs \\(3\\) to play and has the following outcomes:
 
 |Probability|Outcome|
-|--- |--- |
+|:-: |:-: |
 |50%|\\(0\\)|
 |20%|\\(3\\)|
 |10%|\\(5\\)|

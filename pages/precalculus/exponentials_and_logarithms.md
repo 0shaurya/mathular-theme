@@ -28,7 +28,7 @@ $$f(x)=ab^x$$
 
 The important part here is how \\(x\\) is in the exponent - this key part is what makes it an exponential function. This is in contrast to polynomial functions, where \\(x\\) is in the base. Here is a graph of the function \\(2^x\\):
 
-(image)
+<img src="../../visuals/2^x.png">
 
 The first thing to notice is that \\(2^x\\) grows very fast. This is because the y-value doubles after each unit step in the x direction. This is because every time we add 1 to the x-value, the y value will be multiplied by 2 another time:
 
@@ -48,7 +48,7 @@ $$f(0)=a$$
 
 Thus, the y-intercept of an exponential function in the form \\(f(x)=ab^x\\) is always \\(a\\). We can verify this by graphing some more exponential functions:
 
-(image)
+<img src="../../visuals/exponentials.png">
 
 Exponential equations come up a lot in the real world. For example, imagine 5 bacteria on a petri dish. Every hour, the number of bacteria doubles. This means that the number of bacteria follow the function \\(B(t)=5\cdot2^t\\), with \\(t\\) being the number of hours.
 

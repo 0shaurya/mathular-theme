@@ -164,7 +164,7 @@ $$\frac{d}{dx} f(x) = f'(x) = \text{The derivative of f(x)}$$
 
 There is a nice intuition for this type of notation. Remember when we used a line to approximate a curve? Let's zoom into that again. However, we will label the lines something different:
 
-<img src="../../dxdy.png">
+<img src="../../visuals/dxdy.png">
 
 Here is the graph of \\(x^2\\), but zoomed into the domain \\(2 < x < 5\\). The \\(dx\\) and \\(dy\\) stands for the change in \\(x\\) and \\(y\\) between points \\((3, 9)\\) and \\((3+dx, 9+dy)\\) The idea here is that the slope is equal to \\(\frac{dy}{dx}\\), and because \\(y=f(x)\\), by saying \\(\frac{df(x)}{dx}\\) we are basically saying “the slope of the function f(x)”, which is a good loose definition of the derivative. Assuming \\(y=f(x)\\), all of these are equal:
 

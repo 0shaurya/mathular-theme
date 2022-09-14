@@ -1,5 +1,5 @@
 ---
-Title: Calculus I
+title: Calculus I
 layout: home-page
 menuInclude: yes
 menuTopTitle: Calculus I
