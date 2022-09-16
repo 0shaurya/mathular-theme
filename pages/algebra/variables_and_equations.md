@@ -7,7 +7,7 @@ menuTopTitle: Algebra
 menuSubs:
 - title: Variables and Equations
   index: 1
-excerpt: "The basis of Algebra."
+excerpt: "The basis of algebra."
 terms:
   - ['Variable', 'A symbol (usually a letter) that represents an unknown number']
   - ['Equation', 'Two expressions seperated by an equals sign']

@@ -9,4 +9,4 @@ excerpt: "An excerpt is used as the page description and can be up to 160 charac
 secondary-column: none
 subs: ["Variables and Equations", "Linear Equations", "Solving Equations", "Functions and Graphing", "Polynomials", "Complex Numbers", "Quadratic Equations", "Systems of Equations"]
 ---
-High School Algebra
+Algebra is used to model unknown numbers in situations. We use algebra to solve for these unknowns, making it an incredibly useful field that is applicable virtually everywhere.
