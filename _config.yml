@@ -16,7 +16,7 @@
 title: Mathular
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  2022 Mathular. Learn math online, for free.
+  2022 Mathular. Learn math online, for free. We have many resources for Algebra, Geometry, Precalculus, and Calculus 1.
 baseurl: "/" # the subpath of your site, e.g. /blog note that it must _also_ be defined in classic-jekyll-theme.scss!
 url: "https://www.mathular.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
