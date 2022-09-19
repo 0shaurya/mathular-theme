@@ -7,7 +7,7 @@ menuTopTitle: Calculus I
 menuSubs:
 - title: Derivatives of Certain Functions
   index: 7
-excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+excerpt: "There are a few functions whose derivatives frequently show up and therefore should be known by heart."
 ---
 
 

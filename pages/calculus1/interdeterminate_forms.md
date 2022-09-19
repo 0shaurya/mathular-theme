@@ -7,7 +7,7 @@ menuTopTitle: Calculus I
 menuSubs:
 - title: Indeterminate Forms
   index: 3
-excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+excerpt: "There are seven forms that do not give enough information to solve a limit. These are known as the indeterminate forms and require more work to solve."
 terms:
   - ['Indeterminate Form', 'If a limit is equal to one of the 7 indeterminate forms, then more work is required to solve the limit. The 7 indeterminate forms are: \(~ \frac {0}{0},~ {\frac {\infty }{\infty }},~0\cdot\infty ,~\infty -\infty ,~0^{0},~1^{\infty },~ \infty ^{0}\)']
 ---

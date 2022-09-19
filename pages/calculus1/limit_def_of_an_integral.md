@@ -7,7 +7,7 @@ menuTopTitle: Calculus I
 menuSubs:
 - title: The Limit Definition of an Integral
   index: 12
-excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+excerpt: "An integral is the area underneath a curve - learn how to calculate this using limits."
 terms:
   - ['Integral', 'The area between the curve and the x-axis between two x-values']
   - ['Signed Area', 'Where any area between the x-axis and the curve above the x-axis is a positive area and the area between the x-axis and the curve below the x-axis is a negative area. The total area of an integral is the sum of these two areas.']

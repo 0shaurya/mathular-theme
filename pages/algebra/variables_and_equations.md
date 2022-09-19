@@ -14,6 +14,11 @@ terms:
   - ['Expression', 'A set of numbers or variables that interact with each other using operations']
   - ['Operation', 'A function that manipulates two numbers to form another number (e.g. addition, division, exponentiation)']
   - ['Constant', 'A number added onto an expression']
+questions:
+  - ['Is \(3 \cdot 5 = 15\) an equation or expression?', 'An equation, because it has a equals sign.']
+  - ['Is \(20-2=18\) an equation or expression?', 'An equation, because it has an equals sign.']
+  - ['Is \(5\) a variable or constant?', 'A constant, because it is just a number.']
+  - ['In the equation \(23+10=33\), what is the operator?', 'The addition sign (\(+\)).']
 ---
 
 

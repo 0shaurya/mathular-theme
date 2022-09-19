@@ -7,7 +7,7 @@ menuTopTitle: Calculus I
 menuSubs:
 - title: Antiderivatives
   index: 10
-excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+excerpt: "The inverse of a derivative."
 terms:
   - ['Antiderivative', 'The antiderivative of the derivative of a function is the function itself. In other words, the antiderivative is the inverse operation of the derivative - just like how division is the inverse operation of multiplication and subtraction is the inverse operation of addition.']
   - ['Constant of Integration', 'The constant term that is added onto the antiderivative of a function, needed because any constant differentiated is 0. It is usually denoted by \(c\).']

@@ -7,7 +7,7 @@ menuTopTitle: Calculus I
 menuSubs:
 - title: Derivative Rules
   index: 6
-excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+excerpt: "Derivatives might be hard at first, but these rules turn calculating them into a step-by-step process."
 terms:
   - ['Differentiation', 'the process of taking the derivative of a function']
   - ['Constant Term Rule', 'Rule that says the derivative of any constant is \(0\)']

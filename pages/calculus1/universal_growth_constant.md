@@ -7,7 +7,7 @@ menuTopTitle: Calculus I
 menuSubs:
 - title: e, the Universal Growth Constant
   index: 4
-excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+excerpt: "The most important number in Calculus."
 terms:
   - ['Natural log', 'The logarithm with base \(e\). Because it is so common in math, it has its own symbol, \(\ln\) (as opposed to the usual \(\log\)). \(~ \ln(x) = \log_{e}(x)\).']
 ---

@@ -7,7 +7,7 @@ menuTopTitle: Calculus I
 menuSubs:
 - title: L'Hôpital's Rule
   index: 8
-excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+excerpt: "A tool for solving limits in indeterminate forms."
 terms:
   - ['L''Hôpital’s Rule', 'A very powerful technique for solving limits that are equal to \(\frac{0}{0}\) or \(\frac{\infty}{\infty}\). It says that \(\\ \text{If } \lim_{x\to a} \frac{f(x)}{g(x)} = \frac{0}{0} \text{ or } \frac{\infty}{\infty}, \\ \lim_{x\to a} \frac{f(x)}{g(x)} = \lim_{x\to a} \frac{f'(x)}{g'(x)}\)']
 ---

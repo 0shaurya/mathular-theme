@@ -7,7 +7,7 @@ menuTopTitle: Calculus I
 menuSubs:
 - title: Limits and Discontinuities
   index: 1
-excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+excerpt: "Limits are what make all of Calculus possible. They pop up over and over again throughout future lessons."
 terms:
   - ['Limit', 'The basis of calculus and an operation on a function that measures the value of the function as the inputs approaches some value']
   - ['Removable Discontinuity', 'A type of discontinuity where the limit of a function at a value \(a\) exists, but the function at that value does not']

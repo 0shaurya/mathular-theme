@@ -7,7 +7,7 @@ menuTopTitle: Calculus I
 menuSubs:
 - title: Antidifferentiation Rules and Methods
   index: 11
-excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+excerpt: "Despite antiderivatives being much harder to solve than derivatives, there are still numerous tricks and methods to solve them."
 terms:
   - ['Sum Rule', 'Rule that says the antiderivative of a sum is the sum of the antiderivatives. Or, \(\int f(x)\pm g(x)\,dx=\int f(x)\,dx\pm\int g(x)\,dx\).']
   - ['Constant Multiple Rule', 'Rule that asays we can pull out a constant out of an antiderivative. Or, \(\int cf(x)\,dx = c\int f(x)\,dx\).']

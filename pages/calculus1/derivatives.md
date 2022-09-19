@@ -7,7 +7,7 @@ menuTopTitle: Calculus I
 menuSubs:
 - title: Derivatives
   index: 5
-excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+excerpt: "Derivatives measure the rate of change. They're a powerful concept that is the gateway into Calculus."
 terms:
   - ['Tangent', 'The line tangent to a curve at a point is the line whose slope is equal to the slope of the curve at that point. The tangent line will barely touch the curve.']
   - ['Derivative', 'The rate at which a function changes as the x-value changes']

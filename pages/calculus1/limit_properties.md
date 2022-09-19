@@ -7,7 +7,7 @@ menuTopTitle: Calculus I
 menuSubs:
 - title: Limit Properties
   index: 2
-excerpt: "An excerpt is used as the page description and can be up to 160 characters long..."
+excerpt: "There are numerous properties for limits that make them useful and easier to calculate. Learn them here."
 terms:
   - ['Direct Substitution', 'A method for solving limits that involves plugging in the limiting value for the variable and solving. This method always works, except in certain specific scenarios.']
 ---
