@@ -12,7 +12,7 @@ terms:
   - ['System of Equations', 'A group of multiple equations with at least 2 variables in total']
   - ['Substitution', 'A method of solving systems of equations where we solve for one variable in terms of the other, and then substitute that into the other equation']
 questions:
-  - ['What is the solution to the following system of equations?', '']
+  - ['What is the solution to the following system of equations?\( \\ \) \( a-5=b+1 \\ 2b+3=11 \)', '\(b=a-6 \\ 2(a-6)+3=11 \\ 2a-12+3=11 \\ 2a=20 \\ a=10 \\ b=4 \)']
 ---
 
 
