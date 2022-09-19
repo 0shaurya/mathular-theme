@@ -11,6 +11,11 @@ excerpt: "A polynomial is the huge umbrella of functions. Although being a simpl
 terms:
   - ['Constant', 'The term of the polynomial that contains only a number. The constant can be negative.']
   - ['Degree', 'Equal to the biggest exponent of the function. Always an integer, because polynomials always have integer exponents.']
+questions:
+  - ['Is \(y=\sqrt{x}\) a polynomial?', 'No, because polynomials must have integer exponents and a square root is a fractional exponent.']
+  - ['Is \(y=4x^5-x^2\) a polynomial?', 'Yes, because there are only integer exponents and a coefficient to each \(x\)']
+  - ['Is \(y=1\) a polynomial?', 'Yes, because \(y=1\) is the same as \(y=1x^0\), which is a polynomial of degree 0.']
+  - ['What degree is the polynomial \(y=x^2+4x^3-2x\)?', '\(3\), because that is the highest exponent value in the polynomial.']
 ---
 
 

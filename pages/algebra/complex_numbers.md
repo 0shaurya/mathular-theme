@@ -12,6 +12,10 @@ terms:
   - ['Imaginary Number', 'Any real number  multiplied by \(i\), the square root of \(-1\)']
   - ['Complex Number', 'A number that consists of a real component and imaginary conmnponent added together']
   - ['Complex Plane', 'A 2D plane that contains all complex numbers. On the horizontal axis lies the real numbers and on the vertical axis lies the imaginary numbers.']
+questions:
+  - ['Is \(4\) a real or imaginary number?', 'Real, because there is no \(i\).']
+  - ['Is \(9i\) a real or imaginary number?', 'Imaginary, because there is an \(i\)']
+  - ['What are the real and imaginary components of the complex number \(3-10i\)?', 'The real component is \(3\) and the imaginary component is \(-10i\)']
 ---
 
 

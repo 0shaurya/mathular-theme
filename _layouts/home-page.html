@@ -12,12 +12,12 @@ layout: default
 		{% assign itemTree = itemTree[2] | strip %}
     	{% if page.treeRoot == itemTree %}
     		{% if page.subs[i] == item.menuSubs[0].title %}
-    		<a href="{{ item.url }}" class="btn">
-    			<li class="list">
-    					<div class="titles">{{ item.menuSubs[0].title }}</div><br>
-    					<div class="excerpt">{{ item.excerpt }}</div>
-    			</li>
-    		</a>
+    			<a href="{{ item.url }}" class="btn">
+    				<li class="list">
+    						<div class="titles">{{ item.menuSubs[0].title }}</div><br>
+    						<div class="excerpt">{{ item.excerpt }}</div>
+    				</li>
+    			</a>
     		{% endif %}
     	{% endif %}
 	{% endfor %}

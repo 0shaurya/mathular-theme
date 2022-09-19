@@ -10,6 +10,9 @@ menuSubs:
 excerpt: "Learn what a function is and how to graph one."
 terms:
   - ['Vertical line test', 'A test to find if an equation is a function. If you can make at least one vertical line on the graph that crosses touches the equation at least twice, then it means the equation is not a function.']
+questions:
+  - ['If \(f(x) = x+3\), what is \(f(5)\)?', '\(f(5) = 5 + 3 = 8\)']
+  - ['If \(g(x) = 2x-10\), what is \(g(-20)\)?', '\(g(-20) = 2(-20) - 10 = -50\)']
 ---
 
 

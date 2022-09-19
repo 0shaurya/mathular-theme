@@ -11,7 +11,13 @@ Configuration:
 <footer>
 	<div>
 		<p>{{ site.description | escape }}</p><br>
-		<p>{{ site.title }}({{ site.menuTopTitle }})</p>
+		<p>
+			{% if page.url == "/" %}
+				{{ site.title }}
+			{% elsif page.url != "/" %}
+				{{ site.title }} - {{ page.title }}
+			{% endif %}
+		</p>
 	</div>
 </footer>
 <!-- end of include footer.html -->

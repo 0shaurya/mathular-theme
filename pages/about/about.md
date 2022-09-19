@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About this site
+title: About
 menuInclude: yes
 menuLink: yes
 menuTopTitle: About
