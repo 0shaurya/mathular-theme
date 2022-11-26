@@ -104,10 +104,6 @@ $$\tan(x)=-\frac{1}{\sqrt3}\\
 x = \frac{5\pi}{6}, \frac{11\pi}{6}
 $$
 
-Here are those values of \\(\theta\\) on the unit circle:
-
-(image)
-
 We can clearly see that \\(\theta\\) is equal to \\(\frac{5\pi}{6} + \pi k\\). So we have our final answer:
 
 $$\tan(x)=-\frac{1}{\sqrt3} \\
