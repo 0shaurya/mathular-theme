@@ -90,7 +90,7 @@ In general, the graph of a logarithm will look like a sideways exponential, with
 
 Now, let's discuss some properties of logarithms. There are four main properties to know. Let's start with the first one, the <b>product rule law</b>, which says
 
-$$\log_{b}{M\cdotN}\ = \log_{b}{M}+\log_{b}{N}$$
+$$\log_{b}{M\cdot N}\ = \log_{b}{M}+\log_{b}{N}$$
 
 For example, \\(\log_{2}{14} = \log_{2}{2\cdot6} = \log_{2}{2}+\log_27 = 1+\log_27\\). This works because it is a parallel to the product rule for exponents law.
 
