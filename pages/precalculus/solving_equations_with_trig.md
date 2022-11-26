@@ -66,7 +66,8 @@ $$\theta = \frac{\pi}{3} + 2\pi k, \theta = \frac{5\pi}{3} + 2\pi k$$
 
 where \\(k\\) is any integer. We can visually see this on a graph:
 
-(image)
+<img src="../../visuals/unitcircle.png" style="width:50%;height:auto;display:block;margin:auto;">
+<center><caption>Credit to <a href="https://commons.wikimedia.org/wiki/File:Unit_circle_angles.svg">Gustavb</a></caption></center>
 
 Using the unit circle, we can solve more complicated equations involving trigonometric functions by just good old algebra. Here's an example:
 
