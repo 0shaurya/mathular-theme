@@ -44,6 +44,14 @@ Because we have a 45-45-90 triangle, we know that it must be isosceles because t
 
 Now that we have values for those three values, we can fill in the following table for various values of \\(\theta\\):
 
+|\\(\theta\\)|\\(\sin(\theta)\\)|\\(\cos(\theta)\\)|
+|:-:|:-:|:-:|
+|\\(0\\)|\\(0\\)|\\(1\\)|
+|\\(\pi/6\\)|\\(\sqrt3/2\\)|\\(1/2\\)|
+|\\(\pi/4\\)|\\(\sqrt2/2\\)|\\(\sqrt2/2\\)|
+|\\(\pi/3\\)|\\(1/2\\)|\\(\sqrt3/2\\)|
+|\\(\pi/2\\)|\\(1\\)|\\(0\\)|
+
 Because \\(\sin(\theta)\\) is directly equal to the y-value and \\(\cos(\theta)\\) is directly equal to the x-value, we can also produce the following graph:
 
 (unit circle graph)
