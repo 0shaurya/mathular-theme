@@ -50,9 +50,7 @@ The probability of one event or another event happening is given by the formula
 
 $$P(A\cup B) = P(A) + P(B) - P(A\cap B)$$
 
-The \\(\cup\\) symbol represents “or”. \\(A\\) and \\(B\\) are events. This formula is best explained by a venn diagram:
-
-(image)
+The \\(\cup\\) symbol represents “or”. \\(A\\) and \\(B\\) are events.
 
 We can see that we subtract the probability of events \\(A\\) and \\(B\\) happening to avoid double counting the middle section. For example, the probability of rolling a 2 on a six sided die or getting a tails when flipping a coin is
 

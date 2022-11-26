@@ -48,10 +48,9 @@ $$f(0)=a$$
 
 Thus, the y-intercept of an exponential function in the form \\(f(x)=ab^x\\) is always \\(a\\). We can verify this by graphing some more exponential functions:
 
-<img src="../../visuals/exponentials.png">
+<img src="../../visuals/exponentials.png" style="width:50%;height:auto;display:block;margin:auto;">
 
 Exponential equations come up a lot in the real world. For example, imagine 5 bacteria on a petri dish. Every hour, the number of bacteria doubles. This means that the number of bacteria follow the function \\(B(t)=5\cdot2^t\\), with \\(t\\) being the number of hours.
-
 
 Now, let's talk about solving equations with exponentials. Suppose we wanted to solve the equation \\(3^x=10\\), how would we go about doing it? \\(3^2\\) is 9 and \\(3^3=27\\), so we know the answer is very close to 2, but we do not have an exact form. Fortunately, we can use a <b>logarithm</b>.
 
@@ -81,11 +80,11 @@ $$x=\log_{3}{10}$$
 
 Which, if you plug into a calculator, you will find is approximately \\(2.096\\). Here is a handy diagram that might help you relate exponentials and logarithms:
 
-(image)
+$$\log_b(a)=c \Leftrightarrow b^c=a$$
 
 When we graph logarithms, we should remember that logarithms are just an inverse of exponentials. So, to graph a logarithmic function, we flip the corresponding exponential function over the line \\(y=x\\). This means that
 
-(image)
+<img src="../../visuals/e^x and lnx.png" style="width:50%;height:auto;display:block;margin:auto;">
 
 In general, the graph of a logarithm will look like a sideways exponential, with a vertical asymptote at \\(x=0\\), just like how the graph of an exponential has a horizontal asymptote at \\(y=0\\).
 
