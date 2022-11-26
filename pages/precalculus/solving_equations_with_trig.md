@@ -22,23 +22,23 @@ Let's start with the unit circle. In the last chapter we talked about the unit c
 
 <img src="../../visuals/unitcircleinstance.png" style="width:50%;height:auto;display:block;margin:auto;">
 
-Using this knowledge, we can figure out the value of \\(\sin(\theta)\\) for select values of \\(\theta\\). Let's try to find \\(\sin(\theta)\\) for values of \\(\theta = \frac{\pi}{3}, \frac{\pi}{4}, and \frac{\pi}{6}\\). First, let's try to find \\(\sin(\frac{\pi}{3}\\), or \\(\sin(30^{\circ})\\). This is the corresponding diagram:
+Using this knowledge, we can figure out the value of \\(\sin(\theta)\\) for select values of \\(\theta\\). Let's try to find \\(\sin(\theta)\\) for values of \\(\theta = \frac{\pi}{3}, \frac{\pi}{4}\\), and \\(\frac{\pi}{6}\\). First, let's try to find \\(\sin(\frac{\pi}{6})\\), or \\(\sin(30^{\circ})\\). This is the corresponding diagram:
 
-(image)
+<img src="../../visuals/unitcircleinstance30.png" style="width:50%;height:auto;display:block;margin:auto;">
 
 Our triangle has a 30 degree angle, 60 degree angle, and 90 degree angle. Notice how we can reflect the triangle over the x-axis to get a triangle whose angles are all equal to 60 degrees. This means that the triangle is equilateral, and so all sides are the same length:
 
-(image)
+<img src="../../visuals/unitcircle30step1.png" style="width:50%;height:auto;display:block;margin:auto;">
 
-If all sides are the same length, and side \\(H\\) has a length of 1, then that must mean that \\(2\cdot\sin(\frac{\pi}{3}) = 1\\), and therefore \\(\sin(30^{\circ}) = 0.5\\). Using Pythagorean's Theorem, we can find the length of the final side of the triangle, side \\(A\\): \\(A^2+(0.5)^2 = 1^2\\), so \\(A\\) must equal \\(\frac{\sqrt{3}}{2}\\). Because \\(A = \cos(\theta)\\), \\(\cos(\theta) = \frac{\sqrt{3}}{2}\\). This gives us a triangle for \\(\theta = \frac{\pi}{3}\\):
+If all sides are the same length, and side \\(H\\) has a length of 1, then that must mean that \\(2\cdot\sin(\frac{\pi}{6}) = 1\\), and therefore \\(\sin(30^{\circ}) = 0.5\\). Using Pythagorean's Theorem, we can find the length of the final side of the triangle, side \\(A\\): \\(A^2+(0.5)^2 = 1^2\\), so \\(A\\) must equal \\(\frac{\sqrt{3}}{2}\\). Because \\(A = \cos(\theta)\\), \\(\cos(\theta) = \frac{\sqrt{3}}{2}\\). This gives us a triangle for \\(\theta = \frac{\pi}{3}\\):
 
-(image)
+<img src="../../visuals/unitcircle30complete.png" style="width:50%;height:auto;display:block;margin:auto;">
 
 We have successfully found the values of \\(\sin(\frac{\pi}{3})\\) and \\(\cos(\frac{\pi}{3})\\). Because taking \\(\theta=\frac{\pi}{3}\\) also gives us a 30-60-90 triangle, we can use the same method to find the values of \\(\sin(\frac{\pi}{3})\\) and \\(\cos(\frac{\pi}{3})\\).
 
 Finding the value of \\(\sin(\frac{\pi}{4})\\) and \\(\cos(\frac{\pi}{4})\\) is a lot easier. Let's draw a triangle for \\(\theta=\frac{\pi}{4}\\), or \\(\theta=45^{\circ}\\):
 
-(image)
+<img src="../../visuals/unitcircle45instance.png" style="width:50%;height:auto;display:block;margin:auto;">
 
 Because we have a 45-45-90 triangle, we know that it must be isosceles because two of the angles are the same. By the definition of an isosceles triangle, \\(\sin(\theta) = \cos(\theta)\\). Using Pythagorean's theorem we know \\(2\sin^2(\theta) = 1\\), so \\(\sin(\theta) = \frac{1}{\sqrt2}\\). Multiply both the numerator and denominator by \\(\sqrt2\\) to find \\(\sin(\frac{\pi}{4}) = \cos(\frac{\pi}{4}) = \frac{\sqrt2}{2}\\).
 
