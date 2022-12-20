@@ -34,13 +34,13 @@ In the last topic, we covered the fundamentals of congruence in both shapes and 
 
 <center><p>When all three pairs of corresponding sides are congruent, the triangles are congruent.<br>
 
-<b>Proof: </b>In $\bigtriangleup ABC$ and $\bigtriangleup DEF$, we're given: <br>
+<b>Proof: </b>In \\(\bigtriangleup ABC$ and $\bigtriangleup DEF\\), we're given: <br>
 
-$\overline{\rm AB}$ $\cong$ $\overline{\rm EF}$ <br>
+$$\overline{\rm AB}$ $\cong$ $\overline{\rm EF}\\
 
-$\overline{\rm BC}$ $\cong$ $\overline{\rm ED}$ <br>
+\overline{\rm BC}$ $\cong$ $\overline{\rm ED}\\
 
-$\overline{\rm AC} \cong$ $\overline{\rm DF}$
+\overline{\rm AC} \cong$ $\overline{\rm DF}$$
 
 </p>
 
@@ -56,13 +56,13 @@ $\overline{\rm AC} \cong$ $\overline{\rm DF}$
 
 <center><p>When two pairs of corresponding sides and the corresponding angles between them are congruent.<br>
 
-<b>Proof: </b>In $\bigtriangleup ABC$ and $\bigtriangleup DEF$, we're given: <br>
+<b>Proof: </b>In \\(\bigtriangleup ABC\\) and \\(\bigtriangleup DEF\\), we're given: <br>
 
-$\overline{\rm AB}$ $\cong$ $\overline{\rm DE}$ <br>
+$$\overline{\rm AB}$ $\cong$ $\overline{\rm DE}\\
 
-$\angle{B}$ $\cong$ $\angle{D}$ <br>
+\angle{B}$ $\cong$ $\angle{D}\\
 
-$\overline{\rm BC}$ $\cong$ $\overline{\rm DF}$
+\overline{\rm BC}$ $\cong$ $\overline{\rm DF}$$
 
 </p>
   
