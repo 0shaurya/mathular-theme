@@ -30,7 +30,7 @@ We've covered the fundamentals of Congruency, Proofs, and Geometry. Finally, we'
 
 <u>Arc Length:</u> The length of an arc is the distance between the start and end points of the arc. <br>
 
-<u>Formula for the arc length</u>  = \\((2πr)\\) \\((θ/360)\\), where \\(r\\) is the radius of the circle.
+<u>Formula for the arc length</u>  = \\((2πr)(θ/360)\\), where \\(r\\) is the radius of the circle.
 
 <img src="https://www.storyofmathematics.com/wp-content/uploads/2020/07/Arc-of-a-Circle.jpg" alt="Coordinate Plane" style="width:45%;">
 
@@ -40,13 +40,13 @@ The length of the arc (drawn in red) is the distance from point A to point B.<br
 
 <br>
 
-<b>Example:</b> Arc \\(AB\\) has an angle of \\(40°\\) and the circle has a radius of \\(7cm\\). Calculate the length of arc \\(AB\\).
+<b>Example:</b> Arc \\(AB\\) has an angle of \\(40°\\) and the circle has a radius of \\(7\\)cm. Calculate the length of arc \\(AB\\).
 
 <img src="https://www.storyofmathematics.com/wp-content/uploads/2020/07/Arc-of-a-Circle-Example.jpg" alt="Example Question" style="width:45%;">
 
 <br>
 
-<b>Answer:</b> \\((2π7)\\) \\((40/360)\\) = \\(4.884\\) cm.
+<b>Answer:</b> \\((2π \cdot 7) \cdot (40/360)\\) = \\(4.884\\)cm.
   
   <br>
 
@@ -59,7 +59,7 @@ The length of the arc (drawn in red) is the distance from point A to point B.<br
 
 <b>Formula = </b> Area of sector of circle = \\((πr^2)\\) \\((θ/360)\\), where \\(θ\\) is the sector angle subtended by the arc at the center, <b>in degrees</b>. And, \\(r\\) is the radius of the circle.
 
-Area of sector of circle = \\((\frac {1}{2})\\) \\((r^2 θ)\\), where \\(θ\\) is the sector angle subtended by the arc at the center, <b>in radians</b>. And, \\(r\\) is the radius of the circle.
+Area of sector of circle = \\((\frac {1}{2})\\) \\((r^2 θ)\\), where \\(θ\\) is the sector angle subtended by the arc at the center, in radians. And, \\(r\\) is the radius of the circle.
 
 <img src="https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/area-of-sector-of-a-circle-1637917885.png" alt="Coordinate Plane" style="width:50%;">
 
@@ -77,7 +77,7 @@ Formula = \\(V = a^3\\), where \\(a\\) is the edge of the cube.
 
 <b>Volume of a Rectangular Prism:</b>
 
-Formula = \\(V = w*h*l\\), where \\(w\\) is the width of the prism, \\(h\\) is the height of the prism, and \\(l\\) is the length of the prism.
+Formula = \\(V = whl\\), where \\(w\\) is the width of the prism, \\(h\\) is the height of the prism, and \\(l\\) is the length of the prism.
 
 <b>Volume of a Cylinder:</b>
 
