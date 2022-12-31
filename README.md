@@ -43,6 +43,7 @@ Mathular is a website developed by three high school students. As students, we f
 - [ ] Overall Website Design
 - [ ] More Lanaguages
 - [ ] Calculus II and Linear Algebra courses
+- [ ] Promotion on social media
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
