@@ -1,5 +1,3 @@
-# Mathular
-
 <!-- MATHULAR LOGO -->
 <br />
 <div align="center">
@@ -8,19 +6,12 @@
     <img src="https://cdn.discordapp.com/attachments/849344589709574215/1002065976138932325/Screen_Shot_2022-07-27_at_11.12.04_PM.png" alt="Logo" width="280" height="70">
   </a>
 
-<h3 align="center">Mathular</h3>
-
-
-
-
-
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About Mathular
 
 Mathular is a website developed by three high school students. As students, we feel it is important for everyone have access to free resources to help them in learning math.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 <!-- BUILT WITH -->
 ## Built With
