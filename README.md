@@ -10,13 +10,6 @@
 
 <h3 align="center">Mathular</h3>
 
-  <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/0shaurya/mathular"><strong>Explore the code</strong></a>
-    <br />
-  </p>
-</div>
 
 
 
@@ -32,16 +25,16 @@ Mathular is a website developed by three high school students. As students, we f
 <!-- BUILT WITH -->
 ## Built With
 
-* ![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)
-* ![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)
-* ![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)
-* ![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)
-* ![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)
-* ![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)
-* ![forthebadge](https://forthebadge.com/images/badges/made-with-markdown.svg)
-* ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)
-* ![shields](https://img.shields.io/badge/Adobe%20Dreamweaver-072401?style=for-the-badge&logo=Adobe%20Dreamweaver&logoColor=34F400)
-* ![shields](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)
+![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)
+![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)
+![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)
+![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)
+![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)
+![forthebadge](https://forthebadge.com/images/badges/made-with-markdown.svg)
+![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)
+![shields](https://img.shields.io/badge/Adobe%20Dreamweaver-072401?style=for-the-badge&logo=Adobe%20Dreamweaver&logoColor=34F400)
+![shields](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
