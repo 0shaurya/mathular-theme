@@ -1,11 +1,5 @@
 # Mathular
 
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
-
 <!-- MATHULAR LOGO -->
 <br />
 <div align="center">
@@ -30,9 +24,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://mathular.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+Mathular is a website developed by three high school students. As students, we feel it is important for everyone have access to free resources to help them in learning math.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -55,22 +47,9 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-<!-- ABOUT US -->
-## About Us
-
-At Mathular, we aim to provide middle-school, high-school, and college students with a database of resources where they can find out specific topics relating to their respective courses/classes.
-We believe that both theoretical and visual content should be available for students, as per their needs. Hence, we've tried our best to incorporate these ideologies in our work & content.
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this website to access math resources that can help you enhance your knowledge about various topics, and even just to complete your daily assignments.
-Share this website with your friends as well, so that they can also use this website as an alternative to their textbooks!
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
@@ -79,6 +58,7 @@ Share this website with your friends as well, so that they can also use this web
 
 - [ ] Overall Website Design
 - [ ] More Lanaguages
+- [ ] Calculus II and Linear Algebra courses
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -87,16 +67,7 @@ Share this website with your friends as well, so that they can also use this web
 <!-- CONTRIBUTING -->
 ## Contributing
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-We request you to not make any edits to the code itself.
-
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Please fork the repo and create a pull request if you have a suggestion for Mathular, such as a new topic we haven't covered. You can also open an issue with the tag "enhancement".
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
