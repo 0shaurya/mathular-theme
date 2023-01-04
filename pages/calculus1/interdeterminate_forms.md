@@ -10,6 +10,8 @@ menuSubs:
 excerpt: "There are seven forms that do not give enough information to solve a limit. These are known as the indeterminate forms and require more work to solve."
 terms:
   - ['Indeterminate Form', 'If a limit is equal to one of the 7 indeterminate forms, then more work is required to solve the limit. The 7 indeterminate forms are: \(~ \frac {0}{0},~ {\frac {\infty }{\infty }},~0\cdot\infty ,~\infty -\infty ,~0^{0},~1^{\infty },~ \infty ^{0}\)']
+questions:
+  - ['What is \(\lim_{x\to5} \frac{x^2-25}{x-5}\)?', '\(\lim_{x\to5} \frac{(x+5)(x-5)}{(x-5)}=10\)']
 ---
 
 

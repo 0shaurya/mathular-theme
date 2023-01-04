@@ -63,7 +63,7 @@ Area of sector of circle = \\((\frac {1}{2})\\) \\((r^2 θ)\\), where \\(θ\\) i
 
 <img src="https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/area-of-sector-of-a-circle-1637917885.png" alt="Coordinate Plane" style="width:50%;">
 
-&copy; 2022 Cue Learn Pvt. Ltd.
+<center>&copy; 2022 Cue Learn Pvt. Ltd.</center>
 
 
 
@@ -98,9 +98,6 @@ Formula = \\(V = πr^2h/3\\), where \\(r\\) is the radius of the cone, and \\(h\
 
 Formula = \\(V = l * w * (\frac{h}{3})\\), where \\(w\\) is the width of the pyramid, \\(h\\) is the height of the pyramid, and \\(l\\) is the base length of the pyramid.
 
-</p>
-
-</p>
 
 <p>
 

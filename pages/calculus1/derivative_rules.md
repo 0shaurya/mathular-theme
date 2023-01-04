@@ -13,10 +13,15 @@ terms:
   - ['Constant Term Rule', 'Rule that says the derivative of any constant is \(0\)']
   - ['Constant Multiple Rule', '\(\frac{d}{dx}[af(x)]=a\frac{d}{dx}[f(x)]\)']
   - ['Sum Rule', '\(\frac{d}{dx}[f(x)\pm g(x)] = \frac{d}{dx}f(x)\pm \frac{d}{dx}\)']
-  - ['Product Rule', '\(\frac{d}{dx}[f(x)\cdot(g(x)]= f(x)g'(x)+g(x)f'(x)\)']
-  - ['Quotient Rule', '\(\frac{d}{dx}\bigg[\frac{f(x)}{g(x)}\bigg] = \frac{g(x)f'(x)-f(x)g'(x)}{g(x)^2}\)']
+  - ['Product Rule', '\(\frac{d}{dx}[f(x)\cdot(g(x)]= f(x)g''(x)+g(x)f''(x)\)']
+  - ['Quotient Rule', '\(\frac{d}{dx}\bigg[\frac{f(x)}{g(x)}\bigg] = \frac{g(x)f''(x)-f(x)g''(x)}{g(x)^2}\)']
   - ['Power Rule', '\(\frac{d}{dx} x^a = ax^{a-1}\)']
-  - ['Chain Rule', '\(\frac{d}{dx} f(g(x)) = f'(g(x) \cdot g'(x)\)']
+  - ['Chain Rule', '\(\frac{d}{dx} f(g(x)) = f''(g(x) \cdot g''(x)\)']
+questions:
+  - ['What is the derivative of \(x^2+3\)?', 'Using the power rule, sum rule and knowing that the derivative of a constant is 0, the derivative is \(2x\).']
+  - ['What is the derivative of \(\frac{x}{x+1}\)?', 'Using the quotient rule, the derivative is \(\frac{1}{(x+1)^2}\)']
+  - ['What is the derivative of \(5x^{\pi}\)?', 'Using the power rule and constant multiple rule, the derivative is \(5\pi x^{\pi-1}\). Don''t get caught off guard by the \(\pi\).']
+
 ---
 
 
@@ -81,7 +86,7 @@ $$
 
   
 
-Let's look at an example for this. In the last chapter, we used the definition of the derivative to say that \\(\frac{d}{dx} ???? = ?????\\). Now, using that knowledge, what is the derivative of \\(???????\\)?. Well, because \\(??????\\) is just a constant, we know that \\(\frac{d}{dx}[??????] = ??????\\).
+Let's look at an example for this. In the last chapter, we used the definition of the derivative to say that \\(\frac{d}{dx} x^ = 2x\\). Now, using that knowledge, what is the derivative of \\(7x^2\\)?. Well, because \\(7\\) is just a constant, we know that \\(\frac{d}{dx}[7x^2] = 14x\\).
 
   
 
@@ -90,15 +95,6 @@ The third rule we will learn is the <b>sum rule</b>. The sum rule simply says th
   
 
 $$\frac{d}{dx}[f(x)\pm g(x)] = \frac{d}{dx}f(x)\pm \frac{d}{dx}$$
-
-
-
-For example, let's say we want to find the derivative of \\(??????\\). Because we know that the derivative of \\(????????\\) is \\(???????\\) and the derivative of \\(???????\\) is \\(???????\\), we can say that
-
-  
-
-$$\frac{d}{dx} ?????????????????$$
-
   
 
 Note that because subtraction is simply addition with a negative sign, the rule holds true for differences as well. \\(\frac{d}{dx} [f(x)-g(x)] = \frac{d}{dx}f(x)-\frac{d}{dx}\\).
@@ -117,34 +113,12 @@ $$
 
   
 
-The proof of this is quite complicated, but we can still prove it using the definition of the derivative:
-
-  
-
-$$
-?????
-$$
-
-  
-
-As an example, ??????????
-
-  
-
 The fifth rule is the <b>quotient rule</b>, which is similar to the product rule but for quotients instead of products. The quotient rule is:
 
   
 
 $$\frac{d}{dx}\bigg[\frac{f(x)}{g(x)}\bigg] = \frac{g(x)f'(x)-f(x)g'(x)}{g(x)^2}$$
 
-
-We will prove the quotient rule with the definition of the derivative:
-
-
-$$????????$$
-
-
-As an example, ????????
 
 The sixth rule we will learn is the <b>power rule</b>. The power rule is for functions with the form \\(x^a\\), where \\(a\\) is a number. The power rule says
 

@@ -12,6 +12,9 @@ terms:
   - ['Radian', 'A unit of measurement for an angle, with one degree equal to \(\frac{\pi}{180}\) radians. 180° is equal to \(\pi\) radians and 360° is equal to \(2 \pi\) radians.']
   - ['Unit Circle', 'The circle with radius 1 centered at (0,0). It is very helpful when working with trigonometric functions.']
   - ['Period', 'How long it takes for a curve to repeat its pattern']
+questions:
+  - ['What is the period of sine, cosine, cosecant, and secant?', 'They repeat every \(2\pi\). In other words, \(\sin(x) = \sin(x+2\pi)\) (as is true for \(\cos(x)\), \(\csc(x)\), and \(\sec(x)\)).']
+  - ['What is the period of tangent and cotangent?', 'They repeat every \(\pi\). In other words, \(\tan(x) = \tan(x+\pi)\) (as is true for \(\cot(x)\)).']
 ---
 
 

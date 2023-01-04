@@ -34,13 +34,13 @@ In the last topic, we covered the fundamentals of congruence in both shapes and 
 
 <center><p>When all three pairs of corresponding sides are congruent, the triangles are congruent.<br>
 
-<b>Proof: </b>In \\(\bigtriangleup ABC$ and $\bigtriangleup DEF\\), we're given: <br>
+<b>Proof: </b>In \(\Delta ABC\) and \(\Delta DEF\), we're given: <br>
 
-$$\overline{\rm AB}$ $\cong$ $\overline{\rm EF}\\
+$$\overline{\rm AB} \cong \overline{\rm EF}\\
 
-\overline{\rm BC}$ $\cong$ $\overline{\rm ED}\\
+\overline{\rm BC} \cong \overline{\rm ED}\\
 
-\overline{\rm AC} \cong$ $\overline{\rm DF}$$
+\overline{\rm AC} \cong \overline{\rm DF}$$
 
 </p>
 
@@ -56,13 +56,13 @@ $$\overline{\rm AB}$ $\cong$ $\overline{\rm EF}\\
 
 <center><p>When two pairs of corresponding sides and the corresponding angles between them are congruent.<br>
 
-<b>Proof: </b>In \\(\bigtriangleup ABC\\) and \\(\bigtriangleup DEF\\), we're given: <br>
+<b>Proof: </b>In \\(\Delta ABC\\) and \\(\Delta DEF\\), we're given: <br>
 
-$$\overline{\rm AB}$ $\cong$ $\overline{\rm DE}\\
+$$\overline{\rm AB} \cong \overline{\rm DE}\\
 
-\angle{B}$ $\cong$ $\angle{D}\\
+\angle{B} \cong \angle{D}\\
 
-\overline{\rm BC}$ $\cong$ $\overline{\rm DF}$$
+\overline{\rm BC} \cong \overline{\rm DF}$$
 
 </p>
   
@@ -78,13 +78,13 @@ $$\overline{\rm AB}$ $\cong$ $\overline{\rm DE}\\
 
 <center><p>When two pairs of corresponding angles and the corresponding sides between them are congruent.<br>
 
-<b>Proof: </b>In $\bigtriangleup ABC$ and $\bigtriangleup DEF$, we're given: <br>
+<b>Proof: </b>In \(\Delta ABC\) and \(\Delta DEF\), we're given: <br>
 
-$\overline{\rm AB}$ $\cong$ $\overline{\rm DE}$ <br>
+$$\overline{\rm AB} \cong \overline{\rm DE}\\
 
-$\angle{A}$ $\cong$ $\angle{D}$ <br>
+\angle{A} \cong \angle{D}\\
 
-$\angle{B}$ $\cong$ $\angle{E}$
+\angle{B} \cong \angle{E}$$
 
 </p>
   
@@ -100,7 +100,7 @@ $\angle{B}$ $\cong$ $\angle{E}$
 
 <center><p>When two pairs of corresponding angles and one pair of corresponding sides (not between the angles) are congruent.<br>
 
-<b>Proof:</b> The interior angle measures of a triangle have a total sum of $180^\circ$ Once we know any two angle measures, we can calculate the third.
+<b>Proof:</b> The interior angle measures of a triangle have a total sum of \(180^\circ\) Once we know any two angle measures, we can calculate the third.
 
 When we know all of the angle measures, we can use the two that are adjacent to the known side, and then apply the ASA criteria.
 
@@ -120,7 +120,7 @@ When we know all of the angle measures, we can use the two that are adjacent to 
 
 <b>Proof:</b> Using the Pythaegorean Theorem, we can find the third side of the triangle, if we already know two sides.
 
-$(hypotenuse)^2$ = $(leg1)^2 + (leg 2)^2$
+$$(\text{Hypotenuse})^2 = (\text{Leg One})^2 + (\text{Leg Two})^2$$
 
 </p>
   

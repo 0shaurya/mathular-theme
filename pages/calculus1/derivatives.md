@@ -13,6 +13,9 @@ terms:
   - ['Derivative', 'The rate at which a function changes as the x-value changes']
   - ['Lagrange Notation', 'A type of notation for derivatives where a derivative of a function \(f(x)\) is \(f''(x)\), symbolized by the prime (small tick) after the \(f\)']
   - ['Leibniz Notation', 'A type of notation for derivatives where a derivative of a function \(f(x)\) is \(\frac{df}{dx}\), where the \(f\) in the numerator represents the function being differentiated and the \(x\) in the denominator respects the variable the function is of']
+questions:
+  - ['At a certain x value, a function is sloping downwards. What is certain about the derivative of the function at that point?', 'The derivative of the function at that point will be negative.']
+  - ['What is the derivative of \(x^3\) at \(x=0\)?', '0, because \(x^3\) is horizontal at \(x=0\).']
 ---
 
 

@@ -25,9 +25,7 @@ A <b>limit</b> is a fairly simple concept, but is the basis of all of calculus. 
 
 For example, take the following graph of \\(x^2\\):
 
-<center><video width="450" height="370" autoplay loop muted>
-  <source src="/videos/graph_x2.mp4" type="video/mp4" />
-</video></center>
+<img src="../../visuals/xsquared.png" style="width:50%;height:auto;display:block;margin:auto;">
 
 As the x-value approaches 2, the y-value of the function approaches 4. This means that the limit of the function as x approaches 2 approaches 4. Or, we can write it with math notation:
 

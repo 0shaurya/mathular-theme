@@ -13,6 +13,10 @@ terms:
   - ['Magnitude', 'The length of a vector (represented by the length of an arrow)']
   - ['Direction', 'The direction of a vector (represented by the direction of the arrow)']
   - ['Scalar', 'A regular number. Unlike a vector, which contains two quantities (magnitude and direction), a scalar only contains one, which is a number.']
+questions:
+  - ['What is the magnitude of the following vector: \(\, \, <8,12>\)', '\(\sqrt{8^2+12^2} = \sqrt{208} = 4\sqrt{13}\)']
+  - ['What is \(<3,5>+<16,-3>\)?', '\(<3+16,5-3>=<19,2>\)']
+  - ['What is \(2\cdot <16,-3>\)?', '\(<2\cdot16,2\cdot -3> = <32,-6>\)']
 ---
 
 

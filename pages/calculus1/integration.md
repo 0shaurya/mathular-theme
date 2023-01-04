@@ -7,10 +7,13 @@ menuTopTitle: Calculus I
 menuSubs:
 - title: Integration
   index: 13
-excerpt: There is a much easier way to calculate the area under a curve that doesn't involve solving limits or summations at all! This is known as solving an integral, and uses antidifferentiation instead."
+excerpt: There is a much easier way to calculate the area under a curve that doesn't involve solving limits or summations at all! This is known as solving an integral, and uses antidifferentiation instead.
 terms:
   - ['Definite Integral', 'The area under a between the curve, the x-axis, and two \(x\) values']
   - ['Evaluation Bar', 'A piece of notation. The number at the top is plugged into the variable for the expression which then subtracts the expression with the bottom number plugged in. Or, \(f(x)\Big\rvert_a^b = f(b)-f(a)\).']
+questions:
+  - ['What is the area under the curve \(y=4x^3\) between \(x=1\) and \(x=2\)?', 'Because the antiderivative of \(4x^3\) is \(x^4\), the area is \(2^4-1^4\), or \(15\).']
+  - ['What is the area under the curve \(y=\frac{1}{x}\) between \(x=2\) and \(x=8\)?', 'Because the antiderivative of \(\frac{1}{x}\) is \(\ln|x|\), the area is \(\ln(8)-\ln(2)\). Notice that 8 can be written as \(2^3\). By logarithm rules, \(\ln(2^3)-\ln(2)=3\ln(2)-\ln(2)=2\ln(2)=\ln(2^2)=\ln(4)\).']
 ---
 
 

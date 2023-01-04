@@ -14,6 +14,11 @@ terms:
   - ['Rotation', 'The process of moving a shape where we rotate that shape a certain number of degrees.']
   - ['Reflection', 'The process of flipping a shape over a line on a graph']
   - ['Translation', 'The process of moving a shape around a coordinate plane']
+questions:
+  - ['Which transformation corresponds to shifting?', 'Translation']
+  - ['Which transformation corresponds to turning?', 'Rotation']
+  - ['Which transformation corresponds to flipping?', 'Reflection']
+  - ['What symbol represents congruency?', '\(\cong\). It''s an equal sign with a tilde above it.']
 
 ---
 
@@ -33,7 +38,7 @@ When lines intersect, the intersections form angles with unique relationships. W
 
 <img src="https://www.mathsisfun.com/geometry/images/rotation-2d.svg" alt="W3Schools.com" style="float:middle;width:200px;height:200px">
 
-&copy; 2018 MathsIsFun.com
+<center>&copy; 2018 MathsIsFun.com</center>
 
 <br>
 
@@ -41,7 +46,7 @@ When lines intersect, the intersections form angles with unique relationships. W
 
 <img src="https://www.mathsisfun.com/geometry/images/reflect-graph.svg" alt="W3Schools.com" style="float:middle;width:200px;height:200px">
 
-&copy; 2018 MathsIsFun.com
+<center>&copy; 2018 MathsIsFun.com</center>
 
 <br>
 
@@ -49,7 +54,7 @@ When lines intersect, the intersections form angles with unique relationships. W
 
 <img src="https://www.mathsisfun.com/geometry/images/translation.svg" alt="W3Schools.com" style="float:middle;width:200px;height:200px">
 
-&copy; 2018 MathsIsFun.com
+<center>&copy; 2018 MathsIsFun.com</center>
 
 Even after these transformations, the shape still has the same size, angles, area and line lengths. Hence, they are <b>congruent</b>.
 

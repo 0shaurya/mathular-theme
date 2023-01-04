@@ -10,6 +10,8 @@ menuSubs:
 excerpt: "The most important number in Calculus."
 terms:
   - ['Natural log', 'The logarithm with base \(e\). Because it is so common in math, it has its own symbol, \(\ln\) (as opposed to the usual \(\log\)). \(~ \ln(x) = \log_{e}(x)\).']
+questions:
+  - ['What is the following equal to? \(\lim_{n \to \infty}\left(1+\frac{3}{n}\right)^n\)', '\(e^3\)']
 ---
 
 

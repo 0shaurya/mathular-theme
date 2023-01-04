@@ -346,16 +346,24 @@
 		height: auto;
 	}
 </style>
-
 <div class="questions-container">
-	{% for question in page.questions %}
-		<div class="question">
-			<b style="color:var(--main-text-color) !important">{{ question[0] }}</b> <br><br>
-			[<span class="showAnswerB">Show answer</span>]
-			<span class="answer"><br>{{ question[1] }}</span>
-		</div><br>
-	{% endfor %}
+	{% if page.questions.size > 0 %}
+		<center><h1><br><br>Questions ({{page.questions.size}})</h1></center>
+		{% for question in page.questions %}
+			<div class="question">
+				<b style="color:var(--main-text-color) !important">{{ question[0] }}</b> <br><br>
+				[<span class="showAnswerB">Show answer</span>]
+				<span class="answer"><br>{{ question[1] }}</span>
+			</div><br>
+		{% endfor %}
+	{% else %}
+		{% if page.layout == "page" %}
+			<center><h1 style="display:block;margin:auto"><br><br>No questions for this chapter.</h1></center>
+		{% endif %}
+	{% endif %}
+		
 </div>
+
 
 <style type="text/css">
 	.question {

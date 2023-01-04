@@ -16,7 +16,7 @@ terms:
 questions:
   - ['What is the simple interest gained for a bank account whose principal value was $150 if the interest rate is 10%?', '$15, because \(150 \cdot 0.1 = 15\).']
   - ['How much money will be in David''s bank account after 5 months if he starts with $100 and the simple interest rate is 3% monthly?', '\(A=100(1+(0.03)(5)) = 100(1.15) = $115\)']
-  - ['How much money will be in Lisa''s bank account after 4 years if she starts with $500 and the compound interest rate is 2%, compounded monthly?, '\(A=500(1+\frac{0.02}{12})^{12\cdot 4} = $541.6\)']
+  - ['How much money will be in Lisa''s bank account after 4 years if she starts with $500 and the compound interest rate is 2%, compounded monthly?', '\(A=500(1+\frac{0.02}{12})^{12\cdot 4} = $541.6\)']
 ---
 
 

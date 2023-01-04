@@ -12,6 +12,8 @@ terms:
   - ['Explicit Function', 'A function written in terms of a single variable']
   - ['Implicit Function', 'A function not written in terms of a single variable. It contains more than one variable on either side.']
   - ['Implicit Differentiation', 'A differentiation technique that is used to differentaite implicit functions. It is done by taking the derivative of both sides of an implicit equation.']
+questions:
+  - ['Find \(\frac{dy}{dx}\) if \( \ln(y)=y+x \).', '\(\frac{d}{dx}[\ln(y)]=\frac{d}{dx}[y+x]\\\frac{1}{y}\frac{dy}{dx}=\frac{dy}{dx}+1\\\frac{dy}{dx}(1/y-1)=1\\\frac{dy}{dx}=\frac{1}{1/y-1}\\\frac{dy}{dx}=\frac{y}{1-y}\)']
 ---
 
 

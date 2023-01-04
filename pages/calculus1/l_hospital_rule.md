@@ -9,7 +9,10 @@ menuSubs:
   index: 8
 excerpt: "A tool for solving limits in indeterminate forms."
 terms:
-  - ['L''Hôpital’s Rule', 'A very powerful technique for solving limits that are equal to \(\frac{0}{0}\) or \(\frac{\infty}{\infty}\). It says that \(\\ \text{If } \lim_{x\to a} \frac{f(x)}{g(x)} = \frac{0}{0} \text{ or } \frac{\infty}{\infty}, \\ \lim_{x\to a} \frac{f(x)}{g(x)} = \lim_{x\to a} \frac{f'(x)}{g'(x)}\)']
+  - ['L''Hôpital''s Rule', 'A very powerful technique for solving limits that are equal to \(\frac{0}{0}\) or \(\frac{\infty}{\infty}\). It says that \(\\ \text{If } \lim_{x\to a} \frac{f(x)}{g(x)} = \frac{0}{0} \text{ or } \frac{\infty}{\infty}, \\ \lim_{x\to a} \frac{f(x)}{g(x)} = \lim_{x\to a} \frac{f''(x)}{g''(x)}\)']
+questions:
+  - ['What is \( \lim_{x \to \infty} \frac{\ln(x)+x}{x^2} \)?', '\(\lim_{x \to \infty} \frac{\ln(x)+x}{x^2} = \lim_{x \to \infty} \frac{1/x + 1}{2x} = \frac{1/\infty + 1}{\infty} = 0 \)']
+  - ['What is \( \lim_{x \to 0} \frac{x^3+2x}{\sin(x)}\)?', '\( \lim_{x \to 0} \frac{x^3+2x}{\sin(x)} = \lim_{x \to 0} \frac{3x^2+2}{\cos(x)} = \frac{2}{1} = 2 \)']
 ---
 
 

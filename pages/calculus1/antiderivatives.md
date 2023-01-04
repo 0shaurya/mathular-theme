@@ -11,6 +11,8 @@ excerpt: "The inverse of a derivative."
 terms:
   - ['Antiderivative', 'The antiderivative of the derivative of a function is the function itself. In other words, the antiderivative is the inverse operation of the derivative - just like how division is the inverse operation of multiplication and subtraction is the inverse operation of addition.']
   - ['Constant of Integration', 'The constant term that is added onto the antiderivative of a function, needed because any constant differentiated is 0. It is usually denoted by \(c\).']
+questions:
+  - ['What is the antiderivative of \(\sec^2(x)\)?', 'If you know your trig derivatives, you''ll recognize this as the derivative of \(\tan(x)\). This means that the antiderivative of \(\sec^2(x)\) is \(\tan(x)\).']
 ---
 
 
@@ -42,8 +44,7 @@ $$\frac{d}{dx}x^2=2x\\
 
 The reason all of the above are true is because the derivative of any constant is just 0. Because of this, there are actually an infinite number of functions whose derivative is \\(2x\\). However, all of them can be written as
 
-<img src="../../visuals/x^2+c.png" style="width:50%;height:auto;display:block;margin:auto;">
-
+$$x^2+c$$
 
 where \\(c\\) is a constant. This constant is known as the <b>constant of integration</b> (usually represented by \\(c\\). Thus, the actual antiderivative if \\(2x\\) is \\(x^2+c\\). Or, in mathematical terms,
 
@@ -51,7 +52,7 @@ $$\int2x\,dx = x^2+c$$
 
 The reason the constant of integration is needed can be visualized on a graph. Here, we can see the graphs of \\(2x\\), as well as \\(x^2+c\\) with multiple values of \\(c\\).
 
-(graph) x^2+c
+<img src="../../visuals/x^2+c.png" style="width:50%;height:auto;display:block;margin:auto;">
 
 Let's find the antiderivatives of some other functions. To start off, what is the antiderivative of \\(\cos(x)\\)? Remember the derivatives of trig functions. The derivative of \\(\sin(x)\\) is \\(\cos(x)\\), so the antiderivative of \\(\cos(x)\\) is \\(\sin(x)+c\\):
 

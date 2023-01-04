@@ -8,6 +8,9 @@ menuSubs:
 - title: Derivatives of Certain Functions
   index: 7
 excerpt: "There are a few functions whose derivatives frequently show up and therefore should be known by heart."
+questions:
+  - ['What is the derivative of \(\sin(x)+\cos(x)\)?', 'Using the sum rule and knowing the derivatives of \(\sin(x)\) and \(cos(x)\), the derivative is \(\cos(x)-\sin(x)\).']
+  - ['What is the derivative of \(\ln(\sin(x))?\)', '\(\frac{1}{\sin(x)}\cdot \cos(x) = \cot(x)\) (Remember the chain rule from last chapter!)']
 ---
 
 
@@ -161,8 +164,4 @@ $$
 
 The derivative of \\(\ln(x)\\) is\\(\frac{1}{x}\\).
 
-The final fact to know is an important one: \\(\frac{d}{dx} e^x = e^x\\). In other words, the derivative of \\(e^x\\) is itself. This is incredibly rare - in fact, \\(ce^x\\) (where \\(c\\) is a constant) are the only functions (besides \\(y=0\\)) whose derivative is itself. This is why \\(e^x\\) is so incredibly important to calculus.
-
-Here is a table of all of these derivatives:
-
-(table)
+The final fact to know is an important one: \\(\frac{d}{dx} e^x = e^x\\). In other words, the derivative of \\(e^x\\) is itself. This is incredibly rare - in fact, \\(ce^x\\) (where \\(c\\) is a constant) are the only functions whose derivative is itself. This is why \\(e^x\\) is so incredibly important to calculus.

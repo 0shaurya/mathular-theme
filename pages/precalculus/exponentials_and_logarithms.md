@@ -15,6 +15,10 @@ terms:
   - ['Quotient rule law', 'A law that states \(\log_{b}{\frac{M}{N}} = \log_{b}{M} - \log_{b}{N}\). It can split apart division inside a logarithm.']
   - ['Power rule law', 'A law that states \(\log_{b}{a^c}=c\cdot\log_{b}{a}\). It can bring down the exponent inside a logarithm.']
   - ['Change of base law', 'A law that states \(\log_{b}{a} =\frac{\log_da}{\log_db}\). Useful when there are two logarithms with different bases in an equation, because one logarithm can be changed so that their bases match.']
+questions:
+  - ['Solve for \(x\): \(\, \, \) \( 3^x=5 \)', '\(x=\log_3 5\)']
+  - ['Solve for \(x\): \(\, \, \) \( 5^2x=8 \)', '\(x=\frac{1}{2}\log_5 8\)']
+  - ['Simplify: \(\, \, \) \( \log_3(81)\)', '\(\log_3(3^4) = 4\)']
 ---
 
 
