@@ -7,7 +7,7 @@ menuTopTitle: Geometry
 menuSubs:
 - title: Analytic Geometry
   index: 1
-excerpt: "Analytic geometry excerpt"
+excerpt: "Analytic Geometry is the study of geometry in a coordinate system."
 terms:
   - ['Coordinate Plane', 'Two-dimensional plane formed by the intersection of the y-axis and the x-axis']
   - ['Coordinate', 'The ordered pair of \((x, y)\), where \(x\) represents the horizontal distance to the origin and \(y\) represents the vertical distance to the origin']

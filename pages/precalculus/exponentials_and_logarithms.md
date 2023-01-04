@@ -7,7 +7,7 @@ menuTopTitle: Precalculus
 menuSubs:
 - title: Exponentials and Logarithms
   index: 4
-excerpt: "Discussing Exponentials and Logarithms"
+excerpt: "Exponentials and Logarithms are inverses of each other, and are prevalent in further math."
 terms:
   - ['Exponential function', 'A function written in the form of \(f(x) = ab^x\), where \(a\) and \(b\) are parameters. Exponential functions grow very fast.']
   - ['Logarithm', 'the inverse operation of an exponential. It cancels out the base of an exponential.']

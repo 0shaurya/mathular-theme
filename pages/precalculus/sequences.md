@@ -7,7 +7,7 @@ menuTopTitle: Precalculus
 menuSubs:
 - title: Sequences, Summations, and Series
   index: 6
-excerpt: "Discussing Sequences"
+excerpt: "Lots and lots of addition in this chapter!"
 terms:
   - ['Sequence', 'A set of numbers whose order is important']
   - ['Arithmetic Sequence', 'A sequence where a number is determined by adding some value to the previous number in the sequence']

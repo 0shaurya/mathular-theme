@@ -7,7 +7,7 @@ menuTopTitle: Precalculus
 menuSubs:
 - title: Probability
   index: 7
-excerpt: "Discussing Probability"
+excerpt: "Probability, the mathematics of chance."
 terms:
   - ['Event', 'An outcome from an experiment involving probability']
   - ['Sample Space', 'The set or group of all events in an experiment']

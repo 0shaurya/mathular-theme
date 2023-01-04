@@ -7,7 +7,7 @@ menuTopTitle: Precalculus
 menuSubs:
 - title: Vectors
   index: 5
-excerpt: "Discussing vectors"
+excerpt: "Vectors are absolutely imperative to learn for any science. We use them to help model the universe we're in."
 terms:
   - ['Vector', 'A geometric object that contains a magnitude and a direction. It is usually drawn as an arrow.']
   - ['Magnitude', 'The length of a vector (represented by the length of an arrow)']

@@ -7,7 +7,7 @@ menuTopTitle: Precalculus
 menuSubs:
 - title: Trigonometry
   index: 2
-excerpt: "Discussing trig"
+excerpt: "Trigonometric functions, their graphs, and what they really represent."
 terms:
   - ['Radian', 'A unit of measurement for an angle, with one degree equal to \(\frac{\pi}{180}\) radians. 180° is equal to \(\pi\) radians and 360° is equal to \(2 \pi\) radians.']
   - ['Unit Circle', 'The circle with radius 1 centered at (0,0). It is very helpful when working with trigonometric functions.']

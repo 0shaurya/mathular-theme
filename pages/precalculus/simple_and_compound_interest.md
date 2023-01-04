@@ -7,7 +7,7 @@ menuTopTitle: Precalculus
 menuSubs:
 - title: Simple and Compound Interest
   index: 1
-excerpt: "Discussing Interest"
+excerpt: "Who doesn't like making money?!"
 terms:
   - ['Interest', 'Money put into bank account regularly at a specified percentage']
   - ['Simple Interest', 'A type of interest where the same amount of money is paid regularly. That amount is determined by the initial value deposited into the bank account.']

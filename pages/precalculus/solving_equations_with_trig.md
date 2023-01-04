@@ -7,7 +7,7 @@ menuTopTitle: Precalculus
 menuSubs:
 - title: Solving Equations with Trigonometry
   index: 3
-excerpt: "Discussing solving eq with trig"
+excerpt: "How to solve equations involving trigonometric functions."
 questions:
   - ['Solve for \(x\):\(\,\,\) \(2\cos(x)=-\sqrt3\)', '\(\cos(x)=\frac{-\sqrt3}{2}\\x=\frac{\pi}{6}+2\pi n,x=\frac{5\pi}{6}+2\pi n\)']
   - ['Solve for \(x\):\(\,\,\) \(\sin^2(x)+2=3\)', '\(\sin^2(x)=1\\\sin(x)=\pm 1\\x=\frac{\pi}{2}+\pi n\)']
