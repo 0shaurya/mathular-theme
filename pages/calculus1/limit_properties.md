@@ -10,6 +10,10 @@ menuSubs:
 excerpt: "There are numerous properties for limits that make them useful and easier to calculate. Learn them here."
 terms:
   - ['Direct Substitution', 'A method for solving limits that involves plugging in the limiting value for the variable and solving. This method always works, except in certain specific scenarios.']
+questions:
+  - ['What is \(\displaystyle \lim_{x\to3} 5x^2\cdot \frac{\sqrt{x}}{\pi x}\)?', '\(5(3)^2 \cdot \frac{\sqrt 3}{3\pi} = \frac{45 \sqrt 3}{3 \pi}\)']
+  - ['What is \(\displaystyle \lim_{x\to 0^+}\frac{-3}{2x}\)?', 'By the constant multiple rule, we can pull out the \(\frac{-3}{2}\): \(\displaystyle \frac{-3}{2} \lim_{x\to 0^+}\frac{1}{x} = -\infty\).']
+  - ['What is \(\displaystyle \lim_{x\to \infty}\left(\frac{3}{x}\right)^2\)?', '\(\displaystyle \lim_{x\to \infty} \frac{9}{x^2} = 0\).']
 ---
 
 

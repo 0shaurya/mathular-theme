@@ -13,6 +13,9 @@ terms:
   - ['Removable Discontinuity', 'A type of discontinuity where the limit of a function at a value \(a\) exists, but the function at that value does not']
   - ['Manipulate', 'The process of rearranging parts of an expression to get it to something else that is equal, but easier to work with. It is an important and frequently used problem-solving method in calculus.']
   - ['Jump Discontinuity', 'A type of discontinuity where the function suddenly and sharply changes from one x-value to a neighboring x-value. On a graph, this looks like the function is jumping.']
+questions:
+  - ['A certain function \(f(x)\) has a removable discontinuity at \(x=2\). If \(\lim_{x\to2}{f(x)} = 3\), what is \(f(2)\)?', '\(f(2)=\text{DNE}\), because the function is discontinuous at that x value.']
+  - ['If \(g(5)=3\), \(\lim_{x\to5^+}g(x)=3\), and \(\lim_{x\to5^-}g(x)=1\), what type of discontinuity is at \(x=5\)?', 'A jump discontinuity, because the function ''jumps'' from \(y=1\) to \(y=3\).']
 ---
 
 

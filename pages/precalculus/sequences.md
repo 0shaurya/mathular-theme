@@ -19,6 +19,10 @@ terms:
   - ['Geometric Series', 'A series whose terms are found by multiplying the previous term in the series by some common ratio']
   - ['Diverging Series', 'A series that is equal to \(\infty\) or \(-\infty\)']
   - ['Converging Series', 'A series that is equal to some specific value that isn''t \(\infty\) or \(-\infty\)']
+questions:
+  - ['What is the common ratio in the following geometric sequence: \(3, 2, \frac{4}{3}, \frac{8}{9}, ...\)?', '\(r=\frac{2}{3}\), because each term is being multiplied by \(\frac{2}{3}\) to get to the next term.']
+  - ['If you sum up all the terms in the sequence \(3, 2, \frac{4}{3}, \frac{8}{9}, ...\), what is the answer?', 'Because our starting term is \(a=3\) and the common ratio is \(\frac{2}{3}\), it converges to \(\frac{3}{1-2/3}=9\)']
+  - ['Does the following series converge or diverge? \(\displaystyle \sum_{n=0}^{\infty}38\left(\frac{8}{9}\right)^n\)', 'It converges, because the common ratio is between -1 and 1.']
 ---
 
 

@@ -12,7 +12,6 @@ terms:
   - ['Area of Sector of a Circle', 'Space enclosed by the sector of a circle.']
   - ['Volume', 'Space occupied within the boundaries of an object in 3-D space.']
   - ['Surface Area', 'Amount of space covering the outside of a 3-D shape.']
-questions:
 ---
 
 <h1>Geometry</h1>
@@ -72,7 +71,7 @@ Area of sector of circle = \\((\frac {1}{2})\\) \\((r^2 θ)\\), where \\(θ\\) i
 
 <b>Volume of a Cube:</b>
 
-Formula = \\(V = a^3\\), where \\(a\\) is the edge of the cube.
+Formula = \\(V = a^3\\), where \\(a\\) is the length of an edge of the cube.
 
 
 <b>Volume of a Rectangular Prism:</b>
@@ -99,17 +98,11 @@ Formula = \\(V = πr^2h/3\\), where \\(r\\) is the radius of the cone, and \\(h\
 Formula = \\(V = l * w * (\frac{h}{3})\\), where \\(w\\) is the width of the pyramid, \\(h\\) is the height of the pyramid, and \\(l\\) is the base length of the pyramid.
 
 
-<p>
-
 <h3><u>Surface Area Formulas:</u></h3>
-
-<p>
 
 <b>Surface Area of a Cube:</b>
 
 Formula = \\(SA = 6a^2\\), where \\(a\\) is the edge of the cube.
-
-
 
 <b>Surface Area of a Rectangular Prism:</b>
 

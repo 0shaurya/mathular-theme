@@ -12,7 +12,10 @@ terms:
   - ['Sum Rule', 'Rule that says the antiderivative of a sum is the sum of the antiderivatives. Or, \(\int f(x)\pm g(x)\,dx=\int f(x)\,dx\pm\int g(x)\,dx\).']
   - ['Constant Multiple Rule', 'Rule that asays we can pull out a constant out of an antiderivative. Or, \(\int cf(x)\,dx = c\int f(x)\,dx\).']
   - ['Reverse Power Rule', '\(\int x^n \,dx = \frac{1}{n+1}x^{n+1}\)']
-  - ['Antidifferentiation by Substitution', 'A method for antidifferentiating which involves creating a new variable in terms of the variable we are antidifferentiating with respect to and then substituting the new variable in. This can simplify the expression, making it easier to work with.'] 
+  - ['Antidifferentiation by Substitution', 'A method for antidifferentiating which involves creating a new variable in terms of the variable we are antidifferentiating with respect to and then substituting the new variable in. This can simplify the expression, making it easier to work with.']
+questions:
+  - ['What is \(\int 2x^6+5x^3+x^2\,dx\)?', 'By the reverse power rule and the sum rule, we get \(\frac{2}{7}x^7+\frac{5}{4}x^4+\frac{1}{3}x^3+c\)']
+  - ['What is \(\int \sqrt{x}+\frac{1}{x^{1.1}}\,dx\)?', 'Because \(\sqrt{x}=x^{1/2}\) and \(\frac{1}{x^{1.1}}=x^{-1.1}\), we can use the reverse power rule to get \(\frac{2}{3}x^{3/2}-10x^{-0.1}+c\)']
 ---
 
 
@@ -115,7 +118,7 @@ The antiderivative of \\(x\cos(x^2)\\) is \\(\frac{1}{2} \sin(x^2) + c\\). If we
 In general, there are certain substitutions that are good to make:
 1. Let \\(u\\) equal an expression whose derivative is in another part of the function you are integrating.
 2. Let \\(u\\) equal the denominator of a fraction.
-3. Let \\(u\\) equal inside a radical.
+3. Let \\(u\\) equal the function inside a radical.
 4. Let \\(u\\) equal the inside of a composite of functions.
 
 Note that antidifferentiation by substitution isn't guaranteed to work - it is just a method that simplifies the expression, making the process of antidifferentiation easier.

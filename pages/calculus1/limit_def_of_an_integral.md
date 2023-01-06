@@ -11,6 +11,8 @@ excerpt: "An integral is the area underneath a curve - learn how to calculate th
 terms:
   - ['Integral', 'The area between the curve and the x-axis between two x-values']
   - ['Signed Area', 'Where any area between the x-axis and the curve above the x-axis is a positive area and the area between the x-axis and the curve below the x-axis is a negative area. The total area of an integral is the sum of these two areas.']
+questions:
+  - ['What''s the area under curve \(y=1/x\) between \(x=2\) and \(x=7\)?', '\(a=2, b=7, dx=5/n\). Thus, \(\displaystyle{A=\lim_{n \to \infty} \sum_{i=1}^{n} \left[\frac{1}{\left(2+i\left(\frac{5}{n}\right)\right)} \left(\frac{5}{n}\right)\right]}\)']
 ---
 
 
